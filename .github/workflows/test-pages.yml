@@ -1,0 +1,42 @@
+name: 🧪 Test Pages Activation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  test-activation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🌟 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🔍 Test Pages Configuration
+        run: |
+          echo "🔍 Testing GitHub Pages configuration..."
+          echo "Repository: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref }}"
+          
+      - name: 🔧 Try Configure Pages
+        uses: actions/configure-pages@v4
+        with:
+          enablement: true
+        continue-on-error: true
+        
+      - name: 📄 Create Simple Test Page
+        run: |
+          echo '<h1>🧪 GitHub Pages Test</h1>' > test.html
+          echo '<p>If you see this, Pages is working!</p>' >> test.html
+          
+      - name: 🚀 Upload Test Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './test.html'
+          
+      - name: 🌐 Deploy Test
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
