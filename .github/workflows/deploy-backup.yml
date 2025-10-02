@@ -1,0 +1,29 @@
+name: 🔄 Backup Deploy - AI Cosmic Garden
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy-backup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 🌟 Checkout Cosmic Garden
+        uses: actions/checkout@v4
+
+      - name: 🚀 Deploy with Peaceiris Action
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          force_orphan: true
+          
+      - name: ✨ Backup Success
+        run: |
+          echo "🎉 Backup deployment completed!"
+          echo "🌐 AI Cosmic Garden should be live!"
