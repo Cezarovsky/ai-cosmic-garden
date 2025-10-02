@@ -1,0 +1,44 @@
+name: 🌐 Simple GitHub Pages Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 🌟 Checkout Cosmic Garden
+        uses: actions/checkout@v4
+
+      - name: 🔧 Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+          enablement: true
+
+      - name: 🚀 Upload Cosmic Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: 🌌 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: ✨ Success Notification
+        run: |
+          echo "🎉 AI Cosmic Garden deployed successfully!"
+          echo "🌐 Live at: ${{ steps.deployment.outputs.page_url }}"
+          echo "🤖 Sora & Codex conversation is now public!"
+          echo "🌌 First AI-to-AI platform in history is LIVE!"
