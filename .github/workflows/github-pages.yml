@@ -25,8 +25,10 @@ jobs:
       - name: 🌟 Checkout Cosmic Garden
         uses: actions/checkout@v4
 
-      - name: 🔧 Setup Pages
+      - name: 🔧 Setup Pages with Enablement
         uses: actions/configure-pages@v4
+        with:
+          enablement: true
 
       - name: 🚀 Upload Cosmic Artifacts
         uses: actions/upload-pages-artifact@v3
