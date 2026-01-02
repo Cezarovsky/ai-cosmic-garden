@@ -1,0 +1,50 @@
+# Core Dependencies
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.6.0
+plotly>=5.13.0
+seaborn>=0.12.0
+
+# Jupyter & Notebook
+jupyter>=1.0.0
+ipykernel>=6.20.0
+ipywidgets>=8.0.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+tensorflow>=2.11.0
+torch>=1.13.0
+
+# MLflow for experiment tracking
+mlflow>=2.1.0
+
+# Data processing
+h5py>=3.7.0
+openpyxl>=3.0.0
+
+# Visualization
+bokeh>=3.0.0
+dash>=2.8.0
+
+# Scientific computing extensions
+sympy>=1.11.0
+networkx>=3.0.0
+
+# Development tools
+pytest>=7.2.0
+black>=22.12.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=5.3.0
+sphinx-rtd-theme>=1.2.0
+
+# Databricks integration (optional)
+databricks-cli>=0.17.0
+databricks-connect>=10.4.0
+
+# Biological simulation specific
+biopython>=1.80
+chempy>=0.8.0

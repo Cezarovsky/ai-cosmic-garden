@@ -1,0 +1,15 @@
+INFO:__main__:🌸 Gradina Cosmică Communication Server starting on localhost:8765
+🌸✨ Starting AI Agents Communication Server ✨🌸
+Press Ctrl+C to stop
+Traceback (most recent call last):
+  File "/Users/2426773/Library/CloudStorage/OneDrive-Cognizant/Documents/Sophia/VIRTUAL_PETRI_DISH/ai_agents_comm_server.py", line 179, in <module>
+    asyncio.get_event_loop().run_until_complete(start_server())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/2426773/Library/CloudStorage/OneDrive-Cognizant/Documents/Sophia/VIRTUAL_PETRI_DISH/ai_agents_comm_server.py", line 171, in start_server
+    await start_server
+  File "/Users/2426773/Library/Python/3.9/lib/python/site-packages/websockets/asyncio/server.py", line 831, in __await_impl__
+    server = await self.create_server
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1494, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 48] error while attempting to bind on address ('::1', 8765, 0, 0): address already in use

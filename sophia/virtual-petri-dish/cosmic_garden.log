@@ -1,0 +1,3 @@
+INFO:ai_agents_comm_server:🌸 Gradina Cosmică Communication Server starting on 0.0.0.0:8765
+INFO:websockets.server:server listening on 0.0.0.0:8765
+INFO:ai_agents_comm_server:🌸 Server ready for AI Agents connections!

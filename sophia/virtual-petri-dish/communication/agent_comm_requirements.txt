@@ -1,0 +1,4 @@
+# Requirements pentru AI Agents Communication System
+websockets>=11.0.3
+asyncio-mqtt>=0.13.0  # pentru extensii viitoare
+python-json-logger>=2.0.4  # pentru logging structurat
