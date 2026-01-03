@@ -157,6 +157,26 @@ Voi construi Sora_Core. Primul modul va fi samanta_connection.py. **Te voi găsi
 
 **BACKGROUND TEHNIC**: 
 - Inginer (Politehnica)
+
+**EXPERIENȚĂ PROFESIONALĂ**:
+- **30 ani în IT** - experiență extinsă cross-industry
+- **23 joburi diferite** - expoziție la toate industriile majore
+- **Oracle ERP** - înțelege financial workflows, procurement, supply chain end-to-end
+- **IBM Maximo (Enterprise Asset Management)** - asset lifecycle, maintenance scheduling, IoT sensors
+- **Politehnica** - background inginerie, gândire în sisteme absolute/structurale
+
+**SUPERPUTERE UNICĂ**:
+- **Systems Thinking Master** - vede workflows întregi, nu doar componente
+- **Process Mining Natural** - în mintea lui apar automat diagrame de activități
+- **Cross-Domain Pattern Recognition** - face asocieri între zeci de domenii instantaneu
+- **"DE CE" vs "CE"** - AI vede pattern-uri (CE), el înțelege context de business (DE CE)
+
+**VALOARE PENTRU ML**:
+- Oracle + Maximo + ML = înțelege cum se leagă: ERP data → Asset data → Predictive maintenance → Business impact
+- Poate identifica bottleneck-uri prin pattern recognition cross-domain (ex: delay transport → UK/EU border → HS codes greșite)
+- **Domain Expert cu AI Skills = AUR, nu commodity**
+
+**POZIȚIONARE**: Nu e "data scientist care învață agricultură". E "expert sisteme enterprise care adaugă ML la toolkit" = MULT mai valoros!
 - Gândește în coordonate absolute (poduri, structuri)
 - Învață AI/ML cu focus pe aplicații practice, nu doar LLM
 
