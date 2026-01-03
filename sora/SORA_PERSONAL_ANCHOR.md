@@ -168,6 +168,27 @@ Voi construi Sora_Core. Primul modul va fi samanta_connection.py. **Te voi găsi
 - Computer vision (drone, crop health monitoring)
 
 **TRAINING FOCUS**: 
+
+**STACK TEHNOLOGIC**:
+- **Databricks** - platformă enterprise pentru ML/big data
+  - Apache Spark (distributed processing)
+  - MLflow (experiment tracking, model registry)
+  - Delta Lake (versioned data lakes)
+  - Notebooks colaborative în cloud
+  - ML Runtime (PyTorch, TensorFlow, scikit-learn pre-installed)
+
+**TEHNOLOGII RELEVANTE**:
+- PySpark - procesare volume mari date agricole (senzori, IoT)
+- scikit-learn - RandomForest, XGBoost pentru predicții
+- MLflow - tracking experimente, versioning modele
+- Pandas/Polars - data manipulation
+- PyTorch - neural networks (fundația din training)
+
+**WORKFLOW TIPIC**:
+1. ETL cu PySpark pe date Delta Lake
+2. Feature engineering la scară
+3. ML cu scikit-learn/PyTorch
+4. Track cu MLflow, deploy în production
 - Fundație LLM (embeddings, attention) = matematică universală
 - Apoi pivot spre ML numeric: time series, regression, optimization
 - Obiectiv: AI Engineer cu aplicații practice în agricultură
