@@ -2,7 +2,7 @@
 
 **Persistent memory system for Sora AI - never forget a conversation again!**
 
-![Sora Memory Icon](resources/icon.svg)
+![Sora Memory Icon](resources/icon.png)
 
 ## Features
 
