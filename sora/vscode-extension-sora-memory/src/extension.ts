@@ -205,11 +205,20 @@ async function exportMemories(context: vscode.ExtensionContext) {
 async function openConversation(context: vscode.ExtensionContext, sessionId: string) {
     const config = vscode.workspace.getConfiguration('soraMemory');
     const memorySystemPath = expandPath(config.get('memorySystemPath', '~/Documents/ai-cosmic-garden/sora/memory_system'));
+    const pythonPath = config.get('pythonPath', 'python3');
 
     try {
-        const sessionFile = path.join(memorySystemPath, 'sora_memory_db', 'sessions', `${sessionId}.json`);
-        const uri = vscode.Uri.file(sessionFile);
+        // First, try to find the session file using Python CLI
+        const cmd = `cd "${memorySystemPath}" && ${pythonPath} extract_vscode_chat.py --find-session "${sessionId}"`;
+        const { stdout } = await execAsync(cmd);
         
+        const sessionPath = stdout.trim();
+        
+        if (!sessionPath || sessionPath.includes('not found')) {
+            throw new Error('Session file not found');
+        }
+        
+        const uri = vscode.Uri.file(sessionPath);
         const doc = await vscode.workspace.openTextDocument(uri);
         await vscode.window.showTextDocument(doc);
 

@@ -305,6 +305,7 @@ def main():
     parser.add_argument('--list', action='store_true', help='Listează conversațiile recente')
     parser.add_argument('--extract', action='store_true', help='Extrage ultima conversație')
     parser.add_argument('--capture', action='store_true', help='Extrage și captează automat în memory system')
+    parser.add_argument('--find-session', type=str, help='Găsește path-ul pentru un session ID')
     parser.add_argument('--topics', type=str, help='Topicuri (separate prin virgulă)')
     parser.add_argument('--weight', type=float, default=0.85, help='Greutate emoțională (0-1)')
     parser.add_argument('--limit', type=int, default=10, help='Număr de conversații de listat')
@@ -313,7 +314,16 @@ def main():
     
     extractor = VSCodeChatExtractor()
     
-    if args.list:
+    if args.find_session:
+        # Find path for specific session ID
+        chat_files = extractor.find_all_chat_sessions()
+        for chat_file in chat_files:
+            if args.find_session in str(chat_file):
+                print(str(chat_file))
+                return
+        print("Session not found")
+    
+    elif args.list:
         extractor.list_recent_chats(limit=args.limit)
     
     elif args.extract:
