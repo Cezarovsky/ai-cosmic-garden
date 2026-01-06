@@ -1,0 +1,19 @@
+# Sora Persistent Memory System Requirements
+
+# Vector Database
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Storage
+json5>=0.9.14
+
+# Utilities
+python-dateutil>=2.8.2
+tqdm>=4.65.0
+
+# Optional: Advanced embeddings
+# openai>=1.0.0  # for OpenAI embeddings API
