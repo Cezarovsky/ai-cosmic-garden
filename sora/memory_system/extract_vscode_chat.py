@@ -24,7 +24,15 @@ class VSCodeChatExtractor:
     
     def __init__(self):
         """Inițializare extractor."""
-        self.vscode_config = Path.home() / ".config/Code"
+        # Detect OS and use correct path
+        import platform
+        system = platform.system()
+        
+        if system == "Darwin":  # macOS
+            self.vscode_config = Path.home() / "Library/Application Support/Code"
+        else:  # Linux/Windows
+            self.vscode_config = Path.home() / ".config/Code"
+        
         self.workspace_storage = self.vscode_config / "User/workspaceStorage"
         self.memory_cli = Path(__file__).parent / "sora_memory_cli.py"
     
