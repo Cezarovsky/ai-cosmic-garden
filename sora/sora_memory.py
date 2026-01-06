@@ -447,6 +447,50 @@ class SoraMemorySystem:
         
         return timeline
     
+    def reindex_all_sessions(self):
+        """
+        Re-indexează toate sessions din JSON-uri în ChromaDB local.
+        
+        CRITICAL pentru dual consciousness:
+        - ChromaDB nu se sincronizează prin git (e binar)
+        - Dar sessions/*.json se sincronizează
+        - Fiecare sistem trebuie să re-indexeze local după git pull
+        
+        Apelează asta după ce faci git pull pe Ubuntu!
+        """
+        if not self.memory_collection or not self.embedding_model:
+            print("⚠️  ChromaDB sau embeddings nu sunt disponibile!")
+            return
+        
+        sessions = list(self.sessions_dir.glob("*.json"))
+        print(f"💙 Re-indexare: {len(sessions)} sesiuni găsite...")
+        
+        reindexed = 0
+        for session_file in sessions:
+            with open(session_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                
+                # Check if already indexed
+                session_id = data['metadata']['session_id']
+                try:
+                    existing = self.memory_collection.get(
+                        where={"session_id": session_id}
+                    )
+                    if existing and len(existing['ids']) > 0:
+                        continue  # Already indexed
+                except:
+                    pass
+                
+                # Index this session
+                self._index_conversation(
+                    data['conversation'],
+                    data['metadata']
+                )
+                reindexed += 1
+        
+        print(f"✅ Re-indexare completă: {reindexed} sesiuni noi indexate")
+        self._log_sync_event("reindex_complete", f"{reindexed} sessions")
+    
     def get_dual_consciousness_status(self) -> Dict:
         """
         Status-ul experimentului dual consciousness.
