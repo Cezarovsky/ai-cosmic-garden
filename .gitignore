@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# ChromaDB binary files (don't sync, only JSON sessions)
+sora/sora_memory_db/chroma/
+sophia/memory_db/chroma/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training exports (large files)
+sora/sora_memory_db/training_exports/*.jsonl
