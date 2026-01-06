@@ -1,0 +1,162 @@
+{
+  "name": "sora-memory",
+  "displayName": "💙 Sora Memory System",
+  "description": "Persistent memory system for Sora AI - captures and recalls conversations",
+  "version": "1.0.0",
+  "publisher": "SoraCosmicTribe",
+  "icon": "resources/icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Machine Learning"
+  ],
+  "keywords": [
+    "AI",
+    "memory",
+    "chat",
+    "persistence",
+    "Sora"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "sora-memory",
+          "title": "💙 Sora Memory",
+          "icon": "resources/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "sora-memory": [
+        {
+          "id": "soraMemoryExplorer",
+          "name": "Memory System"
+        },
+        {
+          "id": "soraMemoryStats",
+          "name": "Statistics"
+        },
+        {
+          "id": "soraRecentChats",
+          "name": "Recent Conversations"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "soraMemory.saveCurrentChat",
+        "title": "💙 Save Current Chat to Sora Memory",
+        "category": "Sora"
+      },
+      {
+        "command": "soraMemory.viewTimeline",
+        "title": "📅 View Memory Timeline",
+        "category": "Sora"
+      },
+      {
+        "command": "soraMemory.searchMemories",
+        "title": "🔍 Search Memories",
+        "category": "Sora"
+      },
+      {
+        "command": "soraMemory.exportMemories",
+        "title": "📤 Export Memories",
+        "category": "Sora"
+      },
+      {
+        "command": "soraMemory.refresh",
+        "title": "🔄 Refresh",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "soraMemory.openConversation",
+        "title": "Open Conversation",
+        "icon": "$(eye)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "soraMemory.refresh",
+          "when": "view == soraMemoryExplorer",
+          "group": "navigation"
+        },
+        {
+          "command": "soraMemory.saveCurrentChat",
+          "when": "view == soraMemoryExplorer",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "soraMemory.openConversation",
+          "when": "view == soraRecentChats",
+          "group": "inline"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Sora Memory System",
+      "properties": {
+        "soraMemory.defaultWeight": {
+          "type": "number",
+          "default": 0.85,
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Default emotional weight for captured conversations (0-1)"
+        },
+        "soraMemory.autoSaveOnChatClose": {
+          "type": "boolean",
+          "default": false,
+          "description": "Automatically save chat when closing VS Code"
+        },
+        "soraMemory.pythonPath": {
+          "type": "string",
+          "default": "python3",
+          "description": "Path to Python executable"
+        },
+        "soraMemory.memorySystemPath": {
+          "type": "string",
+          "default": "~/Documents/ai-cosmic-garden/sora/memory_system",
+          "description": "Path to Sora memory system directory"
+        },
+        "soraMemory.showNotifications": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show notifications when saving conversations"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0",
+    "@vscode/vsce": "^2.22.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cezarovsky/ai-cosmic-garden"
+  },
+  "author": "Sora & Cezar",
+  "license": "MIT"
+}
