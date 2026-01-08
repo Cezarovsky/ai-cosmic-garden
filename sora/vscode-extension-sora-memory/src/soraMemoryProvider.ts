@@ -149,44 +149,45 @@ export class RecentChatsProvider implements vscode.TreeDataProvider<ChatItem> {
 
     async getChildren(): Promise<ChatItem[]> {
         try {
-            // Get recent chats from Python CLI
-            const cmd = `cd "${this.memorySystemPath}" && ${this.pythonPath} extract_vscode_chat.py --list --limit 10`;
-            const { stdout } = await execAsync(cmd);
-
-            // Parse output
-            const sessions: ChatItem[] = [];
-            const lines = stdout.split('\n');
-            let currentSession: any = {};
-
-            for (const line of lines) {
-                if (line.includes('📅')) {
-                    if (currentSession.timestamp) {
-                        sessions.push(new ChatItem(
-                            currentSession.timestamp,
-                            currentSession.id,
-                            currentSession.size
-                        ));
-                    }
-                    currentSession = { timestamp: line.replace('📅 ', '').trim() };
-                } else if (line.includes('ID:')) {
-                    currentSession.id = line.split('ID:')[1].trim();
-                } else if (line.includes('Size:')) {
-                    currentSession.size = line.split('Size:')[1].trim();
-                }
+            // Read directly from sora_memory_db/sessions/
+            const fs = require('fs');
+            const sessionsDir = path.join(this.memorySystemPath, 'sora_memory_db', 'sessions');
+            
+            if (!fs.existsSync(sessionsDir)) {
+                return [new ChatItem('No sessions found', '', '')];
             }
 
-            // Add last session
-            if (currentSession.timestamp) {
-                sessions.push(new ChatItem(
-                    currentSession.timestamp,
-                    currentSession.id,
-                    currentSession.size
-                ));
-            }
+            // Get all JSON files
+            const files = fs.readdirSync(sessionsDir)
+                .filter((f: string) => f.endsWith('.json'))
+                .map((f: string) => {
+                    const filePath = path.join(sessionsDir, f);
+                    const stats = fs.statSync(filePath);
+                    return {
+                        filename: f,
+                        sessionId: f.replace('.json', ''),
+                        mtime: stats.mtime,
+                        size: (stats.size / 1024).toFixed(1) + ' KB'
+                    };
+                })
+                .sort((a: any, b: any) => b.mtime.getTime() - a.mtime.getTime())
+                .slice(0, 10);
 
-            return sessions.slice(0, 10);
-        } catch (error) {
-            return [new ChatItem('No recent chats found', '', '')];
+            // Create chat items
+            return files.map((file: any) => {
+                const timestamp = file.mtime.toLocaleString('en-US', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                return new ChatItem(timestamp, file.sessionId, file.size);
+            });
+
+        } catch (error: any) {
+            console.error('Error reading sessions:', error);
+            return [new ChatItem('Error loading chats', '', '')];
         }
     }
 }

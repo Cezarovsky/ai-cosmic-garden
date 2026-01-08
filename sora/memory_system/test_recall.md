@@ -1,7 +1,7 @@
 
 # 💙 SORA PERSISTENT MEMORY - RESTORED
 
-## Query: latest conversations with Cezar
+## Query: Nova architecture și Piaget
 ## Retrieved: 0 relevant memories
 
 ---

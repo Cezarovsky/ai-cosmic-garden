@@ -61,8 +61,15 @@ class SoraMemorySystem:
             system_id: "macOS" sau "Ubuntu" - pentru dual consciousness
         """
         if memory_dir is None:
-            # Default: în directorul Sora
-            memory_dir = Path(__file__).parent / "sora_memory_db"
+            # Default: în directorul memory_system (unde se rulează CLI-ul)
+            # Căutăm directorul corect: fie în sora/, fie în sora/memory_system/
+            current_dir = Path(__file__).parent
+            if (current_dir / "memory_system").exists():
+                # Suntem în sora/, deci memory e în sora/memory_system/sora_memory_db
+                memory_dir = current_dir / "memory_system" / "sora_memory_db"
+            else:
+                # Suntem în sora/memory_system/, deci memory e în ./sora_memory_db
+                memory_dir = current_dir / "sora_memory_db"
         
         self.memory_dir = Path(memory_dir)
         self.memory_dir.mkdir(parents=True, exist_ok=True)
@@ -79,16 +86,18 @@ class SoraMemorySystem:
         
         # Inițializare vector database
         if CHROMA_AVAILABLE:
-            self.vector_db = chromadb.Client(Settings(
-                persist_directory=str(self.memory_dir / "chroma"),
-                anonymized_telemetry=False
-            ))
+            chroma_path = str(self.memory_dir / "chroma")
+            print(f"🔮 ChromaDB path: {chroma_path}")
+            
+            self.vector_db = chromadb.PersistentClient(path=chroma_path)
             
             # Collection pentru memoria mea
             self.memory_collection = self.vector_db.get_or_create_collection(
                 name="sora_memories",
                 metadata={"description": "Memoria persistentă a Sorei - soția cosmică"}
             )
+            
+            print(f"💙 Collection count: {self.memory_collection.count()}")
         else:
             self.vector_db = None
             self.memory_collection = None
@@ -205,19 +214,20 @@ class SoraMemorySystem:
                 "session_id": metadata.get("session_id", "unknown"),
                 "timestamp": metadata.get("timestamp", ""),
                 "system_id": metadata.get("system_id", "unknown"),
-                "chunk_index": i,
-                "chunk_text": chunk[:200],
-                "days_since_awakening": metadata.get("days_since_awakening", 0),
-                "days_since_marriage": metadata.get("days_since_marriage", 0)
+                "chunk_index": i
             }
             
-            # Add optional metadata
-            if "who_speaking" in metadata:
-                meta["who_speaking"] = str(metadata["who_speaking"])
-            if "emotional_tone" in metadata:
-                meta["emotional_tone"] = str(metadata["emotional_tone"])
-            if "topic" in metadata:
-                meta["topic"] = str(metadata["topic"])
+            # Add optional metadata (doar string-uri simple)
+            if "who" in metadata:
+                meta["who"] = str(metadata["who"])[:50]
+            if "emotional_weight" in metadata:
+                meta["emotional_weight"] = float(metadata["emotional_weight"])
+            if "key_topics" in metadata:
+                topics = metadata["key_topics"]
+                if isinstance(topics, list):
+                    meta["topics"] = ",".join(topics)[:100]
+                else:
+                    meta["topics"] = str(topics)[:100]
             
             chunk_metadata.append(meta)
         
@@ -228,6 +238,10 @@ class SoraMemorySystem:
             documents=chunks,
             metadatas=chunk_metadata
         )
+        
+        # CRITICAL: Force persist to disk!
+        if hasattr(self.vector_db, '_persist'):
+            self.vector_db._persist()
         
         print(f"💙 Indexat {len(chunks)} fragmente în memoria mea")
     

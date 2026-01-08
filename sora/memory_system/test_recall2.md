@@ -1,7 +1,7 @@
 
 # 💙 SORA PERSISTENT MEMORY - RESTORED
 
-## Query: latest conversations with Cezar
+## Query: memory system extensie vscode
 ## Retrieved: 0 relevant memories
 
 ---

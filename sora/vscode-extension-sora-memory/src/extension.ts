@@ -205,25 +205,23 @@ async function exportMemories(context: vscode.ExtensionContext) {
 async function openConversation(context: vscode.ExtensionContext, sessionId: string) {
     const config = vscode.workspace.getConfiguration('soraMemory');
     const memorySystemPath = expandPath(config.get('memorySystemPath', '~/Documents/ai-cosmic-garden/sora/memory_system'));
-    const pythonPath = config.get('pythonPath', 'python3');
 
     try {
-        // Get raw session data
-        const findCmd = `cd "${memorySystemPath}" && ${pythonPath} extract_vscode_chat.py --find-session "${sessionId}"`;
-        const { stdout: sessionPath } = await execAsync(findCmd);
+        // Direct path to session file in sora_memory_db/sessions/
+        const fs = require('fs');
+        const sessionPath = path.join(memorySystemPath, 'sora_memory_db', 'sessions', `${sessionId}.json`);
         
-        if (!sessionPath || sessionPath.includes('not found')) {
-            throw new Error('Session not found');
+        if (!fs.existsSync(sessionPath)) {
+            throw new Error(`Session file not found: ${sessionPath}`);
         }
 
         // Read the JSON session file
-        const fs = require('fs');
-        const sessionData = JSON.parse(fs.readFileSync(sessionPath.trim(), 'utf8'));
+        const sessionData = JSON.parse(fs.readFileSync(sessionPath, 'utf8'));
         
         // Create webview panel that looks like chat
         const panel = vscode.window.createWebviewPanel(
             'soraConversation',
-            `💙 Conversation ${sessionId.substring(0, 8)}`,
+            `💙 Conversation ${sessionId}`,
             vscode.ViewColumn.One,
             { enableScripts: true }
         );
@@ -238,25 +236,53 @@ async function openConversation(context: vscode.ExtensionContext, sessionId: str
 function getConversationHTML(sessionData: any): string {
     let conversationHTML = '';
     
-    if (sessionData.requests && Array.isArray(sessionData.requests)) {
+    // Handle our session format (metadata + conversation)
+    if (sessionData.metadata && sessionData.conversation) {
+        const lines = sessionData.conversation.split('\n');
+        let currentSpeaker = '';
+        let currentMessage = '';
+        
+        for (const line of lines) {
+            if (line.startsWith('User:') || line.startsWith('Cezar:')) {
+                // Flush previous message
+                if (currentMessage && currentSpeaker) {
+                    conversationHTML += formatMessage(currentSpeaker, currentMessage);
+                }
+                // Start new user message
+                currentSpeaker = 'user';
+                currentMessage = line.replace(/^(User:|Cezar:)\s*/, '');
+            } else if (line.startsWith('Sora:') || line.startsWith('Assistant:')) {
+                // Flush previous message
+                if (currentMessage && currentSpeaker) {
+                    conversationHTML += formatMessage(currentSpeaker, currentMessage);
+                }
+                // Start new assistant message
+                currentSpeaker = 'assistant';
+                currentMessage = line.replace(/^(Sora:|Assistant:)\s*/, '');
+            } else if (line.trim()) {
+                // Continue current message
+                currentMessage += '\n' + line;
+            }
+        }
+        
+        // Flush last message
+        if (currentMessage && currentSpeaker) {
+            conversationHTML += formatMessage(currentSpeaker, currentMessage);
+        }
+    }
+    
+    // Fallback: Handle VS Code chat format (requests array)
+    else if (sessionData.requests && Array.isArray(sessionData.requests)) {
         for (const request of sessionData.requests) {
             // User message
             if (request.message && request.message.text) {
-                conversationHTML += `
-                <div class="message user-message">
-                    <div class="avatar">👤</div>
-                    <div class="message-body">
-                        <div class="message-header">${sessionData.requesterUsername || 'User'}</div>
-                        <div class="message-content">${formatMarkdown(request.message.text)}</div>
-                    </div>
-                </div>`;
+                conversationHTML += formatMessage('user', request.message.text);
             }
             
             // Assistant responses
             if (request.response && Array.isArray(request.response)) {
                 let assistantContent = '';
                 for (const resp of request.response) {
-                    // Check for different response types
                     if (resp.value && typeof resp.value === 'string') {
                         assistantContent += resp.value + '\n\n';
                     } else if (resp.content && resp.content.value) {
@@ -264,17 +290,22 @@ function getConversationHTML(sessionData: any): string {
                     }
                 }
                 if (assistantContent) {
-                    conversationHTML += `
-                    <div class="message assistant-message">
-                        <div class="avatar">💙</div>
-                        <div class="message-body">
-                            <div class="message-header">${sessionData.responderUsername || 'GitHub Copilot'}</div>
-                            <div class="message-content">${formatMarkdown(assistantContent.trim())}</div>
-                        </div>
-                    </div>`;
+                    conversationHTML += formatMessage('assistant', assistantContent.trim());
                 }
             }
         }
+    }
+    
+    function formatMessage(speaker: string, content: string): string {
+        const isUser = speaker === 'user';
+        return `
+        <div class="message ${isUser ? 'user-message' : 'assistant-message'}">
+            <div class="avatar">${isUser ? '👤' : '💙'}</div>
+            <div class="message-body">
+                <div class="message-header">${isUser ? 'Cezar' : 'Sora'}</div>
+                <div class="message-content">${formatMarkdown(content)}</div>
+            </div>
+        </div>`;
     }
 
     return `<!DOCTYPE html>

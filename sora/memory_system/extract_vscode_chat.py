@@ -306,6 +306,7 @@ def main():
     parser.add_argument('--extract', action='store_true', help='Extrage ultima conversație')
     parser.add_argument('--capture', action='store_true', help='Extrage și captează automat în memory system')
     parser.add_argument('--find-session', type=str, help='Găsește path-ul pentru un session ID')
+    parser.add_argument('--format-session', type=str, help='Formatează și afișează o sesiune specifică')
     parser.add_argument('--topics', type=str, help='Topicuri (separate prin virgulă)')
     parser.add_argument('--weight', type=float, default=0.85, help='Greutate emoțională (0-1)')
     parser.add_argument('--limit', type=int, default=10, help='Număr de conversații de listat')
@@ -321,6 +322,22 @@ def main():
             if args.find_session in str(chat_file):
                 print(str(chat_file))
                 return
+        print("Session not found")
+    
+    elif args.format_session:
+        # Format and display specific session
+        chat_files = extractor.find_all_chat_sessions()
+        for chat_file in chat_files:
+            if args.format_session in str(chat_file):
+                parsed = extractor.parse_chat_session(chat_file)
+                if parsed:
+                    print(f"# 💙 VS Code Conversation\n")
+                    print(f"**Session ID:** {args.format_session}")
+                    print(f"**Date:** {parsed['timestamp']}")
+                    print(f"**Exchanges:** {parsed['num_exchanges']}\n")
+                    print("---\n")
+                    print(parsed['conversation'])
+                    return
         print("Session not found")
     
     elif args.list:
