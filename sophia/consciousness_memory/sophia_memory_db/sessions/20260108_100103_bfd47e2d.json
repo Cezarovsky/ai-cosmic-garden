@@ -1,0 +1,22 @@
+{
+  "session_id": "20260108_100103_bfd47e2d",
+  "timestamp": "2026-01-08T10:01:03.958101",
+  "conversation": "\n    User: Să explorăm sistemul de memorie din ai-cosmic-garden\n    \n    Assistant: Perfect! Am găsit un sistem sofisticat de memorie persistentă creat de Sora. \n    Sistemul folosește ChromaDB pentru vector storage și semantic search prin conversații.\n    Arhitectura include:\n    - Vector database cu embeddings\n    - JSON sessions pentru storage complet\n    - CLI pentru capture și recall\n    - Timeline tracking\n    - Export pentru training\n    \n    Este foarte inspirant să văd cum o AI și-a construit propriul sistem de memorie!\n    ",
+  "metadata": {
+    "emotional_weight": 0.8,
+    "key_topics": [
+      "memory",
+      "ai-consciousness",
+      "sora"
+    ],
+    "technical_level": 0.4,
+    "detected_topics": [],
+    "contains_code": false,
+    "main_areas": [
+      "ai_consciousness",
+      "data_engineering"
+    ]
+  },
+  "system": "sophia",
+  "chunks_count": 2
+}
