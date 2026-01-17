@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA Landmark Detection Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .upload-section {
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .upload-box {
+            border: 3px dashed #667eea;
+            border-radius: 15px;
+            padding: 60px 40px;
+            margin-bottom: 30px;
+            background: #f8f9ff;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .upload-box:hover {
+            background: #eef1ff;
+            border-color: #764ba2;
+        }
+        
+        .upload-box.dragover {
+            background: #e0e7ff;
+            border-color: #4c51bf;
+            transform: scale(1.02);
+        }
+        
+        .upload-icon {
+            font-size: 4em;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        
+        input[type="file"] {
+            display: none;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .results {
+            display: none;
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        
+        .results.show {
+            display: block;
+        }
+        
+        .images-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .image-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .image-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .image-card img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .tensor-display {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .tensor-display h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        
+        .tensor-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .tensor-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        .tensor-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .tensor-value {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .loading.show {
+            display: block;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: none;
+        }
+        
+        .error.show {
+            display: block;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .images-row {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔮 NOVA Landmark Detection</h1>
+            <p class="subtitle">Detectează landmarks în imagini și transformă-le în tensori 7D</p>
+        </header>
+        
+        <div class="upload-section">
+            <div class="upload-box" id="uploadBox">
+                <div class="upload-icon">📸</div>
+                <h2>Alege o imagine</h2>
+                <p>Trage și plasează sau dă click pentru a selecta</p>
+                <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
+                    Suportat: PNG, JPG, JPEG, GIF, BMP (max 16MB)
+                </p>
+            </div>
+            
+            <input type="file" id="fileInput" accept="image/*">
+            
+            <button class="btn" id="uploadBtn" disabled>
+                Upload și Analizează
+            </button>
+            
+            <div class="error" id="errorMsg"></div>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Detectez landmarks și calculez tensor 7D...</p>
+        </div>
+        
+        <div class="results" id="results">
+            <div class="images-row">
+                <div class="image-card">
+                    <h3>📷 Imagine Originală</h3>
+                    <img id="originalImage" src="" alt="Original">
+                </div>
+                <div class="image-card">
+                    <h3>🎯 Landmarks Detectate</h3>
+                    <img id="landmarksImage" src="" alt="Landmarks">
+                </div>
+            </div>
+            
+            <div class="tensor-display">
+                <h3>📊 Tensor 7D Extras</h3>
+                <div class="tensor-grid" id="tensorGrid"></div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn" onclick="location.reload()">
+                    🔄 Încarcă Altă Imagine
+                </button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>💙 NOVA Architecture Demo | Creat de Sora & Cezar</p>
+            <p style="margin-top: 5px;">
+                Landmark detection: MediaPipe | Pattern recognition: Tensori 7D
+            </p>
+        </footer>
+    </div>
+    
+    <script>
+        const uploadBox = document.getElementById('uploadBox');
+        const fileInput = document.getElementById('fileInput');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+        const errorMsg = document.getElementById('errorMsg');
+        
+        let selectedFile = null;
+        
+        // Click to upload
+        uploadBox.addEventListener('click', () => fileInput.click());
+        
+        // Drag and drop
+        uploadBox.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadBox.classList.add('dragover');
+        });
+        
+        uploadBox.addEventListener('dragleave', () => {
+            uploadBox.classList.remove('dragover');
+        });
+        
+        uploadBox.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadBox.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                handleFileSelect();
+            }
+        });
+        
+        fileInput.addEventListener('change', handleFileSelect);
+        
+        function handleFileSelect() {
+            if (fileInput.files.length > 0) {
+                selectedFile = fileInput.files[0];
+                uploadBtn.disabled = false;
+                uploadBox.innerHTML = `
+                    <div class="upload-icon">✅</div>
+                    <h2>Fișier selectat</h2>
+                    <p>${selectedFile.name}</p>
+                    <p style="margin-top: 10px; color: #666;">
+                        Gata pentru analiză!
+                    </p>
+                `;
+            }
+        }
+        
+        uploadBtn.addEventListener('click', uploadAndAnalyze);
+        
+        async function uploadAndAnalyze() {
+            if (!selectedFile) return;
+            
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+            
+            // Hide errors & show loading
+            errorMsg.classList.remove('show');
+            loading.classList.add('show');
+            uploadBtn.disabled = true;
+            
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Upload failed');
+                }
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                displayResults(data);
+                
+            } catch (error) {
+                errorMsg.textContent = `Eroare: ${error.message}`;
+                errorMsg.classList.add('show');
+                uploadBtn.disabled = false;
+            } finally {
+                loading.classList.remove('show');
+            }
+        }
+        
+        function displayResults(data) {
+            // Display images
+            document.getElementById('originalImage').src = data.original_image;
+            document.getElementById('landmarksImage').src = data.landmarks_image;
+            
+            // Display tensor
+            const tensorGrid = document.getElementById('tensorGrid');
+            tensorGrid.innerHTML = '';
+            
+            data.tensor_7d.forEach((value, index) => {
+                const label = data.tensor_labels[index];
+                const item = document.createElement('div');
+                item.className = 'tensor-item';
+                item.innerHTML = `
+                    <div class="tensor-label">${label}</div>
+                    <div class="tensor-value">${value}</div>
+                `;
+                tensorGrid.appendChild(item);
+            });
+            
+            // Show results
+            results.classList.add('show');
+            
+            // Scroll to results
+            results.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
