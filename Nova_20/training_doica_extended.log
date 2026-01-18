@@ -1,0 +1,47 @@
+🚀 Nova Trainer - Faza: DOICA
+============================================================
+
+============================================================
+🎯 Starting Nova Training Pipeline
+============================================================
+
+📊 Loading Cortex patterns (validated, confidence 1.0)...
+   ✅ Loaded 73 validated patterns from Cortex
+
+🌌 Loading Neocortex hypotheses (confidence >= 0.5)...
+   ✅ Loaded 1 hypotheses from Neocortex
+
+📝 Creating training dataset...
+   ✅ Created 74 training examples
+      - Cortex (facts): 73
+      - Neocortex (hypotheses): 1
+
+🔧 Setting up Mistral-7B with QLoRA...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.29s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.17s/it]
+   ✅ Model ready with LoRA rank 8
+trainable params: 6,815,744 || all params: 7,254,839,296 || trainable%: 0.0939
+   📊 Trainable parameters: None
+
+🔤 Tokenizing dataset...
+Map:   0%|          | 0/74 [00:00<?, ? examples/s]Map: 100%|██████████| 74/74 [00:00<00:00, 6473.77 examples/s]
+/home/cezar/ai-cosmic-garden/Nova_20/nova_trainer.py:235: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 2}.
+   ✅ Dataset tokenized: 74 examples
+
+🚂 Starting training...
+   Phase: DOICA
+   Epochs: 3
+   Batch size: 4
+   Learning rate: 0.0002
+
+  0%|          | 0/15 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/cezar/ai-cosmic-garden/Nova_20/venv_nova/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+  7%|▋         | 1/15 [00:10<02:24, 10.35s/it] 13%|█▎        | 2/15 [00:21<02:18, 10.63s/it] 20%|██        | 3/15 [00:32<02:10, 10.83s/it] 27%|██▋       | 4/15 [00:43<02:01, 11.03s/it] 33%|███▎      | 5/15 [00:50<01:36,  9.62s/it] 40%|████      | 6/15 [01:02<01:31, 10.22s/it] 47%|████▋     | 7/15 [01:13<01:24, 10.62s/it] 53%|█████▎    | 8/15 [01:25<01:16, 10.90s/it] 60%|██████    | 9/15 [01:36<01:06, 11.10s/it] 67%|██████▋   | 10/15 [01:43<00:49,  9.91s/it]                                                67%|██████▋   | 10/15 [01:43<00:49,  9.91s/it] 73%|███████▎  | 11/15 [01:55<00:41, 10.44s/it] 80%|████████  | 12/15 [02:07<00:32, 10.80s/it] 87%|████████▋ | 13/15 [02:18<00:22, 11.06s/it] 93%|█████████▎| 14/15 [02:30<00:11, 11.25s/it]100%|██████████| 15/15 [02:37<00:00, 10.05s/it]                                               100%|██████████| 15/15 [02:38<00:00, 10.05s/it]100%|██████████| 15/15 [02:38<00:00, 10.54s/it]
+{'loss': 5.83, 'grad_norm': 0.6184902191162109, 'learning_rate': 0.00012, 'epoch': 2.0}
+{'train_runtime': 158.1551, 'train_samples_per_second': 1.404, 'train_steps_per_second': 0.095, 'train_loss': 3.9769121249516806, 'epoch': 3.0}
+
+============================================================
+✅ Training complete! Model saved to: ./nova_doica_checkpoints/nova_doica_final
+============================================================
