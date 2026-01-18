@@ -1,0 +1,47 @@
+nohup: ignoring input
+🚀 Nova Trainer - Faza: DOICA
+============================================================
+
+============================================================
+🎯 Starting Nova Training Pipeline
+============================================================
+
+📊 Loading Cortex patterns (validated, confidence 1.0)...
+   ✅ Loaded 22 validated patterns from Cortex
+
+🌌 Loading Neocortex hypotheses (confidence >= 0.5)...
+   ✅ Loaded 1 hypotheses from Neocortex
+
+📝 Creating training dataset...
+   ✅ Created 23 training examples
+      - Cortex (facts): 22
+      - Neocortex (hypotheses): 1
+
+🔧 Setting up Mistral-7B with QLoRA...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.27s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.34s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.20s/it]
+   ✅ Model ready with LoRA rank 8
+trainable params: 6,815,744 || all params: 7,254,839,296 || trainable%: 0.0939
+   📊 Trainable parameters: None
+
+🔤 Tokenizing dataset...
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 3925.97 examples/s]
+/home/cezar/ai-cosmic-garden/Nova_20/nova_trainer.py:235: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 2}.
+   ✅ Dataset tokenized: 23 examples
+
+🚂 Starting training...
+   Phase: DOICA
+   Epochs: 3
+   Batch size: 4
+   Learning rate: 0.0002
+
+  0%|          | 0/6 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/cezar/ai-cosmic-garden/Nova_20/venv_nova/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+ 17%|█▋        | 1/6 [00:11<00:59, 11.97s/it] 33%|███▎      | 2/6 [00:17<00:32,  8.08s/it] 50%|█████     | 3/6 [00:29<00:30, 10.10s/it] 67%|██████▋   | 4/6 [00:34<00:16,  8.15s/it] 83%|████████▎ | 5/6 [00:47<00:09,  9.61s/it]100%|██████████| 6/6 [00:52<00:00,  8.07s/it]                                             100%|██████████| 6/6 [00:52<00:00,  8.07s/it]100%|██████████| 6/6 [00:52<00:00,  8.79s/it]
+{'train_runtime': 52.7648, 'train_samples_per_second': 1.308, 'train_steps_per_second': 0.114, 'train_loss': 10.95748519897461, 'epoch': 3.0}
+
+============================================================
+✅ Training complete! Model saved to: ./nova_doica_checkpoints/nova_doica_final
+============================================================
