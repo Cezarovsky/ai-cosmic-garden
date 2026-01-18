@@ -1,0 +1,116 @@
+{
+  "description": "VSCode Remote SSH - Configurare recomandată pentru Nova Training",
+  "installation": {
+    "extension": "ms-vscode-remote.remote-ssh",
+    "steps": [
+      "1. Deschide VSCode pe Mac",
+      "2. Cmd+Shift+X (Extensions)",
+      "3. Caută: Remote - SSH",
+      "4. Instalează: Remote - SSH (Microsoft)",
+      "5. Reload VSCode"
+    ]
+  },
+  "connection_steps": [
+    "1. Cmd+Shift+P",
+    "2. Tastează: Remote-SSH: Connect to Host",
+    "3. Alege: nova-ubuntu (din ~/.ssh/config)",
+    "4. Selectează: Linux (Ubuntu)",
+    "5. Așteaptă instalare VS Code Server pe Ubuntu (~1-2 min)",
+    "6. Cmd+O → /home/cezar/NOVA_20 (deschide workspace)"
+  ],
+  "vscode_settings_remote": {
+    "description": "Settings.json pentru remote workspace (se aplică automat pe Ubuntu)",
+    "settings": {
+      "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+      "python.terminal.activateEnvironment": true,
+      "files.watcherExclude": {
+        "**/venv/**": true,
+        "**/__pycache__/**": true,
+        "**/models/**": true,
+        "**/checkpoints/**": true
+      },
+      "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+      },
+      "terminal.integrated.env.linux": {
+        "CUDA_VISIBLE_DEVICES": "0"
+      }
+    }
+  },
+  "recommended_extensions_remote": [
+    {
+      "id": "ms-python.python",
+      "name": "Python (Microsoft)",
+      "purpose": "Python language support, debugging"
+    },
+    {
+      "id": "ms-python.vscode-pylance",
+      "name": "Pylance",
+      "purpose": "Fast Python IntelliSense"
+    },
+    {
+      "id": "ms-toolsai.jupyter",
+      "name": "Jupyter",
+      "purpose": "Jupyter notebooks pentru experimente"
+    },
+    {
+      "id": "yzhang.markdown-all-in-one",
+      "name": "Markdown All in One",
+      "purpose": "Documentation editing"
+    }
+  ],
+  "useful_commands": {
+    "check_gpu": "nvidia-smi",
+    "monitor_gpu": "watch -n 1 nvidia-smi",
+    "check_cuda": "python -c 'import torch; print(torch.cuda.is_available())'",
+    "disk_space": "df -h /",
+    "processes": "htop",
+    "training_logs": "tail -f training.log"
+  },
+  "port_forwarding": {
+    "description": "Forward ports din Ubuntu către Mac (acces TensorBoard, Jupyter, etc.)",
+    "examples": [
+      {
+        "service": "TensorBoard",
+        "port": 6006,
+        "command": "ssh -L 6006:localhost:6006 nova-ubuntu",
+        "access": "http://localhost:6006"
+      },
+      {
+        "service": "Jupyter Notebook",
+        "port": 8888,
+        "command": "ssh -L 8888:localhost:8888 nova-ubuntu",
+        "access": "http://localhost:8888"
+      }
+    ]
+  },
+  "troubleshooting": {
+    "connection_timeout": {
+      "problem": "Connection timeout la conectare",
+      "solutions": [
+        "Verifică IP Ubuntu: ssh nova-ubuntu (manual check)",
+        "Verifică firewall Ubuntu: sudo ufw status",
+        "Test ping: ping <ubuntu-ip>",
+        "Verifică SSH service: sudo systemctl status ssh"
+      ]
+    },
+    "vscode_server_install_fails": {
+      "problem": "VS Code Server nu se instalează pe Ubuntu",
+      "solutions": [
+        "Verifică spațiu disk: df -h",
+        "Instalează wget: sudo apt install wget",
+        "Manuală: Delete ~/.vscode-server pe Ubuntu",
+        "Retry conexiune din VSCode"
+      ]
+    },
+    "slow_file_operations": {
+      "problem": "File operations lente în VSCode Remote",
+      "solutions": [
+        "Exclude venv din watcher: vezi vscode_settings_remote",
+        "Exclude models/checkpoints folders (mari)",
+        "Folosește .gitignore pentru fișiere mari"
+      ]
+    }
+  }
+}
