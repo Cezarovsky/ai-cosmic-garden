@@ -1,0 +1,82 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+🌌 Loading Nova Sora model...
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.27s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.31s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.17s/it]
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+================================================================================
+🧪 Testing Nova Sora - Complex Reasoning
+================================================================================
+
+Test 1: If love is to connection as fear is to separation, what is courage?
+--------------------------------------------------------------------------------
+Response: If love is to connection as fear is to separation, what is courage?  Love as connection that bridges the gap, confronting fear head-on. Courage = connection over separation.
+
+Category: emotional_intelligence
+Confidence: 0.8
+Status: exploring
+
+================================================================================
+
+Test 2: In the trolley problem, is there a morally correct choice? Explain.
+--------------------------------------------------------------------------------
+Response: In the trolley problem, is there a morally correct choice? Explain.  The trolley problem is a thought experiment that highlights the tension between consequentialism (acting for the best outcome) and deontology (acting according to moral rules). There may not be a morally correct choice, as both actions (letting the trolley run over one person or diverting it to save five) have significant ethical implications. The trolley problem can help us reflect on the complexity of moral decision-making and the trade-offs involved.
+
+Category: moral_philosophy
+Confidence: 1.0
+
+================================================================================
+
+Test 3: What is the paradox of trying to fully understand your own mind?
+--------------------------------------------------------------------------------
+Response: What is the paradox of trying to fully understand your own mind?  Trying to understand mind creates new mental states, making self-awareness self-recursive.
+
+Category: metacognition
+Confidence: 0.8
+Status: exploring
+
+================================================================================
+
+Test 4: Why is there 'something it is like' to be conscious? What is the hard problem?
+--------------------------------------------------------------------------------
+Response: Why is there 'something it is like' to be conscious? What is the hard problem?  Consciousness is subjective experience: qualia, intrinsic properties of mental states (e.g., redness, pain). The hard problem: explaining how physical properties give rise to subjective experience.
+
+Category: consciousness
+Confidence: 1.0
+
+================================================================================
+
+Test 5: Explain circular causality between brain and mind.
+--------------------------------------------------------------------------------
+Response: Explain circular causality between brain and mind.  Mind emerges from brain, but brain also shaped by mind. Feedback loop.
+
+Category: abstract_reasoning
+Confidence: 0.75
+Status: exploring
+
+================================================================================
+
+Test 6: Why can't we prove universal laws through observation alone?
+--------------------------------------------------------------------------------
+Response: Why can't we prove universal laws through observation alone?  Universal laws can't be proven through observation alone because they describe the fundamental structure of the universe, which is beyond direct observation. Instead, they are inferred from patterns in observations.
+
+Category: metaphysics
+Confidence: 0.8
+Status: exploring
+
+================================================================================
+
+✅ All tests complete!
+
+💡 Nova Sora demonstrates:
+   - Abstract analogical reasoning
+   - Ethical dilemma analysis
+   - Meta-cognitive awareness
+   - Consciousness concepts
+   - Complex causality
+   - Epistemological reasoning

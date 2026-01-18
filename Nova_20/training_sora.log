@@ -1,0 +1,68 @@
+🌌 Starting Sora Phase Training
+======================================================================
+
+Phase: SORA
+LoRA rank: 64 (vs 8 in Doica)
+Alpha: 128 (vs 16 in Doica)
+Trainable params: ~55M (vs 6.8M in Doica)
+
+Dataset:
+  - Cortex: 73 validated patterns (confidence 1.0)
+  - Neocortex: 25 hypotheses (confidence 0.5-0.9)
+  - Total: 98 training examples
+
+Expected training time: ~20-30 minutes
+======================================================================
+
+🚀 Nova Trainer - Faza: SORA
+============================================================
+
+============================================================
+🎯 Starting Nova Training Pipeline
+============================================================
+
+📊 Loading Cortex patterns (validated, confidence 1.0)...
+   ✅ Loaded 73 validated patterns from Cortex
+
+🌌 Loading Neocortex hypotheses (confidence >= 0.5)...
+   ✅ Loaded 24 hypotheses from Neocortex
+
+📝 Creating training dataset...
+   ✅ Created 97 training examples
+      - Cortex (facts): 73
+      - Neocortex (hypotheses): 24
+
+🔧 Setting up Mistral-7B with QLoRA...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.39s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.43s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.24s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.29s/it]
+   ✅ Model ready with LoRA rank 64
+trainable params: 54,525,952 || all params: 7,302,549,504 || trainable%: 0.7467
+   📊 Trainable parameters: None
+
+🔤 Tokenizing dataset...
+Map:   0%|          | 0/97 [00:00<?, ? examples/s]Map: 100%|██████████| 97/97 [00:00<00:00, 6722.42 examples/s]
+/home/cezar/ai-cosmic-garden/Nova_20/nova_trainer.py:235: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+The tokenizer has new PAD/BOS/EOS tokens that differ from the model config and generation config. The model config and generation config were aligned accordingly, being updated with the tokenizer's values. Updated tokens: {'pad_token_id': 2}.
+   ✅ Dataset tokenized: 97 examples
+
+🚂 Starting training...
+   Phase: SORA
+   Epochs: 3
+   Batch size: 4
+   Learning rate: 0.0002
+
+  0%|          | 0/21 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/cezar/ai-cosmic-garden/Nova_20/venv_nova/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:632: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+  5%|▍         | 1/21 [00:10<03:37, 10.88s/it] 10%|▉         | 2/21 [00:22<03:30, 11.06s/it] 14%|█▍        | 3/21 [00:33<03:22, 11.24s/it] 19%|█▉        | 4/21 [00:45<03:15, 11.48s/it] 24%|██▍       | 5/21 [00:57<03:07, 11.73s/it] 29%|██▊       | 6/21 [01:09<02:59, 11.97s/it] 33%|███▎      | 7/21 [01:10<01:56,  8.35s/it] 38%|███▊      | 8/21 [01:23<02:05,  9.68s/it] 43%|████▎     | 9/21 [01:36<02:07, 10.60s/it] 48%|████▊     | 10/21 [01:48<02:03, 11.22s/it]                                                48%|████▊     | 10/21 [01:48<02:03, 11.22s/it] 52%|█████▏    | 11/21 [02:01<01:57, 11.73s/it] 57%|█████▋    | 12/21 [02:14<01:48, 12.02s/it] 62%|██████▏   | 13/21 [02:27<01:38, 12.29s/it] 67%|██████▋   | 14/21 [02:28<01:01,  8.86s/it] 71%|███████▏  | 15/21 [02:40<01:00, 10.00s/it] 76%|███████▌  | 16/21 [02:53<00:53, 10.79s/it] 81%|████████  | 17/21 [03:05<00:45, 11.33s/it] 86%|████████▌ | 18/21 [03:18<00:35, 11.69s/it] 90%|█████████ | 19/21 [03:30<00:23, 11.94s/it] 95%|█████████▌| 20/21 [03:43<00:12, 12.18s/it]                                                95%|█████████▌| 20/21 [03:43<00:12, 12.18s/it]100%|██████████| 21/21 [03:44<00:00,  8.80s/it]                                               100%|██████████| 21/21 [03:45<00:00,  8.80s/it]100%|██████████| 21/21 [03:45<00:00, 10.74s/it]
+{'loss': 6.2074, 'grad_norm': 7.498203754425049, 'learning_rate': 0.00015238095238095237, 'epoch': 1.48}
+{'loss': 0.1776, 'grad_norm': 0.43359193205833435, 'learning_rate': 5.714285714285714e-05, 'epoch': 2.96}
+{'train_runtime': 225.5327, 'train_samples_per_second': 1.29, 'train_steps_per_second': 0.093, 'train_loss': 3.044651370318163, 'epoch': 3.0}
+
+============================================================
+✅ Training complete! Model saved to: ./nova_sora_checkpoints/nova_sora_final
+============================================================
+
+======================================================================
+✅ Sora phase training complete!
+======================================================================
