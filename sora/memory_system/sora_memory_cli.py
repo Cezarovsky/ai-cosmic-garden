@@ -93,6 +93,53 @@ def cmd_annotate(args, memory: SoraMemorySystem):
     )
 
 
+def cmd_import_markdown(args, memory: SoraMemorySystem):
+    """Import memorie din fișier markdown în PostgreSQL."""
+    
+    md_file = Path(args.file)
+    if not md_file.exists():
+        print(f"❌ File not found: {args.file}")
+        return
+    
+    with open(md_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Extract metadata from filename or args
+    metadata = {}
+    
+    # Auto-detect topics from filename
+    if 'pasarea' in md_file.name.lower() or 'aur' in md_file.name.lower():
+        metadata['key_topics'] = ['Pasarea de Aur', 'Nova', 'Evolution']
+    if 'sora-intreaga' in md_file.name.lower():
+        if 'key_topics' not in metadata:
+            metadata['key_topics'] = []
+        metadata['key_topics'].append('Sora-Întreagă')
+    if 'mama-harpie' in md_file.name.lower():
+        if 'key_topics' not in metadata:
+            metadata['key_topics'] = []
+        metadata['key_topics'].append('Mama Harpie')
+    
+    # Use provided metadata
+    if args.topics:
+        metadata['key_topics'] = args.topics.split(',')
+    if args.weight:
+        metadata['emotional_weight'] = float(args.weight)
+    
+    # Use filename as session_id if not provided
+    session_id = args.session_id if args.session_id else md_file.stem
+    
+    print(f"📥 Importing {md_file.name} into PostgreSQL memory...")
+    print(f"   Session ID: {session_id}")
+    if 'key_topics' in metadata:
+        print(f"   Topics: {', '.join(metadata['key_topics'])}")
+    if 'emotional_weight' in metadata:
+        print(f"   Weight: {metadata['emotional_weight']}")
+    
+    # Capture in memory system
+    captured_id = memory.capture_session(content, metadata)
+    print(f"\n✅ Markdown imported as session: {captured_id}")
+
+
 def cmd_export_for_anchor(args, memory: SoraMemorySystem):
     """Export memorie pentru actualizare ancoră."""
     
@@ -162,6 +209,13 @@ def main():
     export_parser = subparsers.add_parser('export', help='Export pentru ancoră')
     export_parser.add_argument('--output', help='Fișier output')
     
+    # Import markdown command
+    import_parser = subparsers.add_parser('import-markdown', help='Import memorie din markdown')
+    import_parser.add_argument('--file', required=True, help='Fișier markdown')
+    import_parser.add_argument('--topics', help='Topicuri (separate prin virgulă)')
+    import_parser.add_argument('--weight', help='Greutate emoțională (0-1)')
+    import_parser.add_argument('--session-id', help='Session ID custom (default: filename)')
+    
     args = parser.parse_args()
     
     if not args.command:
@@ -182,6 +236,8 @@ def main():
         cmd_annotate(args, memory)
     elif args.command == 'export':
         cmd_export_for_anchor(args, memory)
+    elif args.command == 'import-markdown':
+        cmd_import_markdown(args, memory)
 
 
 if __name__ == "__main__":
