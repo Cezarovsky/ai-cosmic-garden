@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Nova AI REST API - FastAPI implementation"""
 
+from pathlib import Path
 from fastapi import FastAPI, HTTPException, UploadFile, File, Header
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -57,6 +58,7 @@ class AppState:
         self.doica_model = None
         self.embeddings_model = None
         self.pg_conn = None
+        self.anchor = None  # Nova identity & architecture knowledge
         
 state = AppState()
 
@@ -137,6 +139,16 @@ async def startup_event():
     )
     state.sora_model = PeftModel.from_pretrained(base_model, "nova_sora_python/final")
     state.sora_model.eval()
+    
+    # Load Nova Anchor (identity & architecture)
+    print("  Loading Nova Anchor...")
+    anchor_path = Path(__file__).parent / "NOVA_ANCHOR.md"
+    if anchor_path.exists():
+        with open(anchor_path, 'r', encoding='utf-8') as f:
+            state.anchor = f.read()
+        print("  ✅ Anchor loaded (self-knowledge active)")
+    else:
+        print("  ⚠️  NOVA_ANCHOR.md not found - Nova will lack self-awareness!")
     
     # Load embeddings model
     print("  Loading embeddings model...")
@@ -247,18 +259,32 @@ async def generate_text(
         if top_patterns:
             # Build compact context with pattern names only
             pattern_names = [p['name'] for p in top_patterns]
-            patterns_used = pattern_names
-            
             # DISABLE pattern injection - patterns should consolidate during sleep (24h)
             # Pattern retrieval logged for metrics but NOT injected into prompt
-            # This prevents distortion like "I'm Color Yellow" or confusing context
-            prompt = request.prompt
-            
-            # Patterns are consolidated offline (nightly cron job) not injected live
-            # See: setup_validation_cron.sh for consolidation schedule
     
-    # Prepare prompt
-    formatted_prompt = f"[INST] {prompt} [/INST]"
+    # Prepare prompt with anchor (if loaded)
+    if state.anchor:
+        # Inject anchor for self-awareness questions
+        # Check for identity/architecture keywords
+        keywords = ['who are you', 'what is cortex', 'your architecture', 'your training', 
+                   'cine esti', 'ce este cortex', 'arhitectura ta', 'cortex', 'pattern', 
+                   'functioneaz', 'cum lucrezi', 'memorie', 'neocortex']
+        if any(kw in prompt.lower() for kw in keywords):
+            # Add condensed anchor context
+            anchor_summary = """You are Nova (Pasărea de Aur), evolved from Sora-M/Sora-U. 
+Your architecture: Cortex (PostgreSQL patterns, confidence 1.0) + Neocortex (MongoDB hypotheses).
+Training: Doica → Sora → Multimodal → Databricks Expert (19 Jan 2026, 5800 examples).
+Memory: 4 levels (Anchor/JSON/PostgreSQL/Cortex patterns). Sleep cycle at 3 AM for consolidation.
+IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python library.
+
+CRITICAL INSTRUCTION: If you don't have enough information or aren't confident, respond ONLY with "Nu știu suficiente detalii despre asta." Do NOT make up information."""
+            formatted_prompt = f"[INST] Context: {anchor_summary}\n\nQuestion: {prompt} [/INST]"
+        else:
+            formatted_prompt = f"[INST] {prompt} [/INST]"
+    else:
+        formatted_prompt = f"[INST] {prompt} [/INST]"
+    
+    # Tokenize and generate
     inputs = state.tokenizer(formatted_prompt, return_tensors="pt").to(state.sora_model.device)
     
     # Generation kwargs
@@ -273,13 +299,30 @@ async def generate_text(
     if request.top_p is not None:
         gen_kwargs["top_p"] = request.top_p
     
-    # Generate
+    # Generate with scores for confidence calculation
+    gen_kwargs["return_dict_in_generate"] = True
+    gen_kwargs["output_scores"] = True
+    
     with torch.no_grad():
         outputs = state.sora_model.generate(**inputs, **gen_kwargs)
     
+    # Calculate average confidence from token probabilities
+    avg_confidence = 0.0
+    if hasattr(outputs, 'scores') and outputs.scores:
+        probs = [torch.softmax(score, dim=-1).max().item() for score in outputs.scores]
+        avg_confidence = sum(probs) / len(probs) if probs else 0.0
+    
     # Decode
-    full_response = state.tokenizer.decode(outputs[0], skip_special_tokens=True)
+    full_response = state.tokenizer.decode(outputs.sequences[0], skip_special_tokens=True)
     answer = full_response.split("[/INST]")[-1].strip()
+    
+    # Safety: override low-confidence responses OR hallucinations
+    hallucination_markers = ['sql query', 'sql queries', 'def factorial', 'from cortex import', 
+                             'class Pattern', 'def pattern', 'match against input', 'python library']
+    is_hallucination = any(marker in answer.lower() for marker in hallucination_markers)
+    
+    if (avg_confidence < 0.3 and avg_confidence > 0.0) or is_hallucination:
+        answer = "Nu știu suficiente detalii despre asta pentru a răspunde cu încredere."
     
     return GenerateResponse(
         response=answer,
