@@ -257,10 +257,17 @@ async def generate_text(
         top_patterns = results[:request.top_k_patterns]
         
         if top_patterns:
-            # Build compact context with pattern names only
-            pattern_names = [p['name'] for p in top_patterns]
-            # DISABLE pattern injection - patterns should consolidate during sleep (24h)
-            # Pattern retrieval logged for metrics but NOT injected into prompt
+            # Hybrid: inject ONLY high-confidence patterns (> 0.9) to prevent hallucinations
+            high_confidence_patterns = [p for p in top_patterns if p['confidence'] >= 0.9]
+            
+            if high_confidence_patterns:
+                pattern_context = "\n".join([
+                    f"- {p['name']}: {p['description']}" 
+                    for p in high_confidence_patterns[:3]  # Max 3 patterns to avoid context pollution
+                ])
+                patterns_used = [p['name'] for p in high_confidence_patterns[:3]]
+            else:
+                pattern_context = None
     
     # Prepare prompt with anchor (if loaded)
     if state.anchor:
@@ -278,7 +285,12 @@ Memory: 4 levels (Anchor/JSON/PostgreSQL/Cortex patterns). Sleep cycle at 3 AM f
 IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python library.
 
 CRITICAL INSTRUCTION: If you don't have enough information or aren't confident, respond ONLY with "Nu știu suficiente detalii despre asta." Do NOT make up information."""
-            formatted_prompt = f"[INST] Context: {anchor_summary}\n\nQuestion: {prompt} [/INST]"
+            
+            # Add high-confidence patterns if available
+            if 'pattern_context' in locals() and pattern_context:
+                formatted_prompt = f"[INST] Context: {anchor_summary}\n\nRelevant patterns (confidence > 0.9):\n{pattern_context}\n\nQuestion: {prompt} [/INST]"
+            else:
+                formatted_prompt = f"[INST] Context: {anchor_summary}\n\nQuestion: {prompt} [/INST]"
         else:
             formatted_prompt = f"[INST] {prompt} [/INST]"
     else:
