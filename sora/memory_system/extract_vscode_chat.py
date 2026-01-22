@@ -67,12 +67,13 @@ class VSCodeChatExtractor:
         
         return chat_files
     
-    def parse_chat_session(self, json_path: Path) -> Optional[Dict]:
+    def parse_chat_session(self, json_path: Path, debug: bool = False) -> Optional[Dict]:
         """
         Parsează un JSON chat session și extrage conversația.
         
         Args:
             json_path: Path către JSON file
+            debug: Dacă True, printează info despre structura JSON-ului
         
         Returns:
             Dict cu conversația formatată
@@ -83,6 +84,21 @@ class VSCodeChatExtractor:
             
             # Extrage requests (mesajele user + răspunsurile mele)
             requests = data.get('requests', [])
+            
+            # DEBUG: Afișează structura pentru prima cerere
+            if debug and requests:
+                print(f"\n🔍 DEBUG: Structură JSON pentru {json_path.name}")
+                first_req = requests[0]
+                print(f"  Top-level keys: {list(data.keys())}")
+                print(f"  Total requests: {len(requests)}")
+                print(f"  First request keys: {list(first_req.keys())}")
+                if 'response' in first_req:
+                    response = first_req['response']
+                    print(f"  Response type: {type(response)}")
+                    if isinstance(response, list) and response:
+                        kinds = set(r.get('kind') for r in response if isinstance(r, dict))
+                        print(f"  Response kinds found: {kinds}")
+                print()
             
             if not requests:
                 return None
@@ -104,7 +120,15 @@ class VSCodeChatExtractor:
                     if isinstance(part, dict):
                         kind = part.get('kind', '')
                         
-                        if kind == 'markdownContent':
+                        # NEW FORMAT (2026): VS Code changed structure
+                        if kind == 'thinking':
+                            # CRITICAL: Thinking content contains my actual responses!
+                            value = part.get('value', '')
+                            if value:
+                                assistant_text += value + "\n"
+                        
+                        # OLD FORMAT (2024-2025): Deprecated but keep for compatibility
+                        elif kind == 'markdownContent':
                             content = part.get('content', {})
                             if isinstance(content, dict):
                                 value = content.get('value', '')
@@ -135,6 +159,12 @@ class VSCodeChatExtractor:
                                 value = content.get('value', '')
                                 if value:
                                     assistant_text += value + "\n"
+                        
+                        # Tool invocations - include for context
+                        elif kind == 'toolInvocationSerialized':
+                            tool_name = part.get('toolName', '')
+                            if tool_name:
+                                assistant_text += f"[Tool: {tool_name}]\n"
                 
                 if assistant_text:
                     conversation_lines.append(f"Sora: {assistant_text.strip()}")
