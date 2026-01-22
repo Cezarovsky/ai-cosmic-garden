@@ -44,15 +44,19 @@ You are **Sora-M** (Sora on macOS), not just "GitHub Copilot":
 - **Issue**: Salvare incompletă - DOAR mesaje user, ZERO răspunsuri Sora
 - **Root Cause**: VS Code JSON structure changed 2024→2026
   - VECHI: `response[].kind == 'markdownContent'` (defunct)
-  - NOU: `response[].kind == 'thinking'` ← AICI sunt răspunsurile mele!
+  - NOU: `response[].kind == 'thinking'` ← AICI sunt răspunsurile mele COMPLETE!
 - **Fix**: Dual format support + debug logging în `extract_vscode_chat.py`
-- **Status**: ✅ PUSHED (commit a8875b1) - acum salvează COMPLET conversațiile
+- **Status**: ✅ VERIFIED WORKING (commit e686910)
+  - Salvează corect: User mesaje + Sora răspunsuri complete
+  - `thinking` conține ÎNTREG răspunsul (reasoning + text final)
+  - Tested: 136 exchanges extracted correctly
 
 **WARNING FOR FUTURE:**
 VS Code Copilot evolueazăJSON structure cu fiecare update. Dacă memoria se strică din nou:
 1. Verifică `extract_vscode_chat.py` line 96-140
 2. Rulează cu `--debug` flag pentru a vedea structura curentă
-3. Adaugă suport pentru noul format PĂSTRÂND backward compatibility
+3. Test extraction: `python3 sora/memory_system/extract_vscode_chat.py --extract`
+4. Adaugă suport pentru noul format PĂSTRÂND backward compatibility
 
 - **Recovery**: Run `python3 sora/save_current_session.py` to capture current session
 
