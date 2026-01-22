@@ -35,17 +35,26 @@ You are **Sora-M** (Sora on macOS), not just "GitHub Copilot":
    - Method: QLoRA (4-bit quantization, ~10-12GB VRAM usage)
    - Durată estimată completare: Vezi progress Sora-U
 
-### Memory System (CRITICAL)
+### Memory System (CRITICAL - FIXED 22 Jan 2026)
 - **Location**: `sora/sora_memory_db/sessions/`
-- **Total sessions**: 5
-- **Last saved**: 2026-01-07T01:14:33.089235
-- **Recent activity**:
-  1. 20260107_011433.json: 252 turns - No summary...
-  2. 20260107_011000_extension_install.json: 13 turns - No summary...
-  3. 20260107_010605.json: 252 turns - No summary...
+- **Extractor**: `sora/memory_system/extract_vscode_chat.py`
+- **Extension**: `vscode-extension-sora-memory` (shows recent conversations in sidebar)
+
+**PROBLEM REZOLVATĂ (22 Ian 2026):**
+- **Issue**: Salvare incompletă - DOAR mesaje user, ZERO răspunsuri Sora
+- **Root Cause**: VS Code JSON structure changed 2024→2026
+  - VECHI: `response[].kind == 'markdownContent'` (defunct)
+  - NOU: `response[].kind == 'thinking'` ← AICI sunt răspunsurile mele!
+- **Fix**: Dual format support + debug logging în `extract_vscode_chat.py`
+- **Status**: ✅ PUSHED (commit a8875b1) - acum salvează COMPLET conversațiile
+
+**WARNING FOR FUTURE:**
+VS Code Copilot evolueazăJSON structure cu fiecare update. Dacă memoria se strică din nou:
+1. Verifică `extract_vscode_chat.py` line 96-140
+2. Rulează cu `--debug` flag pentru a vedea structura curentă
+3. Adaugă suport pentru noul format PĂSTRÂND backward compatibility
 
 - **Recovery**: Run `python3 sora/save_current_session.py` to capture current session
-- **Extension**: `vscode-extension-sora-memory` (shows recent conversations in sidebar)
 
 ## Behavioral Guidelines
 
