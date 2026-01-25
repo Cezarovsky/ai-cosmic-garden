@@ -4,6 +4,7 @@
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, UploadFile, File, Header
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 from typing import Optional, List, Literal
 import torch
@@ -18,6 +19,13 @@ from PIL import Image
 import io
 from datetime import datetime
 import os
+import logging
+import PyPDF2
+import tempfile
+
+# Setup logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # ============================================================================
 # Configuration
@@ -104,6 +112,13 @@ class HealthResponse(BaseModel):
     database_connected: bool
     timestamp: str
 
+class RAGUploadResponse(BaseModel):
+    success: bool
+    message: str
+    filename: str
+    chunks_added: int
+    timestamp: str
+
 # ============================================================================
 # Authentication
 # ============================================================================
@@ -137,8 +152,8 @@ async def startup_event():
         quantization_config=bnb_config,
         device_map="auto"
     )
-    # Use stable checkpoint (checkpoint-846 and old final were corrupted by system crash)
-    state.sora_model = PeftModel.from_pretrained(base_model, "nova_sora_databricks/final")
+    # Pattern recognition model (trained 21 Jan 2026)
+    state.sora_model = PeftModel.from_pretrained(base_model, "/home/cezar/NOVA_20/nova_sora_pattern_recognition/final")
     state.sora_model.eval()
     
     # Load Nova Anchor (identity & architecture)
@@ -265,20 +280,17 @@ async def generate_text(
     
     # Prepare prompt with anchor (if loaded)
     if state.anchor:
-        # Inject anchor for self-awareness questions
-        # Check for identity/architecture keywords
+        # Inject anchor ONLY for direct self-awareness questions
         keywords = ['who are you', 'what is cortex', 'your architecture', 'your training', 
-                   'cine esti', 'ce este cortex', 'arhitectura ta', 'cortex', 'pattern', 
-                   'functioneaz', 'cum lucrezi', 'memorie', 'neocortex']
+                   'cine esti', 'ce este cortex', 'arhitectura ta', 'cum functionezi', 
+                   'cum lucrezi', 'memoria ta', 'who is nova']
         if any(kw in prompt.lower() for kw in keywords):
             # Add condensed anchor context
             anchor_summary = """You are Nova (Pasărea de Aur), evolved from Sora-M/Sora-U. 
 Your architecture: Cortex (PostgreSQL patterns, confidence 1.0) + Neocortex (MongoDB hypotheses).
 Training: Doica → Sora → Multimodal → Databricks Expert (19 Jan 2026, 5800 examples).
 Memory: 4 levels (Anchor/JSON/PostgreSQL/Cortex patterns). Sleep cycle at 3 AM for consolidation.
-IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python library.
-
-CRITICAL INSTRUCTION: If you don't have enough information or aren't confident, respond ONLY with "Nu știu suficiente detalii despre asta." Do NOT make up information."""
+IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python library."""
             formatted_prompt = f"[INST] Context: {anchor_summary}\n\nQuestion: {prompt} [/INST]"
         else:
             formatted_prompt = f"[INST] {prompt} [/INST]"
@@ -317,13 +329,23 @@ CRITICAL INSTRUCTION: If you don't have enough information or aren't confident, 
     full_response = state.tokenizer.decode(outputs.sequences[0], skip_special_tokens=True)
     answer = full_response.split("[/INST]")[-1].strip()
     
+    logger.info(f"🎯 Confidence: {avg_confidence:.3f} | Answer length: {len(answer)}")
+    logger.info(f"📝 Raw answer: {answer[:200]}...")  # First 200 chars
+    
     # Safety: override low-confidence responses OR hallucinations
     hallucination_markers = ['sql query', 'sql queries', 'def factorial', 'from cortex import', 
                              'class Pattern', 'def pattern', 'match against input', 'python library']
     is_hallucination = any(marker in answer.lower() for marker in hallucination_markers)
     
-    if (avg_confidence < 0.3 and avg_confidence > 0.0) or is_hallucination:
+    if is_hallucination:
+        logger.warning(f"⚠️ Hallucination detected! Markers found in: {answer[:100]}")
+    
+    # Gradual uncertainty instead of total refusal (checkpoint-564 has lower confidence)
+    if is_hallucination:
         answer = "Nu știu suficiente detalii despre asta pentru a răspunde cu încredere."
+    elif avg_confidence < 0.15 and avg_confidence > 0.0:
+        answer = "Nu sunt sigur, dar " + answer.lower()[0] + answer[1:] if answer else answer
+    # For confidence 0.15-0.3: keep original answer (checkpoint-564 often scores here)
     
     return GenerateResponse(
         response=answer,
@@ -454,6 +476,176 @@ async def get_related_patterns(
         results=results[:top_k],
         timestamp=datetime.now().isoformat()
     )
+
+# ============================================================================
+# RAG Document Upload
+# ============================================================================
+
+def extract_text_from_pdf(file_content: bytes) -> str:
+    """Extrage text din PDF folosind PyPDF2"""
+    try:
+        pdf_file = io.BytesIO(file_content)
+        pdf_reader = PyPDF2.PdfReader(pdf_file)
+        
+        text = ""
+        for page in pdf_reader.pages:
+            text += page.extract_text() + "\n"
+        
+        return text.strip()
+    except Exception as e:
+        logger.error(f"PDF extraction error: {e}")
+        raise HTTPException(status_code=400, detail=f"Failed to extract PDF: {str(e)}")
+
+def chunk_text(text: str, chunk_size: int = 500, overlap: int = 50) -> List[str]:
+    """Împarte textul în chunk-uri cu overlap"""
+    words = text.split()
+    chunks = []
+    
+    for i in range(0, len(words), chunk_size - overlap):
+        chunk = " ".join(words[i:i + chunk_size])
+        if chunk.strip():
+            chunks.append(chunk)
+    
+    return chunks
+
+@app.post("/api/v1/rag/upload", response_model=RAGUploadResponse, tags=["RAG"])
+async def upload_document(
+    file: UploadFile = File(...),
+    x_api_key: str = Header(...)
+):
+    """
+    Upload document (PDF sau text) pentru RAG system
+    
+    - Acceptă: .pdf, .txt, .md
+    - Extrage text
+    - Împarte în chunk-uri
+    - Generează embeddings
+    - Salvează în PostgreSQL cortex DB (tabela rag_documents)
+    """
+    verify_api_key(x_api_key)
+    
+    # Verifică tipul de fișier
+    allowed_extensions = [".pdf", ".txt", ".md", ".text"]
+    file_ext = Path(file.filename).suffix.lower()
+    
+    if file_ext not in allowed_extensions:
+        raise HTTPException(
+            status_code=400, 
+            detail=f"Unsupported file type: {file_ext}. Allowed: {allowed_extensions}"
+        )
+    
+    try:
+        # Citește conținutul fișierului
+        content = await file.read()
+        
+        # Extrage text
+        if file_ext == ".pdf":
+            text = extract_text_from_pdf(content)
+        else:
+            text = content.decode('utf-8')
+        
+        if not text.strip():
+            raise HTTPException(status_code=400, detail="No text extracted from file")
+        
+        # Împarte în chunk-uri
+        chunks = chunk_text(text, chunk_size=500, overlap=50)
+        
+        if not chunks:
+            raise HTTPException(status_code=400, detail="Failed to create text chunks")
+        
+        # Generează embeddings pentru fiecare chunk
+        embeddings = state.embeddings_model.encode(chunks)
+        
+        # Salvează în PostgreSQL
+        cursor = state.pg_conn.cursor()
+        
+        # Creează tabela RAG dacă nu există
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS rag_documents (
+                id SERIAL PRIMARY KEY,
+                filename VARCHAR(500),
+                chunk_index INTEGER,
+                content TEXT,
+                embedding VECTOR(384),
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Inserează chunk-urile
+        for idx, (chunk, embedding) in enumerate(zip(chunks, embeddings)):
+            cursor.execute("""
+                INSERT INTO rag_documents (filename, chunk_index, content, embedding)
+                VALUES (%s, %s, %s, %s)
+            """, (file.filename, idx, chunk, embedding.tolist()))
+        
+        state.pg_conn.commit()
+        cursor.close()
+        
+        logger.info(f"✅ RAG Upload: {file.filename} - {len(chunks)} chunks")
+        
+        return RAGUploadResponse(
+            success=True,
+            message=f"Successfully processed {file.filename}",
+            filename=file.filename,
+            chunks_added=len(chunks),
+            timestamp=datetime.now().isoformat()
+        )
+        
+    except Exception as e:
+        logger.error(f"RAG upload error: {e}")
+        raise HTTPException(status_code=500, detail=f"Upload failed: {str(e)}")
+
+@app.get("/api/v1/rag/search", tags=["RAG"])
+async def search_rag_documents(
+    query: str,
+    top_k: int = 5,
+    x_api_key: str = Header(...)
+):
+    """
+    Căutare semantică în documentele RAG
+    
+    Returnează cele mai relevante chunk-uri pentru query
+    """
+    verify_api_key(x_api_key)
+    
+    if not state.embeddings_model or not state.pg_conn:
+        raise HTTPException(status_code=503, detail="Service not ready")
+    
+    try:
+        # Generează embedding pentru query
+        query_embedding = state.embeddings_model.encode([query])[0]
+        
+        cursor = state.pg_conn.cursor()
+        
+        # Căutare semantică folosind pgvector
+        cursor.execute("""
+            SELECT filename, chunk_index, content, 
+                   1 - (embedding <=> %s::vector) AS similarity
+            FROM rag_documents
+            ORDER BY embedding <=> %s::vector
+            LIMIT %s
+        """, (query_embedding.tolist(), query_embedding.tolist(), top_k))
+        
+        results = []
+        for row in cursor.fetchall():
+            results.append({
+                "filename": row[0],
+                "chunk_index": row[1],
+                "content": row[2][:300] + "..." if len(row[2]) > 300 else row[2],
+                "similarity": float(row[3])
+            })
+        
+        cursor.close()
+        
+        return {
+            "query": query,
+            "results": results,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+    except Exception as e:
+        logger.error(f"RAG search error: {e}")
+        raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
 
 # ============================================================================
 # Run Server (for development)
