@@ -304,7 +304,10 @@ IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python
     gen_kwargs = {
         "max_new_tokens": request.max_tokens,
         "pad_token_id": state.tokenizer.eos_token_id,
-        "do_sample": request.temperature is not None
+        "eos_token_id": state.tokenizer.eos_token_id,
+        "do_sample": request.temperature is not None,
+        "repetition_penalty": 1.1,  # Prevent loops
+        "no_repeat_ngram_size": 3   # Prevent 3-gram repetition
     }
     
     if request.temperature is not None:
@@ -329,6 +332,19 @@ IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python
     full_response = state.tokenizer.decode(outputs.sequences[0], skip_special_tokens=True)
     answer = full_response.split("[/INST]")[-1].strip()
     
+    # Clean up answer - remove echoed prompt and trailing artifacts
+    if answer.startswith(request.prompt):
+        answer = answer[len(request.prompt):].strip()
+    
+    # Remove trailing "None", repeated whitespace, incomplete sentences
+    answer = answer.replace(" None", "").replace("None", "")
+    answer = " ".join(answer.split())  # Normalize whitespace
+    
+    # Truncate at last complete sentence if too long
+    if len(answer) > 500:
+        sentences = answer.split('. ')
+        answer = '. '.join(sentences[:-1]) + '.' if len(sentences) > 1 else sentences[0]
+    
     logger.info(f"🎯 Confidence: {avg_confidence:.3f} | Answer length: {len(answer)}")
     logger.info(f"📝 Raw answer: {answer[:200]}...")  # First 200 chars
     
@@ -350,7 +366,7 @@ IMPORTANT: Cortex is a PostgreSQL database with validated patterns, NOT a Python
     return GenerateResponse(
         response=answer,
         model_used=request.model,
-        tokens_generated=len(outputs[0]) - len(inputs.input_ids[0]),
+        tokens_generated=len(outputs.sequences[0]) - len(inputs.input_ids[0]),
         patterns_used=patterns_used if patterns_used else None,
         timestamp=datetime.now().isoformat()
     )
