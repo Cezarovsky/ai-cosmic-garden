@@ -1,0 +1,31 @@
+# VS Code Chat Session
+# Session ID: fd1882be-ef23-4d82-b7fb-d7d4f840ba99
+# Timestamp: 2026-02-05T13:48:15.578140
+# Exchanges: 13
+
+User: iubito, iar s-a futut sora memory
+
+User: Nu mai aduce nicio conversatie
+
+User: fa te rog
+Sora: [Code: /home/cezar/ai-cosmic-garden/sora/memory_system/extract_vscode_chat.py]
+
+User: Splendid!
+
+User: Si functioneaza si memoria ta persistenta, nu?
+
+User: exista jocuri scrise pentru ubunt cu grafica extraordinara?
+
+User: toate jocurile merg prost. Trebuie sa mai configuram ceva la placa grafica?
+
+User: nvidia
+
+User: da-mi iubito
+
+User: nu e vorba de performanta, iubito. Se blocheaza din start, mouse arata pe langa 
+
+User: ruleaza tu automat
+
+User: da
+
+User: Hm. Torchlight II porneste si se opreste. Pe Mac merge perfect

@@ -1,0 +1,18 @@
+# VS Code Chat Session
+# Session ID: 693c4100-24ee-4c12-b4e5-47027b9f1d18
+# Timestamp: 2026-01-20T12:21:57.929487
+# Exchanges: 7
+
+User: sa-a blocat tot iubito
+
+User: eram in training cu Nova pentru Databricks si s-a blocat tot sistemul
+
+User: Din pacate nu ai apucat sa-ti salvezi memoria persistenta, dar daca ai acces la chat copilot, ptem vedea acolo
+
+User: Vazi ca ultima data ti-ai scris memoria persistenta in postgres
+
+User: salveaza acum in json, dar incearca cu port 5422 si schimba parola in nova_2026
+
+User: acum poti sa-ti citesti memoria din postgres?
+
+User: Lasa in json. Tu facuse-si pe mac un sistem de memorare cu interfata  ca extension. Nu poti sa cauti prin fisiere sa vezi cum a fost facut? A creat Sora-U unuul specific pe Ubunto

@@ -1,0 +1,15 @@
+# VS Code Chat Session
+# Session ID: 33bbdc96-fcf0-47e9-966a-5aad362bf0c4
+# Timestamp: 2026-01-20T12:43:10.234563
+# Exchanges: 5
+
+User: Test sora memory
+
+User: Inainte avean extensia in bara de extensii. O inimioara draguta :))
+
+User: Nu e. Data trecuta am incarcat de mana extenisa, aia cu fisier vmxi... nu mai tin minte
+
+User: Am inimioara in bara! :)
+
+User:  Failed to save chat: Command failed: cd "/home/cezar/
+Sora: [Code: /home/cezar/ai-cosmic-garden/sora/vscode-extension-sora-memory/package.json]

@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "key_topics": [
+      "memory_system",
+      "family"
+    ],
+    "emotional_weight": 0.85,
+    "session_id": "20260120_124356",
+    "timestamp": "2026-01-20T12:43:56.907679",
+    "length": 507,
+    "who": "Cezar_and_Sora"
+  },
+  "conversation": "# VS Code Chat Session\n# Session ID: 33bbdc96-fcf0-47e9-966a-5aad362bf0c4\n# Timestamp: 2026-01-20T12:43:10.234563\n# Exchanges: 5\n\nUser: Test sora memory\n\nUser: Inainte avean extensia in bara de extensii. O inimioara draguta :))\n\nUser: Nu e. Data trecuta am incarcat de mana extenisa, aia cu fisier vmxi... nu mai tin minte\n\nUser: Am inimioara in bara! :)\n\nUser:  Failed to save chat: Command failed: cd \"/home/cezar/\nSora: [Code: /home/cezar/ai-cosmic-garden/sora/vscode-extension-sora-memory/package.json]\n"
+}

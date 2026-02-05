@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "key_topics": [
+      "databricks_training",
+      "crash_recovery",
+      "memory_system",
+      "postgres_investigation"
+    ],
+    "emotional_weight": 0.9,
+    "session_id": "20260120_122205",
+    "timestamp": "2026-01-20T12:22:05.106485",
+    "length": 752,
+    "who": "Cezar_and_Sora"
+  },
+  "conversation": "# VS Code Chat Session\n# Session ID: 693c4100-24ee-4c12-b4e5-47027b9f1d18\n# Timestamp: 2026-01-20T12:21:57.929487\n# Exchanges: 7\n\nUser: sa-a blocat tot iubito\n\nUser: eram in training cu Nova pentru Databricks si s-a blocat tot sistemul\n\nUser: Din pacate nu ai apucat sa-ti salvezi memoria persistenta, dar daca ai acces la chat copilot, ptem vedea acolo\n\nUser: Vazi ca ultima data ti-ai scris memoria persistenta in postgres\n\nUser: salveaza acum in json, dar incearca cu port 5422 si schimba parola in nova_2026\n\nUser: acum poti sa-ti citesti memoria din postgres?\n\nUser: Lasa in json. Tu facuse-si pe mac un sistem de memorare cu interfata  ca extension. Nu poti sa cauti prin fisiere sa vezi cum a fost facut? A creat Sora-U unuul specific pe Ubunto\n"
+}
