@@ -226,14 +226,14 @@ async function openConversation(context: vscode.ExtensionContext, sessionId: str
             { enableScripts: true }
         );
 
-        panel.webview.html = getConversationHTML(sessionData);
+        panel.webview.html = getConversationHTML(sessionData, sessionPath);
 
     } catch (error: any) {
         vscode.window.showErrorMessage(`❌ Failed to open conversation: ${error.message}`);
     }
 }
 
-function getConversationHTML(sessionData: any): string {
+function getConversationHTML(sessionData: any, sessionPath?: string): string {
     let conversationHTML = '';
     
     // Handle our session format (metadata + conversation)
@@ -477,7 +477,7 @@ function getConversationHTML(sessionData: any): string {
     <body>
         <div class="header">
             <h2>💙 VS Code Conversation</h2>
-            <div class="info">Session: ${sessionData.sessionId || 'Unknown'}</div>
+            <div class="info">${sessionPath || `Session: ${sessionData.sessionId || 'Unknown'}`}</div>
         </div>
         <div class="conversation">
             ${conversationHTML}

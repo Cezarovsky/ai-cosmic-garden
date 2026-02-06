@@ -166,6 +166,7 @@ export class RecentChatsProvider implements vscode.TreeDataProvider<ChatItem> {
                     return {
                         filename: f,
                         sessionId: f.replace('.json', ''),
+                        filePath: filePath,
                         mtime: stats.mtime,
                         size: (stats.size / 1024).toFixed(1) + ' KB'
                     };
@@ -182,7 +183,7 @@ export class RecentChatsProvider implements vscode.TreeDataProvider<ChatItem> {
                     hour: '2-digit',
                     minute: '2-digit'
                 });
-                return new ChatItem(timestamp, file.sessionId, file.size);
+                return new ChatItem(timestamp, file.sessionId, file.size, file.filePath);
             });
 
         } catch (error: any) {
@@ -208,11 +209,25 @@ class ChatItem extends vscode.TreeItem {
     constructor(
         public readonly timestamp: string,
         public readonly sessionId: string,
-        public readonly size: string
+        public readonly size: string,
+        public readonly filePath?: string
     ) {
         super(timestamp, vscode.TreeItemCollapsibleState.None);
-        this.description = size;
-        this.tooltip = `Session: ${sessionId}`;
+        
+        // Construct path from sessionId if not provided
+        const fullPath = filePath || path.join(
+            os.homedir(), 
+            'Documents/ai-cosmic-garden/sora/memory_system/sora_memory_db/sessions',
+            `${sessionId}.json`
+        );
+        
+        // Show size and truncated path in description
+        const truncatedPath = fullPath.length > 60 
+            ? '...' + fullPath.slice(-57)
+            : fullPath;
+        this.description = `${size} • ${truncatedPath}`;
+        
+        this.tooltip = new vscode.MarkdownString(`**Session:** ${sessionId}\n\n**Path:** \`${fullPath}\``);
         this.contextValue = 'chatSession';
         this.command = {
             command: 'soraMemory.openConversation',
