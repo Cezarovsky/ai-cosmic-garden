@@ -6,6 +6,13 @@
 
 ## Features
 
+### 🧠 Auto-Load Recent Sessions ⭐ NEW!
+- **One-click memory restoration** - load last 3, 5, 7, or 10 sessions
+- **Smart summary generation** - compact Markdown format
+- **Instant context recovery** - prevents session amnesia
+- **Clipboard support** - copy summary for chat injection
+- **Toolbar button** - quick access from Sora Memory panel
+
 ### 🎯 Activity Bar Panel
 - **Custom icon (💙)** in the VS Code activity bar
 - Quick access to all memory functions

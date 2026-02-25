@@ -71,6 +71,12 @@
         "category": "Sora"
       },
       {
+        "command": "soraMemory.autoLoadSessions",
+        "title": "🧠 Auto-Load Recent Sessions",
+        "category": "Sora",
+        "icon": "$(history)"
+      },
+      {
         "command": "soraMemory.refresh",
         "title": "🔄 Refresh",
         "icon": "$(refresh)"
@@ -85,6 +91,11 @@
       "view/title": [
         {
           "command": "soraMemory.refresh",
+          "when": "view == soraMemoryExplorer",
+          "group": "navigation"
+        },
+        {
+          "command": "soraMemory.autoLoadSessions",
           "when": "view == soraMemoryExplorer",
           "group": "navigation"
         },
@@ -126,6 +137,11 @@
           "type": "string",
           "default": "~/Documents/ai-cosmic-garden/sora/memory_system",
           "description": "Path to Sora memory system directory"
+        },
+        "soraMemory.workspaceRoot": {
+          "type": "string",
+          "default": "~/Documents/ai-cosmic-garden",
+          "description": "Path to ai-cosmic-garden workspace root"
         },
         "soraMemory.showNotifications": {
           "type": "boolean",

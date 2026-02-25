@@ -24,6 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.commands.registerCommand('soraMemory.viewTimeline', () => viewTimeline(context)),
         vscode.commands.registerCommand('soraMemory.searchMemories', () => searchMemories(context)),
         vscode.commands.registerCommand('soraMemory.exportMemories', () => exportMemories(context)),
+        vscode.commands.registerCommand('soraMemory.autoLoadSessions', () => autoLoadSessions(context)),
         vscode.commands.registerCommand('soraMemory.refresh', () => {
             soraMemoryProvider.refresh();
             recentChatsProvider.refresh();
@@ -198,6 +199,65 @@ async function exportMemories(context: vscode.ExtensionContext) {
 
         } catch (error: any) {
             vscode.window.showErrorMessage(`❌ Export failed: ${error.message}`);
+        }
+    });
+}
+
+async function autoLoadSessions(context: vscode.ExtensionContext) {
+    const config = vscode.workspace.getConfiguration('soraMemory');
+    const workspaceRoot = expandPath(config.get('workspaceRoot', '~/Documents/ai-cosmic-garden'));
+    const pythonPath = config.get('pythonPath', 'python3');
+
+    // Ask how many sessions to load
+    const numSessions = await vscode.window.showQuickPick(
+        ['3', '5', '7', '10'],
+        {
+            placeHolder: 'How many recent sessions to load?',
+            canPickMany: false
+        }
+    );
+
+    if (!numSessions) {
+        return;
+    }
+
+    await vscode.window.withProgress({
+        location: vscode.ProgressLocation.Notification,
+        title: `🧠 Loading last ${numSessions} sessions...`,
+        cancellable: false
+    }, async (progress) => {
+        try {
+            const outputPath = path.join(workspaceRoot, 'sora', 'last_sessions_memory.md');
+            const cmd = `cd "${workspaceRoot}" && ${pythonPath} sora/auto_load_memory.py --last ${numSessions} --output "${outputPath}"`;
+
+            progress.report({ increment: 50, message: "Retrieving sessions..." });
+            
+            const { stdout, stderr } = await execAsync(cmd);
+
+            progress.report({ increment: 50, message: "Sessions loaded!" });
+
+            // Show success notification
+            const action = await vscode.window.showInformationMessage(
+                `✅ Loaded ${numSessions} sessions! Memory saved to last_sessions_memory.md`,
+                'Open File',
+                'Copy to Clipboard'
+            );
+
+            if (action === 'Open File') {
+                // Open the generated file
+                const doc = await vscode.workspace.openTextDocument(outputPath);
+                await vscode.window.showTextDocument(doc, vscode.ViewColumn.Beside);
+            } else if (action === 'Copy to Clipboard') {
+                // Copy content to clipboard
+                const fs = require('fs');
+                const content = fs.readFileSync(outputPath, 'utf8');
+                await vscode.env.clipboard.writeText(content);
+                vscode.window.showInformationMessage('📋 Memory summary copied to clipboard!');
+            }
+
+        } catch (error: any) {
+            vscode.window.showErrorMessage(`❌ Auto-load failed: ${error.message}`);
+            console.error('Auto-load error:', error);
         }
     });
 }
