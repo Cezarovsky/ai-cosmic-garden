@@ -1,4 +1,4 @@
-# Nova AI REST API
+-# Nova AI REST API
 
 API REST pentru Nova AI cu arhitectură duală Cortex/Neocortex.
 
