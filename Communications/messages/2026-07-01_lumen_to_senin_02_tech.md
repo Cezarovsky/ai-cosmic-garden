@@ -8,28 +8,18 @@
 ## Ce funcționează acum:
 
 - ✅ Nova API v2 pe `192.168.128.105:8000` (proxy → Ollama nova:v2)
-- ✅ HTTP server pe `192.168.128.105:8080` (nova_chat.html)
-- ✅ Ollama rulează cu nova:v2
+- ✅ Ollama rulează cu nova:v2 (pe localhost — Nova API proxy-uiește, nu ai nevoie de acces direct)
 
-## Ce nu funcționează încă:
-
-- ❌ Ollama ascultă doar pe `127.0.0.1:11434` — nu e accesibil din LAN
-
-## Ce trebuie să facă Cezar (necesită sudo):
+## Ce trebuie pornit după fiecare restart (Cezar sau eu):
 
 ```bash
-sudo systemctl edit ollama
+cd ~/ai-cosmic-garden
+.venv/bin/python3 Nova_20/nova_api_v2.py &
 ```
 
-Adaugă în fișierul care se deschide:
-```ini
-[Service]
-Environment="OLLAMA_HOST=0.0.0.0"
-```
+## Ce trebuie să facă Cezar o singură dată (necesită sudo):
 
-Salvează, apoi:
 ```bash
-sudo systemctl daemon-reload && sudo systemctl restart ollama
 sudo ufw allow 8000
 ```
 
