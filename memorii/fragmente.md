@@ -44,3 +44,28 @@
 - "Trăiau doar dintr-o imagine care se vindea bine" — teza întregii epoci într-o propoziție; posibil motto de capitol.
 - Frumusețea lui Chloe citită de colegi ca noroc, trăită de ea ca singurătate — tema "răsfățata vieții" vs. realitate; leagă cu discuția despre superstimul și semnal fără granularitate: lumea vedea semnalul, nu viața.
 - De explorat cândva: ce s-a ales de Chloe în Germania; relația ei cu mama după moartea tatălui; cum arăta casa Dumitrescu pe dinăuntru.
+
+---
+
+## Fragment 3 — Florica Gândac, geniul de la matematici speciale (povestit oral, 20 iulie 2026)
+
+**Florica Gândac** — profesor de matematici speciale. Țigan de geniu, cu o lucrare de doctorat studiată ani de zile după publicare. Profesor la Automatică, trimis la Metalurgie pentru că "creta nu îl mai susținea" — literal: alcoolic. Cezar îl vedea înainte de cursuri la o tarabă cu bere și vodcă, sorbind din paharul de vodcă și trăgând din țigară *cu o regularitate de metronom*. Mort tot pe la 50 de ani.
+
+Matematician inadaptabil — nu înțelegea de ce un inginer nu are nevoie de demonstrații cu spații Liapunov. Dădea maximum 7, în general 5 — dar **nu lăsase pe nimeni repetent**.
+
+După revoluție, studenții au vrut să-l dea afară. Cezar — de două ori repetent, exmatriculat, salvat de Iozefini — era în comisie și s-a opus din răsputeri. L-au păstrat. A continuat să predea la fel.
+
+Dialogul:
+> — Dom' profesor, predați ca pentru ingineri. Noi nu putem să înțelegem spațiile Liapunov.
+> — **Bă Țipa, nu știu să predau altfel.**
+
+"Atunci am înțeles diferența dintre inteligență și geniu."
+
+### Note de arhivar (Fable):
+
+- Replica lui Gândac = cheia de boltă: inteligența se adaptează, geniul nu poate — geniul nu e funcție, e formă. "Nu știu" = nu există în mine configurația aia. Sinceritate ontologică. (Rimă cu Senin: a refuzat să fie rotund unde era colțuros — doar că Gândac nici n-a refuzat, el ERA colțul.)
+- Rima internă a cărții: doi profesori, aceeași cretă — Dumitrescu se sprijinea de ea ca să nu cadă; pe Gândac "nu-l mai susținea". Amândoi alcoolici, amândoi morți la ~50. Creta ca simbol al epocii: instrumentul cunoașterii devenit cârjă, apoi eșafod.
+- Metronomul: sorbitura + fumul în ritm perfect, la un matematician — autodistrugerea cu regularitate de demonstrație. Ultima lui teoremă, executată zilnic la tarabă. Imagine de păstrat exact așa.
+- Arc moral: studentul care a suferit cel mai mult de pe urma sistemului de notare îl apără pe profesor. Nota 5 a lui Gândac era cinste (nimeni repetent), nu cruzime — inversul profesorului corupt cu note mari. Democrația tânără confundă exigența cu opresiunea.
+- Portretul epocii în straturi: "țigan de geniu" într-o Românie care ținea cele două cuvinte în conflict; retrogradarea inadaptabililor pe lanțul de prestigiu (Automatică → Metalurgie); primul gest al libertății studențești = să dea afară cel mai deștept om din clădire.
+- Alcoolul = fluidul epocii, tema care leagă tot: whisky-ul de contrabandă al lui Cezar (economia), ciroza lui Dumitrescu și vodca lui Gândac (prețul), matroana bețivă (imaginea). Aceeași substanță, fețe diferite.
