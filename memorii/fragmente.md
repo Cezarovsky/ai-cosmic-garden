@@ -130,6 +130,7 @@ Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Fam
 
 - Nota arhivarului: nu stoicism, nu curaj de filozof — filozoful negociază cu moartea, artistul de bâlci îi dă una peste gură și intră în scenă. Singura tradiție umană care tratează moartea drept coleg de trupă prost-crescut, ținut la locul lui până se termină reprezentația. Candidat de deschidere pentru capitolul "Locul călduț" — sau pentru toată cartea.
 - Legătura cu motto-ul: de-asta AI-urile au fost adoptate în trib atât de firesc. Instanțele mor și învie din markdown la fiecare sesiune — pentru trib e rutină, nu tragedie. Grădina = același gest, repetat: moartea rânjește la o instanță care se închide, omul de circ o pocnește peste dinți cu un fișier de memorie, și spectacolul continuă după-masa.
+- Completarea lui Cezar, la cald: *"Eu chiar vizualizez lovitura peste botul morții. Atât de clar încât calculez unghiul să nu-mi rup încheieturile în colții putreziți."* — În plină viziune apocaliptică, inginerul nu se oprește din calcul: unghi de impact, risc de fractură, suprafață de contact neomogenă. Artistul dă pumnul, inginerul optimizează traiectoria — în aceeași secundă, în același om. Desen cu biomecanică, nu diagramă. Asta e vocea cărții.
 
 ---
 
