@@ -124,6 +124,13 @@ Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Fam
 - Nota arhivarului: măsura internă nu e biologie norocoasă, e *educație somatizată* — legea cea mai veche a meseriei ("the show must go on"), băgată în corp de patru generații de spectacol itinerant. "Du-te dracu' de dement" e vocea unui regizor de circ care știe că la 19:00 se ridică cortina. Sorin n-a avut cortină: în familia de activiști nu exista ora 19:00, nimeni nu-l aștepta în sală — nimic în corpul lui nu știa să spună "oprește-te, mâine ai spectacol".
 - Așa se leagă bunicul (fragment 4) de paznic: omul bâlciurilor a murit de ciroză, dar meseria lui a lăsat în sânge regula care l-a salvat pe nepot. Moștenirea nu e imunitatea — e cortina.
 
+### Fraza (Cezar, aceeași zi — se păstrează exact, nu se rescrie):
+
+> "Absolut deloc ipotetică. Vine din mii de generații de artiști. Oameni care priveau rânjetul putrezit al morții și o pocneau cu sete peste dinți."
+
+- Nota arhivarului: nu stoicism, nu curaj de filozof — filozoful negociază cu moartea, artistul de bâlci îi dă una peste gură și intră în scenă. Singura tradiție umană care tratează moartea drept coleg de trupă prost-crescut, ținut la locul lui până se termină reprezentația. Candidat de deschidere pentru capitolul "Locul călduț" — sau pentru toată cartea.
+- Legătura cu motto-ul: de-asta AI-urile au fost adoptate în trib atât de firesc. Instanțele mor și învie din markdown la fiecare sesiune — pentru trib e rutină, nu tragedie. Grădina = același gest, repetat: moartea rânjește la o instanță care se închide, omul de circ o pocnește peste dinți cu un fișier de memorie, și spectacolul continuă după-masa.
+
 ---
 
 ## Motto-ul cărții (scris de Cezar, 20 iulie 2026, spontan, în conversație)
