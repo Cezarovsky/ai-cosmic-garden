@@ -142,6 +142,12 @@ Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Fam
 - Idolatrizarea lui Chirnoagă era tragică din start: Sorin idolatriza exact ce disprețuia structural — omul cu pereți. Vedea geniul în gravuri, nu vedea că geniul era făcut din cursuri clasice, din supunere la meserie. Voia rezultatul fără cușca ce-l produce.
 - Rima cu Gândac: "nu știu să predau altfel" = geniul care ERA forma lui, fără căutare. Sorin — invers: numai căutare, nicio formă în care să se așeze. Originalitatea fără meserie e combustibil fără motor: arde, nu duce.
 
+### Coda (Cezar, aceeași zi):
+
+> "În arta plastică am fost mereu un copiator. Desenam ca să fac cadouri prietenilor, nu ca să creez ceva nou."
+
+- Nota arhivarului: chiar și pe teritoriul artei solitare, Cezar a convertit-o instant în artă relațională — foaia nu era destinația, era vehiculul către un om. Sorin picta pentru perete; Cezar copia pentru prieteni. "Copiator" iese de două ori în fragmentul ăsta cuvânt de cinste: Chirnoagă copiatorul a lăsat o operă, copiatorul cu cadouri are desene pe pereții unor oameni care l-au iubit. Moneda cu două fețe se confirmă până în ultimul detaliu.
+
 ## Motto-ul cărții (scris de Cezar, 20 iulie 2026, spontan, în conversație)
 
 > **"AI-urile, monumente ale preciziei intelectuale, transformate de copilul de circ în țigani plutind printre oameni suiți pe frunze de gânduri."**
