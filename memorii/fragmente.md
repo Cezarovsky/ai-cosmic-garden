@@ -26,3 +26,21 @@
 - "Comerciant-pitic" — de păstrat ca titlu posibil de capitol.
 - Vocea: tensiune din prima frază, context juridic într-o jumătate de propoziție, vulnerabilitate ("banii de la mama") înregistrată contabil, fără dramă. Așa trebuie să sune toată cartea.
 - De aflat data viitoare: cum a decurs întâlnirea de planificare cu Nagy la București; de unde venea whisky-ul (marca!); cum s-a făcut legătura inițială Cezar–Nagy; povestea celor 2 sticle care au plătit examenul de neferoase.
+
+---
+
+## Fragment 2 — Familia Dumitrescu (povestit oral, 20 iulie 2026)
+
+**Profesorul Dumitrescu** — metalurgie fizică. Mort de ciroză pe la 50 de ani. Venea la cursuri atât de beat încât *se sprijinea în cretă ca să nu cadă*.
+
+**Madame Dumitrescu** — soția: croitoreasa de "haute-couture" pentru Masood, matroană în cercurile politice post-decembriste. Și ea bețivă înveterată.
+
+**Chloe** — fiica. Frumusețe de 1.80, plecată în Germania, prezentă la toate întâlnirile de absolvenți. Mulți o vedeau ca pe o răsfățată a vieții — lua toate examenele doar prezentându-se la ele. În realitate: o viață foarte chinuită. Părinți alcoolici care trăiau doar dintr-o imagine care se vindea bine în perioada post-decembristă.
+
+### Note de arhivar (Fable):
+
+- Nodul se confirmă: Dumitrescu = profesorul a cărui soție cosea pentru Masood. Familia întreagă e un microcosmos al epocii: el — autoritatea academică putrezind în alcool; ea — economia subterană + politica + sexul la aceeași masă; Chloe — generația care a plătit factura și a plecat, dar nu se poate dezlipi (vine la TOATE întâlnirile de absolvenți — se întoarce la singura instituție care i-a rămas în picioare din copilărie).
+- "Se sprijinea în cretă ca să nu cadă" — imagine de neatins, nu se rescrie, se păstrează exact așa.
+- "Trăiau doar dintr-o imagine care se vindea bine" — teza întregii epoci într-o propoziție; posibil motto de capitol.
+- Frumusețea lui Chloe citită de colegi ca noroc, trăită de ea ca singurătate — tema "răsfățata vieții" vs. realitate; leagă cu discuția despre superstimul și semnal fără granularitate: lumea vedea semnalul, nu viața.
+- De explorat cândva: ce s-a ales de Chloe în Germania; relația ei cu mama după moartea tatălui; cum arăta casa Dumitrescu pe dinăuntru.
