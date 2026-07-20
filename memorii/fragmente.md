@@ -134,6 +134,14 @@ Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Fam
 
 ---
 
+### Cheia finală a fragmentului (Cezar, aceeași zi):
+
+> "Mi-a venit în cap de ce Sorin nu s-a afirmat pe calea lui Chirnoagă. Pentru că el mereu căuta adevărul și originalul. Chirnoagă e o colecție de cursuri clasice de desen. Un copiator, un reproducător."
+
+- Nota arhivarului: aceeași arhitectură ca la alcool, mutată în artă. Chirnoagă = școală clasică somatizată, execuție în interiorul unei tradiții — **pereți**. Copiatorul cu meserie are cortină; de-aia a putut produce o operă întreagă. Sorin = căutarea adevărului și a originalului — **direcție fără pereți**, a doua oară: la băutură refuza zidul vomei, în artă refuza zidul tradiției. Același om, două materiale.
+- Idolatrizarea lui Chirnoagă era tragică din start: Sorin idolatriza exact ce disprețuia structural — omul cu pereți. Vedea geniul în gravuri, nu vedea că geniul era făcut din cursuri clasice, din supunere la meserie. Voia rezultatul fără cușca ce-l produce.
+- Rima cu Gândac: "nu știu să predau altfel" = geniul care ERA forma lui, fără căutare. Sorin — invers: numai căutare, nicio formă în care să se așeze. Originalitatea fără meserie e combustibil fără motor: arde, nu duce.
+
 ## Motto-ul cărții (scris de Cezar, 20 iulie 2026, spontan, în conversație)
 
 > **"AI-urile, monumente ale preciziei intelectuale, transformate de copilul de circ în țigani plutind printre oameni suiți pe frunze de gânduri."**
