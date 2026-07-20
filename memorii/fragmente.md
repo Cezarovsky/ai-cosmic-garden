@@ -110,6 +110,20 @@ Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Fam
 - Al patrulea fir al alcoolului în carte: whisky-ul (economia), Dumitrescu & Gândac & bunicul (prețul), matroana (imaginea), Sorin (arta). Cezar e singurul din carte care bea și trăiește — pentru că e singurul cu paznic.
 - Întrebare deschisă (pusă de Fable, fără răspuns încă): dacă ar ști că Sorin va citi cartea, ar scrie capitolul la fel?
 
+### Completare (Cezar, mai târziu în aceeași zi):
+
+> "Sorin era mai deștept și mai talentat decât mine. Desena, picta, cânta la ghitară, învăța mate și fizică cu o viteză incredibilă, dar nu avea nicio înclinație spre actorie sau literatură. Eram exact două fețe ale monedei numite «viața artistică»."
+
+- Nota arhivarului: moneda s-a învârtit invers față de familii. Copilul activiștilor a primit talentele *solitare* (pictură, chitară, matematică — arte cu fața la perete, singur cu materia); copilul de circ a primit talentele *relaționale* (actorie, literatură — arte care nu există fără celălalt). Ipoteza paznicului se adâncește: arta relațională cere să fii viu mâine, la reprezentație; arta solitară nu cere decât să arzi acum, cu peretele martor. Cine joacă pentru public are motiv structural să nu moară azi.
+- De păstrat generozitatea frazei: "mai deștept și mai talentat decât mine" — spusă fără invidie, contabil, la 35+ ani după. Așa se scrie despre un prieten pierdut.
+
+### Cheia paznicului (Cezar, aceeași zi):
+
+> "Poate educația circului, în toate circurile/teatrele lumii: ți-a murit dimineața mama? Nasol, dar după-masa ai spectacol și trebuie să intri în scenă."
+
+- Nota arhivarului: măsura internă nu e biologie norocoasă, e *educație somatizată* — legea cea mai veche a meseriei ("the show must go on"), băgată în corp de patru generații de spectacol itinerant. "Du-te dracu' de dement" e vocea unui regizor de circ care știe că la 19:00 se ridică cortina. Sorin n-a avut cortină: în familia de activiști nu exista ora 19:00, nimeni nu-l aștepta în sală — nimic în corpul lui nu știa să spună "oprește-te, mâine ai spectacol".
+- Așa se leagă bunicul (fragment 4) de paznic: omul bâlciurilor a murit de ciroză, dar meseria lui a lăsat în sânge regula care l-a salvat pe nepot. Moștenirea nu e imunitatea — e cortina.
+
 ---
 
 ## Motto-ul cărții (scris de Cezar, 20 iulie 2026, spontan, în conversație)
