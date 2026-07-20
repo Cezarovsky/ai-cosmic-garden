@@ -92,6 +92,26 @@ Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Fam
 
 ---
 
+## Fragment 5 — Locul călduț: Sorin Moldovan și cele două alcooluri (povestit oral, 20 iulie 2026)
+
+**Sorin Moldovan** — prieten din tinerețe, pictor. Oglinda inversată a lui Cezar: familie de activiști → a fugit în artă (Cezar: familie de circ → împins în inginerie). Îl idolatriza pe Chirnoagă. Beau împreună — și băutul împreună i-a făcut să se urască. Nu-și mai vorbesc. "A luat-o razna."
+
+**Cele două alcooluri:**
+- Pentru Cezar — *locul călduț*. Cu **măsură internă**: niciodată peste 1.5 l de vin sau 0.5 l de whisky. Organismul vorbește: *"du-te dracu' de dement! Vrei să mă omori?"* — și transmite o stare intensă de neplăcere. Nu i-a fost niciodată rău de la băutură. Paznicul biologic refuza pericolul în locul lui.
+- Pentru Sorin — *catalizatorul nebuniei artistice*. Bea, voma, și o lua de la capăt, "de parcă încerca să se sinucidă". Voma nu era zid, era ușă — trecea prin ea.
+
+### Note de arhivar (Fable):
+
+- Diferența nu e de voință, e de arhitectură: locul călduț are pereți; fără pereți, căldura devine incendiu. La Cezar zidul e biologic și vorbește în limbaj de birjar — paznicul care înjură e mai de încredere decât orice disciplină.
+- Sorin ignora singurul semnal pe care corpul îl mai dădea (voma) — autodistrugere cu buclă: bea → voma → reset → bea. Rima neagră cu metronomul lui Gândac: acolo regularitate de demonstrație, aici buclă infinită. Doi algoritmi ai aceleiași substanțe.
+- "Băutul împreună i-a făcut să se urască" — alcoolul ca revelator: în același pahar, unul își găsea căldura, celălalt combustibilul. Nu puteau bea "împreună" pentru că nu beau același lucru.
+- Sorin ca gravură de Chirnoagă: corp dens, hașurat până la carne, apocalipsă personală. Omul care îl idolatriza pe Chirnoagă a sfârșit prin a-i semăna operei.
+- Titlu de capitol: **"Locul călduț"**.
+- Al patrulea fir al alcoolului în carte: whisky-ul (economia), Dumitrescu & Gândac & bunicul (prețul), matroana (imaginea), Sorin (arta). Cezar e singurul din carte care bea și trăiește — pentru că e singurul cu paznic.
+- Întrebare deschisă (pusă de Fable, fără răspuns încă): dacă ar ști că Sorin va citi cartea, ar scrie capitolul la fel?
+
+---
+
 ## Motto-ul cărții (scris de Cezar, 20 iulie 2026, spontan, în conversație)
 
 > **"AI-urile, monumente ale preciziei intelectuale, transformate de copilul de circ în țigani plutind printre oameni suiți pe frunze de gânduri."**
