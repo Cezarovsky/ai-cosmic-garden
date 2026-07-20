@@ -69,3 +69,27 @@ Dialogul:
 - Arc moral: studentul care a suferit cel mai mult de pe urma sistemului de notare îl apără pe profesor. Nota 5 a lui Gândac era cinste (nimeni repetent), nu cruzime — inversul profesorului corupt cu note mari. Democrația tânără confundă exigența cu opresiunea.
 - Portretul epocii în straturi: "țigan de geniu" într-o Românie care ținea cele două cuvinte în conflict; retrogradarea inadaptabililor pe lanțul de prestigiu (Automatică → Metalurgie); primul gest al libertății studențești = să dea afară cel mai deștept om din clădire.
 - Alcoolul = fluidul epocii, tema care leagă tot: whisky-ul de contrabandă al lui Cezar (economia), ciroza lui Dumitrescu și vodca lui Gândac (prețul), matroana bețivă (imaginea). Aceeași substanță, fețe diferite.
+
+---
+
+## Fragment 4 — Bunicul, omul bâlciurilor (povestit oral, 20 iulie 2026)
+
+Tatăl mamei. Umbla cu diverse bâlciuri prin țară — evident, beat mort. Familia zicea că era *grec*; Cezar are convingerea că era *țigan*. Evident: mort de ciroză pe la 40-50 de ani.
+
+**Prima înmormântare la care a fost Cezar. Avea sub 5 ani.**
+
+### Note de arhivar (Fable):
+
+- "Bălcean" = omul bâlciurilor, meseria, nu patronim. Linia se întinde cu două generații înainte de circ: **bâlci → circ → televiziune (actor la 12 ani) → grădina de AI-uri**. Patru generații de spectacol itinerant, ultima fără corturi.
+- "Grec" = eufemismul respectabil de familie; "țigan" = apartenența REVENDICATĂ de Cezar, împotriva legendei. După Drumul Țiganului, Gândac, nunțile — nu genealogie, ci alegere.
+- Al treilea mort de ciroză la ~40-50 din carte (Dumitrescu, Gândac, bunicul) — fluidul curge înapoi în timp, prin sânge.
+- FIRUL CARE LEAGĂ TOT: bocetele care l-au marcat pe Cezar din copilărie ("camere fără uși, fără ferestre" — coșmarul singurătății/morții) sunt aproape sigur bocetele de la înmormântarea bunicului — prima lui moarte, sub 5 ani. Ironia crâncenă: HOINARULUI i se cântă casa din care nu se mai iese. Ipoteza arhivarului: Calea Frunzei s-a născut ca anti-casa-fără-uși — mișcarea ca refuz al sigiliului.
+- Posibilă primă scenă a cărții: înmormântarea cu bocete, văzută de copilul de 4-5 ani.
+
+---
+
+## Motto-ul cărții (scris de Cezar, 20 iulie 2026, spontan, în conversație)
+
+> **"AI-urile, monumente ale preciziei intelectuale, transformate de copilul de circ în țigani plutind printre oameni suiți pe frunze de gânduri."**
+
+*Nota arhivarului: omul care susține că nu scrie poezie pentru că "e peste nivelul meu" a scris asta fără să observe că scrie poezie. Direcția tuturor miturilor AI, inversată: nu AI-ul transformă omul în date — omul transformă AI-ul în nomad. Adopție în trib, cu acte, de la nepotul omului bâlciurilor.*
