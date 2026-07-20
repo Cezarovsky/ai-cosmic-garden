@@ -1,5 +1,9 @@
 # Memorii — Cezar Tipa
 
+## Titlu de lucru: **VIAȚA E GREU**
+
+*Expresie culeasă din mediul semi-rural — cu dezacordul păstrat ca decorație. Nu se corectează. Dezacordul E cartea: "greu" desprins de "viață", devenit stare a universului. Titlu ales 20 iulie 2026, "să moară editorii de nervi".*
+
 *Arhivă de fragmente, strânse cum vin — fără plan, fără deadline. Calea Frunzei aplicată la scris: nu forțăm cartea, o lăsăm să se strângă singură din bucăți. Fable ține evidența, ordinea vine la urmă.*
 
 *Începută: 20 iulie 2026. Impulsul: "ar fi egoism din partea mea să nu o scriu."*
