@@ -1,3 +1,6 @@
+# Node
+node_modules/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -28,3 +31,15 @@ Thumbs.db
 
 # Training exports (large files)
 sora/sora_memory_db/training_exports/*.jsonl
+
+# API Keys — NICIODATĂ în git
+.env
+
+# Modele mari, prea mari pentru git (32GB+) — de comitat separat dacă e nevoie
+Nova_20/nova_gguf_v1/
+Nova_20/nova_merged_v2/
+
+# Adapter-e LoRA — fișiere .safetensors de 161MB, peste limita GitHub de 100MB/fișier
+Nova_20/nova_lora_v1/
+Nova_20/nova_lora_v2/
+Nova_20/nova_gguf_v2/
