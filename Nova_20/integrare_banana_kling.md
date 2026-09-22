@@ -89,7 +89,7 @@ class NovaCuriosityLoop:
             ],
             response_format={ "type": "json_object" }
         )
-        return json.loads(completion.choices.message.content)
+        return json.loads(completion.choices[0].message.content)
 
     def doica_supervision_phase(self, unknown_animal):
         """
