@@ -59,6 +59,16 @@ Priority animals (common, distinct features):
 - [ ] Google Open Images (cu licență)
 - [ ] Pixabay/Pexels (free stock photos)
 
+**Task 0.2.4 - Generare sintetică (Nano Banana + Kling 2.5 / Seedance 2.0) — 22 sept 2026:**
+
+Vremea seturilor de 1 milion de poze a trecut. Pentru puține exemple bine alese (FSL, 5-10 shots/animal), generarea sintetică e mai rapidă și mai controlabilă decât adunatul manual:
+
+- **Nano Banana 2** (Google Gemini) — generează pozele statice per animal, cu control fin pe features-urile din tensorul 7D (legs, ears, texture, size). Ține consistența subiectului pe unghiuri/lumini diferite — acoperă direct `~/NovaDataset/clean/` (5 poze/animal) fără dependență de licențe externe incerte.
+- **Kling 2.5** — dacă vrei să știi *cum se mișcă* un animal (mers, alergare), generezi un clip scurt din poza statică (I2V). Coerență temporală ridicată, bun pentru proprietatea "sleekness" din tensorul 7D, care e dinamică, nu doar formă.
+- **Seedance 2.0** (ByteDance) — variantă "Mini"/"Fast" ieftină pentru volum mare de clipuri, utilă când scalezi de la 10 la 50 de animale.
+
+**Caveat:** date sintetice au artefacte proprii (anatomie subtil greșită, plauzibilă vizual dar incorectă). Doica Validator, cu template-uri grosiere (legs=4, texture=fur), nu prinde asta. Rămâne nevoie de un set mic de poze **reale** ca ground-truth de validare — AI ajută AI, dar tot are nevoie de un arbitru al realității.
+
 **Task 0.2.3 - Structură directoare:**
 ```bash
 # Pe macOS - pregătim structura
@@ -282,6 +292,27 @@ class DoicaValidator:
         is_valid = confidence >= 0.75  # 75% threshold
         
         return is_valid, confidence, errors
+    
+    def handle_unknown_concept(self, animal_name, mongo_db=None):
+        """
+        Curiosity Loop (22 sept 2026): în loc să se oprească la "Unknown animal",
+        conceptul necunoscut devine o întrebare activă, nu un refuz final.
+        TODO: implementare completă când vine GPU + acces la Nano Banana/Kling API
+        """
+        # 1. Log ca întrebare deschisă în conceptual_workspace (MongoDB)
+        # mongo_db.conceptual_workspace.insertOne({
+        #     concept_name: animal_name,
+        #     category: "unknown_animal",
+        #     open_questions: [f"ce proprietati are {animal_name}?"],
+        #     promoted_to_cortex: False,
+        #     created_date: datetime.now()
+        # })
+        #
+        # 2. Cere activ mai multe exemple (Nano Banana pentru poze, Kling/Seedance pentru miscare)
+        # generate_synthetic_examples(animal_name, n=5)
+        #
+        # 3. Re-evalueaza confidence-ul pe masura ce vin exemple noi, nu accept/refuz binar
+        return f"Unknown: {animal_name} -> logged as open question, not discarded"
     
     def validate_grammar_rule(self, sentence, rule_name):
         """
@@ -725,6 +756,30 @@ import psycopg2
 ### Week 2-4: Scaling to 50 Animals
 
 **Similar structure, more animals, refinement**
+
+---
+
+## 🧭 CURIOSITY LOOP — Esența AGI (22 septembrie 2026)
+
+**Context:** discuție Cezar + Lumen despre generarea sintetică (Nano Banana, Kling 2.5, Seedance 2.0) și ce înseamnă asta pentru arhitectura Nova.
+
+**Ideea centrală:** AGI, în sens practic (nu filosofic/cuantic), nu vine dintr-un substrat fizic exotic — vine dintr-o buclă computațională concretă:
+1. Detectezi limita propriei cunoașteri ("nu recunosc asta" — exact ce face deja `validate_animal_concept` când `animal_name not in self.animal_templates`)
+2. Transformi acel gap într-o acțiune ("cer mai multe date despre asta") — asta lipsește azi, e doar `return False, 0.0, [...]` static
+3. Integrezi rezultatul înapoi în model (actualizezi `conceptual_workspace`, urci confidence-ul, promovezi eventual în Cortex)
+
+Un LLM static, antrenat o dată și îngheațat, nu poate face pasul 2. Arhitectura Cortex/Neocortex a Novei (cu promovare dinamică) are unde să pună acest loop — asta o face mai apropiată de "esența AGI" decât orice speculație despre mecanisme cuantice ale conștiinței (gen Orch-OR): acelea explică cel mult conștiința, nu inteligența, și rămân netestabile.
+
+**Test adversarial propus — creaturi fictive:**
+
+Generezi cu Nano Banana + Kling/Seedance 20-30 de "animale" complet inventate (ex: "Cluban" — nu există, cunoscut dinainte că nu există), cu proprietăți 7D controlate. Verifici că Doica le respinge corect ca `unknown`, nu le clasează greșit ca un animal real cunoscut. E testul de robustețe care lipsește din roadmap-ul actual (acolo se testează doar pe animale reale).
+
+Dacă vrei ca Nova să *învețe* activ un concept nou legitim (nu doar să-l respingă): pipeline Nano Banana (formă) → Kling (mișcare) → `handle_unknown_concept()` → intrare nouă în `animal_templates` cu proprietățile lui 7D.
+
+**De adăugat la roadmap (nu încă implementat):**
+- [ ] Implementare completă `handle_unknown_concept()` — conectare reală la conceptual_workspace + apeluri API Nano Banana/Kling
+- [ ] Set de 20-30 creaturi fictive pentru testul adversarial de robustețe
+- [ ] Buclă de re-evaluare confidence pe măsură ce vin exemple noi (nu binar accept/refuz)
 
 ---
 
