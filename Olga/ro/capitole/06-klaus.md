@@ -81,6 +81,6 @@ Peter m-a privit cateva clipe cu dispret, apoi a izbucnit in ras.
 - Da, ai perfecta dreptate. Poate ca asta e sensul antropomorfizarii. Nu m-am gandit niciodata pentru ca nu aveam de ce. Olga imi zice ca se bucura ca are acum doi prieteni normali la cap.
 
 Am ajuns la aeroport fara niciun alt incident si priveam cu uimire ce modern arata. Biletele noastre nu au pus nicio problema, iar in avion mai erau doar 20 locuri ocupate de figuri de birocrati bine hraniti.
-Ne-am luat bagajele de la terminal si ia-m zis ca i-o las pe Olga pana a doua zi. Fata i s-a luminat ca un soare si m-am intrebat daca chiar intelesese partea cu antropomorfizarea. Am luat un autobuz pana in centru unde ne-am despartit ca sa o luam fiecare spre cartierul nostru. Al meu fiind ala muncitoresc, al lui cel de bogatasi. M-am gandit ca probabil acum ca Peter fusese angajat, era firesc sa ma pastreze ca secretar, ceea ce ne-ar fi ajutat mult in planurile noastre.
+Ne-am luat bagajele de la terminal si i-am zis ca i-o las pe Olga pana a doua zi. Fata i s-a luminat ca un soare si m-am intrebat daca chiar intelesese partea cu antropomorfizarea. Am luat un autobuz pana in centru unde ne-am despartit ca sa o luam fiecare spre cartierul nostru. Al meu fiind Mall-ul, al lui cel de bogatasi. M-am gandit ca probabil acum Peter odata ce fusese angajat, era firesc sa ma pastreze ca secretar, ceea ce ne-ar fi ajutat mult in planurile noastre.
 Peter m-a strans in brate si mi-a soptit la ureche.
 - Multumesc pentru tot Robert.
