@@ -4,65 +4,65 @@ Mă durea capul și aveam sinusurile înfundate. Era încă întuneric, dar lamp
 
 Mi-am luat săpunul și periuța de dinți din dulap și am ieșit pe hol. La baie nu era decât vecina de la 16BD, deci nu se făcuse încă 5. Ne-am salutat din priviri și mi-am luat în primire cușeta de igienă personală. Așa o prezentase administratorul, așa îi ziceam și eu. Lumea are nevoie de un limbaj comun, nu? Dușul nu funcționa, dar nu-mi doream să mă spăl cu apă rece. Mi-am tras căciula de pe cap, am îndesat-o în buzunar și m-am stropit cu apă pe față, cât să mi se obișnuiască un pic organismul. Am luat o gură de apă foarte rece și mi-am clătit gura, renunțând la frecatul cu periuța, apoi m-am spălat 20 de secunde pe mâini. Pentru spălatul pe dinți nu se dăduse nicio lege. Mi-am pus căciula pe cap și m-am întors în cameră. Parcă se mai încălzise puțin. M-am schimbat în hainele de lucru și am coborât în fața blocului. Începuse să se lumineze, iar cerul senin dădea semne de vreme frumoasă. Oficialitățile ne explicau în fiecare zi că legile de protejare a climei funcționau perfect și în cel mult 10 ani ne-am fi bucurat din nou de căldură. Pentru mine era o promisiune lipsită de sens, pentru că era puțin probabil să mai trăiesc până atunci. Am vrut să mă uit la ceasul desteptator, dar mi-am adus aminte că bateriile se consumaseră de luna trecută și la cât erau de scumpe, o să le înlocuiesc doar la salariul următor. M-am suit pe bicicletă și am luat-o către serviciu, împreună cu sute de alți angajați. Stația de sortare nu era departe de blocul meu și cam într-un sfert de oră, îmi legam bicicleta în parcare. Cu legitimația fluturând în mâna stângă, m-am strecurat printre turnichete și m-am îndreptat către punctul de lucru. Sala uriașă părea goală, doar niște siluete mărunte cărau coșuri de nuiele, numite „bio-coșuri".
 
-- Bună dimineața, domnul inginer.
+— Bună dimineața, domnul inginer.
 
 Gregor părea mulțumit de viață ca întotdeauna. Născut în regiunea Donbass din Ucraina, părea că are o rezistență inumană la frig. Deși erau probabil cel mult 10 grade, Gregor avea pe el doar o cămașă.
 
-- Buna dimineața, Gregor. Cum a fost pe schimbul de noapte? Ne-am încadrat?
+— Buna dimineața, Gregor. Cum a fost pe schimbul de noapte? Ne-am încadrat?
 
 Gregor s-a uitat pe flipchart, a subliniat ceva cu un creion bont și s-a întors către mine.
 
-- Nu prea, domnul inginer. La sticlă stăm bine, la plastic stăm bine, dar ne omoară tampoanele și scutecele. Nu înțeleg de ce nu s-a scos o lege care să oblige femeile să treacă la material textil biodegradabil. Oamenii încercă să le evite și nu am cum să fac echipe speciale doar pentru asta.
+— Nu prea, domnul inginer. La sticlă stăm bine, la plastic stăm bine, dar ne omoară tampoanele și scutecele. Nu înțeleg de ce nu s-a scos o lege care să oblige femeile să treacă la material textil biodegradabil. Oamenii încercă să le evite și nu am cum să fac echipe speciale doar pentru asta.
 
-- Fă echipe de câte o oră, Gregor.
+— Fă echipe de câte o oră, Gregor.
 
 Ucraineanul s-a uitat la mine ca la un prieten bun, dar pe care nu-l prea ajută mintea.
 
-- Știți că nu avem oameni suficienți la control. Probabil că vor lua tot sticlă. Doar n-o să le pun insigne cu... Stați așa, că nu e rea ideea. Vorbiți dumneavoastră cu conducerea să facă niște insigne pe care să scrie sticlă, plastic, scutece?
+— Știți că nu avem oameni suficienți la control. Probabil că vor lua tot sticlă. Doar n-o să le pun insigne cu... Stați așa, că nu e rea ideea. Vorbiți dumneavoastră cu conducerea să facă niște insigne pe care să scrie sticlă, plastic, scutece?
 
 Mi-am zis că ideea era bună, așa că aveam să o prezint șefilor de la Normare.
 
-- Gregor, cred că tocmai te-ai aranjat de o primă. Continuă tu te rog aici, iar eu mă duc să bat fierul cât e cald.
+— Gregor, cred că tocmai te-ai aranjat de o primă. Continuă tu te rog aici, iar eu mă duc să bat fierul cât e cald.
 
 Dacă aș fi avut un laptop ca în vremea tinereții mele, probabil aș fi făcut o prezentare drăguță, cu niște predicții bazate pe datele din ultimii 2 ani, dar cum criza determinase o scădere a consumului de energie cu aproape 80%, orice funcționa cu electricitate și nu era absolut necesar, fusese eliminat din viața de zi cu zi. Am luat un flipchart și un creion de pe masa lui Gregor și m-am apucat să desenez câteva grafice, folosindu-mă de intuiție și experiență. Am făcut și un tabel destul de primitiv cu clasificarea materialelor reciclabile și m-am dus să mă programez pentru o audiență.
 
 Clădirea conducerii era destul de departe de centrul de colectare, așa că am mărit pasul. Soarele era destul de sus pe cer și se încălzise cât să-mi scot căciula și să o îndes ca de obicei în buzunarul pantalonilor. Copacii plantați în ultimii 10 ani arătau bine, frunzele erau verzi și sănătoase, iar unii aveau deja boboci. Iarba o ducea mai rău, pentru că nu era udată suficient și se cam ofilise. Flori nu se plantau pentru că nu prezentau cine știe ce avantaj climatic. Am deschis ușa grea de la intrarea în birourile conducerii și m-am oprit în fața secretariatului. Gina, o fată tânără și zâmbitoare, se uită atent la mine de parcă n-aș fi avut de ce să fiu acolo.
 
-- Domnule Martinovici, cu ce vă putem ajuta astăzi?
+— Domnule Martinovici, cu ce vă putem ajuta astăzi?
 
-- Cu o audiență la domnul inginer-șef.
+— Cu o audiență la domnul inginer-șef.
 
-- În legătură cu ce?
+— În legătură cu ce?
 
 Întrebarea mi se părea nefirească venind de la o secretară. Probabil că se introdusese un nou filtru de selecție al vizitatorilor, doar că eu nu vizitam. Munceam.
 
-- În legătură cu creșterea performanțelor.
+— În legătură cu creșterea performanțelor.
 
-- Aha! Stați să verific. Așteptați vă rog câteva minute.
+— Aha! Stați să verific. Așteptați vă rog câteva minute.
 
 Evident că Gina folosea un laptop. Nu poți să programezi o audiență pe flipchart pe care să i-l duci inginerului șef. A țăcănit o vreme la tastatură, după care mi-a zis pe un ton uimit.
 
-- Domnul inginer șef vă poate primi acum.
+— Domnul inginer șef vă poate primi acum.
 
 Am luat liftul până la etajul 11. Grozavă invenție lifturile astea. Cu condiția să ai curent electric. Mi-am băgat mai bine cămașa în pantaloni, mi-am dat un pic cu degetele prin păr și am ciocănit în rama ușii, pentru că fiind capitonată, nu avea sens să bați în altă parte. Am auzit un „intră" estompat și am împins ușa cu umărul, pentru că știam cât e de grea. Biroul era cam cât garsoniera mea, dar luminos și mobilat. Inginerul șef stătea în picioare cu o ceașcă de cafea în mână. Mirosul cafelei îmi trezea mereu amintiri pre-criză.
 
-- Intră Robert. Vrei o cafea?
+— Intră Robert. Vrei o cafea?
 
 Evident că voiam, așa că i-am făcut semn din cap că da. Mi-a pregătit o ceașcă la expresor și s-a întors către mine cu sprâncenele ridicate a întrebare. Ne cunoșteam de mulți ani, fuseserăm colegi de facultate, dar relațiile lui de rudenie cu persoane sus-puse din partidul aflat la putere, l-au îndreptat spre funcții de conducere. Nu îl invidiam, pentru că așa stăteau lucrurile în lumea în care trăiam și în plus, era un tip de treabă. Arăta mai tânăr cu câțiva ani decât mine, lucru firesc pentru cineva care nu medita dimineață la un soare tropical ca să nu moară de frig. În cameră erau probabil mai mult de 16 grade, iar soarele care strălucea dincolo de ferestrele generoase, făcea să pară și mai cald.
 
-- Dă-i drumul, Robert. Cu ce te pot ajuta?
+— Dă-i drumul, Robert. Cu ce te pot ajuta?
 
 M-am apropiat de birou cu flipchart-ul într-o mână și cu creionul în cealaltă. Peter se uita un pic uimit la echipamentul meu de prezentare, dar era conștient că nu am poziția necesară pentru a avea o tabletă. Am început să-i povestesc despre problemele pe care le avem cu scutecele și tampoanele, fără să uit de contribuția lui Gregor. I-am arătat cifrele și am făcut câteva extrapolări ca să vadă cam ce beneficii am avea în următoarele 6 luni. Nu puteam să calculez ce se întâmplă într-un an fără să am acces la un calculator și nici guvernul nu era interesat de ce se va întâmpla peste un an, exceptând rămânerea la guvernare. Peter asculta atent și își lua niște notițe pe tabletă.
 
-- Robert, îmi place chestia asta. Uite cum facem. Ai două ore pe zi acces la un calculator personal. Vreau o prezentare adevărată, cu grafice, previziuni, ture, mentenanță, tot. Crezi că termini într-o săptămână?
+— Robert, îmi place chestia asta. Uite cum facem. Ai două ore pe zi acces la un calculator personal. Vreau o prezentare adevărată, cu grafice, previziuni, ture, mentenanță, tot. Crezi că termini într-o săptămână?
 
-- Calculator personal două ore pe zi timp de o săptămână? Da, Peter, termin. Când încep?
+— Calculator personal două ore pe zi timp de o săptămână? Da, Peter, termin. Când încep?
 
-- Sun acum la IT să-ți activez un cont și de mâine poți să-i dai drumul.
+— Sun acum la IT să-ți activez un cont și de mâine poți să-i dai drumul.
 
 Deschise un sertar al biroului și scoase o mână de baterii AAA.
 
-- Dacă tot ai venit până aici, să nu pleci cu mâna goală. Nu te uita la mine așa, că nu-ți dau de pomană. Măcar ceasul să-ți funcționeze până la salariu.
+— Dacă tot ai venit până aici, să nu pleci cu mâna goală. Nu te uita la mine așa, că nu-ți dau de pomană. Măcar ceasul să-ți funcționeze până la salariu.
 
 Am luat bateriile fără să mă simt de loc jignit. El le avea, iar eu aveam nevoie de ele.
 
@@ -74,25 +74,25 @@ Mi-am luat la revedere de la Gregor și m-am dus să-mi iau bicicleta. Se întun
 
 Deși mi-era foarte frig, m-am spălat până la brâu cu săpunul uscat pe care îl aveam de câțiva ani. Detergenții erau poluanți, așa că te învățau că o cârpă înmuiată în apă e suficientă pentru a păstra o igienă corporală mulțumitoare. Nu aveam de gând să intru la IT puțind ca un hoit. Bateria era la locul ei, dar mi-am notat în minte să o scot de cum ajung la serviciu. Peter nu-mi spusese între ce ore puteam să folosesc calculatorul, așa că m-am dus direct către clădirea conducerii. Gina m-a primit cu un zâmbet un pic mai larg decât data trecută.
 
-- Bună dimineața! Domnul Woodridge m-a informat în legătură cu ce aveți de făcut. Luați vă rog liftul până la etajul 4. O să vă îndrume domnul Daniel.
+— Bună dimineața! Domnul Woodridge m-a informat în legătură cu ce aveți de făcut. Luați vă rog liftul până la etajul 4. O să vă îndrume domnul Daniel.
 
 I-am mulțumit și am luat liftul până la etajul care presupuneam că era destinat departamentului IT. În fața liftului aștepta un tânăr simpatic, zâmbind aproape la fel de larg ca Gina. Îmi strânse mâna și îmi făcu semn pe unde să o iau.
 
-- Probabil n-ați mai lucrat de mult cu un PC, dar să știți că nu s-a schimbat mare lucru. Monitoarele sunt mai mari și aplicațiile mai intuitive.
+— Probabil n-ați mai lucrat de mult cu un PC, dar să știți că nu s-a schimbat mare lucru. Monitoarele sunt mai mari și aplicațiile mai intuitive.
 
 De fapt aveam emoții legate de cum funcționau calculatoarele astăzi, după 15 ani de când nu mai pusesem mâna pe unul. Mi-a deschis ușa unui birou și m-a invitat înăuntru. Era o încăpere mare, cu vreo 20 de birouri goale, fiecare cu un monitor imens și cu un scaun rotativ. Daniel mi-a făcut semn să mă așez unde vreau și a pornit calculatorul de pe tableta lui. Pe ecran au apărut cele 39 de stele ale Uniunii care s-au rotit un pic și s-au așezat în formă de cerc.
 
-- Domnul Woodridge mi-a spus că aveți nevoie de o aplicație de prezentare și poate de ceva să calculați și să vizualizați date.
+— Domnul Woodridge mi-a spus că aveți nevoie de o aplicație de prezentare și poate de ceva să calculați și să vizualizați date.
 
 Daniel deschise două aplicații care semănau cu ce foloseam eu pe vremuri, apoi m-a salutat și a ieșit. Am lucrat cele două ore permise în ritm alert, mai mult familiarizându-mă cu noutățile software. Când am terminat, am salvat și Daniel a intrat pe ușă. Presupun că avea o conexiune cu calculatorul pe tabletă care îl anunța când salvez, dar mi-am adus aminte că mai salvasem de două ori, deci probabil că monitorul avea o cameră video sau era una în birou. Aveam să verific asta a doua zi.
 
 Cum am intrat în stația de sortare, mi-am scos ceasul din buzunar și l-am potrivit cu cel de pe perete. Se făcuse deja 10:30 așa că m-am dus la cantină pentru micul-dejun. Gregor îmi făcea semne exuberante de la una din mese. I-am făcut semn să aibă un pic de răbdare și după ce mi-am pus cele două senvișuri cu tofu și cana cu ceai pe tavă, m-am dus să mă așez lângă el.
 
-- Mulțumesc din suflet, domnule inginer! M-au anunțat de dimineață că am primit o mărire de salariu pentru ideea cu insignele.
+— Mulțumesc din suflet, domnule inginer! M-au anunțat de dimineață că am primit o mărire de salariu pentru ideea cu insignele.
 
 Eram uimit să văd că Peter își amintise și se mișcase atât de repede.
 
-- Cu plăcere, Gregor. Meriți din plin.
+— Cu plăcere, Gregor. Meriți din plin.
 
 Ucraineanul mă privea cu recunoștință și mă făcea să mă gândesc în ce condiții trăia el cu o soție și doi copii. Bănuiam că un maistru primea mai puțin de la stat decât un inginer. Lucram de 5 ani împreună, dar înafară de câteva informații generale, nevastă, copii, loc de baștină, nu știam nimic. Pentru că nu mai existau baruri, considerate mari consumatoare de energie, lumea nu mai avea viață socială.
 
