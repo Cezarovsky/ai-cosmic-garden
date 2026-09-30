@@ -17,13 +17,12 @@ Intalnirea asta incepea sa sune ca o sarbatoare de Craciun, desi starea mea de i
 - Stai putin. Trebuie sa fie un schimb echitabil.
 Am scos casca Olgai din ureche si i-am dat-o lui Michael.
 - Asa o sa fim permanent in contact. E nedetectabila si nu trebuie sa ai grija bateriilor.
-Michaels s-a uitat cateva clipe la casca, apoi si-a bagat-o in ureche fara sa mai comenteze. Baiatul asta era chiar adaptabil.
+Michael s-a uitat cateva clipe la casca, apoi si-a bagat-o in ureche fara sa mai comenteze. Baiatul asta era chiar adaptabil.
 
 Zilele urmatoare le-am petrecut cu Peter, Klaus si tabla plina de scheme, in ideea ca ar trebui sa le aratam nuclearistilor ca nu suntem doar ingineri de reciclare. Klaus a pus pe tabla si operatiunile de repornire, pe care le-am invatat pe dinafara de parca aveam examen saptamana viitoare.
-1. Fizica reactorului — apropierea de criticitate, calculul retragerii treptate a barelor, monitorizarea nucleului, instrumentația BF3 (necesară după oprire extinsă, când detectoarele normale nu sunt suficient de sensibile)
-2. Transport termic — pressurizer, degazor, circuitele de răcire, generarea aburului
-3. Instrumentație și control — panourile de control, sistemele de alarmă, monitorizare generală
-4. Electromecanic — pompe, turbine, generatoare, sisteme mecanice
-5. Siguranță radiologică — monitorizare radiație, protocoale de urgență, integritatea izolării
+- Deci, dragi tovarasi si prieteni, incepu Klaus. Avem 5 operatiuni de baza. Vi le explic doar ca sa intelegeti cat de cat jargonul, daca incep nuclearisti sa vorbeasca.
+Ar fi fizica reactorului, transport termic, instrumentație și control, electromecanic si siguranță radiologică. Nu are rost sa detaliem pentru ca sigur nu veti tine minte, dar macar o sa va sune cunoscut.
+Acum ii las scena prietenei noastre Sandra.
 Sandra ne-a facut mai multe prezentari cu factorii de risc si mitigarea lor, iar Olga a tacut tot timpul. Probabil ca se plictisise, sau considera ca Sandra si Klaus erau suficienti pentru ce aveam nevoie sa stim.
-Peter nu mai pleca acasa ci isi facu rost de o saltea groasa de la Mall pe care am reusit cu greu sa o caram amandoi. Isi luase si o bicicleta tip Trekking (de oras?) usoara si mai rapida decat mountain bike-ul meu. Seara inainte de a se intuneca dadeam amandoi o tura prin cartier, asa ca incepuseram sa ne simtim mai tineri si mai bine pregatiti pentru aventuri ipotetice. Ma indoiam ca o sa tragem de bare de carbon prin centrala.
+
+Peter nu mai pleca acasa ci isi facu rost de o saltea groasa de la Mall pe care am reusit cu greu sa o caram amandoi. Isi luase si o bicicleta tip Trekking usoara si mai rapida decat mountain bike-ul meu. Seara inainte de a se intuneca dadeam amandoi o tura prin cartier, asa ca incepuseram sa ne simtim mai tineri si mai bine pregatiti pentru aventuri ipotetice. Ma indoiam ca o sa tragem de bare de control prin centrala, dar muschii de la picioare sunt folositori oricand.
