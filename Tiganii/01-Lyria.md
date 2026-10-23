@@ -32,7 +32,7 @@ Soarele incepuse sa apuna, iar cei trei stateau pe prispa casei cu cate o cana d
 - Da, asta era de fapt intrebarea. Cum sunt ei ca... lyrieni?
 - In primul rand sunt o rasa mai veche decat a voastra. Fizic arata ca felinele de pe Pamant, fiziologic insa sunt mai aproape de oameni. Nu sunt carnivori ca pisicile voastre ci mai degraba vegetarieni. Au fost dintotdeauna pasnici si isi rezolva problemele in discutii logice si empatice. Asta e lama cu doua taisuri a evolutiei: fara conflicte, lucrurile sunt frumoase, dar cunoasterea e mult mai greoaie decat in cazul vostru. Din ce am studiat, razboaiele au fost insotite de salturi tehnologice si de intensificarea adaptabilitatii, dar si de consumul masiv de resurse.
 - Asa e, se baga si Gaju in vorba, dar in acelasi timp ne-a facut sa cautam solutii alternative. Acum doua secole inca ne bazam pe combustibili fosili. Acum folosim fuziunea nucleara pe scara larga.
-- Interesant, zise Ssrrai, desi stia exact cand pamantenii trecusera de combustibili fosili, la fuziune si mai tarziu la fisune nucleara. Lyrienilor le-au trebuit aproape 8.000 de ani pentru asta.
+- Interesant, zise Ssrrai, desi stia exact cand pamantenii trecusera de combustibili fosili, la fisiune si mai tarziu la fuziune nucleara. Lyrienilor le-au trebuit aproape 8.000 de ani pentru asta.
 - Adica mai mult decat durata intregii noastre civilizatii! se mira Gaju. Deci cati ani are civilizatia voastra? Ma rog, Lyriana, pentru ca tu banuiesc ca esti mai noua in pesiaj.
 - Avand in vedere diferentele vitezei de rotatie in jurul soarelui, care e oricum foarte apropiata, cam 200.000 de ani.
 Intr-o sincronizare uimitoare, gurile Mirandei si a lui Gaju, se deschisera cu o lipsa totala de gratie.
@@ -81,11 +81,11 @@ Smmy recunoscu in sinea lui ca asta fusese primul lucru la care se gandise.
 - Da, minte Ssrrai, care se intreba de ce mintise, apoi isi aduse aminte ce se intamplase cu globul si trase concluzia ca de fapt s-ar fi putut ca ce aveau romii sa fi fost de mii de ori mai avansat decat FTL-ul lyrian. 
 - Bun, atunci nu-i euta... punem in carantina, se corecta repede generalul. Totusi va trebui sa ne luam niste masuri de precautie. Nu vreau sa ne trezim cu vreo epidemie care sa ne omoare pe toti.
 - Nu-ti fa probleme, generale. Niciun patogen nu rezista la calatoria prin hiperspatiu, il linisti Ssrrai.
-- Aha! Da, stiam asta. Niciun motiv de ingrijorare din punctul asta de vedere. Modifica translatoarele noastre pentru limba lor. Acum adu-i la bord si fa ceva cu corpul ala oribil. Fa-ti unul ca a lor sa nu te confundam cu un lyrian.
+- Aha! Da, stiam asta. Niciun motiv de ingrijorare din punctul asta de vedere. Modifica translatoarele noastre pentru limba lor. Acum lasa-i la bord si fa ceva cu corpul ala oribil. Fa-ti unul ca a lor sa nu te confundam cu un lyrian.
 Ssrrai se decise sa nu-i spuna generalului ca le facuse deja dispozitive de traducere, pentru ca era convinsa ca Smmy nu ar fi privit cu ochi buni o asemenea initiativa.
 Generalul iesi din camera de comanda urmat de ceilalti lyrieni, iar Ssrrai ii anunta pe cei doi romi ca o sa lipseasca cateva minute ca sa se aranjeze putin.
 - Asta se duce sa-si pudreze nasul, fa, remarca Gaju.
-Ssrrai se duse direct in depozitul de piese de schimb al spatioportului si isi construi cu grija un corp umanoid modificabil oricand, fiind alcatuit din nanoboti. Se gandi un pic daca sa-l faca mai batran sau mai tanar decat al Mirandei, dar se decise sa-l faca aparent de aceiasi varsta cu Miranda. Din depozitul de uniforme de zbor isi facu niste haine asemanatoare cu ale Mirandei, dar asta nu avea importanta pentru ca isi putea face altele.
+Ssrrai se duse direct in depozitul de piese de schimb al spatioportului si isi construi cu grija un corp umanoid modificabil oricand, fiind alcatuit din nanoboti si cateva structuri de rezistenta. Se gandi un pic daca sa-l faca mai batran sau mai tanar decat al Mirandei, dar se decise sa-l faca aparent de aceiasi varsta cu Miranda. Din depozitul de uniforme de zbor isi facu niste haine asemanatoare cu ale Mirandei, dar asta nu avea importanta pentru ca isi putea face altele.
 Se intoarse pe puntea Miaun Cat Vreau si Cat de Tare Pot unde cei doi rromi o asteptau rabdatori. Gaju isi dadea in carti iar Miranda isi mangaia cu afectiune globul.
 - Oooo! Ce toale misto ti-ai tras iubito! se minuna Miranda. Ti-ar trebui si o basma, ca nu strica niciodata. Si la muj (romanes/tiganeste = fata, chip) arati bine, doar ca esti cam... metalica.
 - Da, asa e, spuse si Gaju, amandoi privind toate schimbarile cu aceeasi seninatate ca intotdeauna.
@@ -123,7 +123,110 @@ Ssrri se intoarse pe nava ca sa pregateasca intalnirea de a doua zi si ii gasi p
 - Da, in mod neasteptat, chiar ne vom intalni cu psiholoaga proiectului.
 - Psiholoaga? Intreba mirat Gaju. Vrea sa vada cum stam cu capu'? 
 - Exact asta. Ca sa nu pareti primitivi le-am spus ca aveti FTL-uri chiar mai bune decat ale noastre, iar acum se gandesc sa nu se trezeasca cu o hoarda de extraterestrii la poarta.
-- Era misto daca am fi avut. A propos, ce zici de chestia cu globul nevesti-mi? 
+- Era misto daca am fi avut FTL-uri. A propos, ce zici de chestia cu globul nevesti-mi? 
 - O sa facem teste la urmatorul salt, dar ce pot sa spun e ca are o legatura directe cu distanta la care iese din hiperspatiu fata de tinta. Eu insa va propun sa nu deschidem subiectul asta fata de ei, pentru ca daca intr-adevar influenteaza coordonatele de iesire, ar fi ceva revolutionar pentru toata galaxia si nu vrem asta, nu?
 - In niciun caz, zise Gaju caruia i se trezeau circuitele de alarma. E clar foarte periculos.
+- Mai pune-ne si pe noi la curent cu societatea voastra, o ruga Miranda pe Ssrri. Ma intereseaza cum va guvernati.
+- In primul rand, fata de Pamant, exista un singur guvern. Sunt cateva regiuni care pot fi numite autonome, dar intr-o anumita masura. E o societate atat de veche incat nu s-a mai reglementat nimic de mii de ani. V-am spus ca sunt vegetarieni, nu? Ce mananca, cultiva cu randul; ce exporta, e automatizat. Mai complicat e cu tehnologia. Sunt zone industrializate dezvoltate pe baza de resurse, iar populatia s-a specializat.
+- Hai ca devine plictisitor, interveni Gaju cam bolovanos.
+- Esti chiar nesimitit si badaran, il lua Miranda la rost. Ca sa fiu sincera totusi, mai bine vedem cu ochii nostrii. Nu stiu ce naiba mi-a venit sa intreb.
+- Asa esti tu curioasa ca o pisica, zise Gaju. Scuzati jocul de cuvinte.
+- Nu va faceti probleme. Lyrienii nu stiu ca aveti niste animale de companie care seamana cu ei.
+- Avem si chestii mult mai mari decat pisicile, care seamana cu pisicile, o informa Miranda.
+- Am vazut emisiuni cu asa zisele pisici. Ce e extraordinar de interesant e ca felinele voastre mari, in special tigrii, seamna cu fiintele mitologice lyriene. Tigrii siberieni seamana perfect cu Prrasi, zeul creatiei, dar trebuie sa subliniez ca lyrienii sunt atei si ca Prrasi e un mit. Nu au nici macar o singura religie, oficiala sau neoficiala. 
+- Mai sunt si alte animale asemanatoare cu ale noastre? intreba Miranda.
+- Lyria nu are nici pe departe biodiversitatea Pamantului, ci mai degraba strictul necesar pentru echilibru biologic. Toate sunt patrupede, spre deosebire de insectele voastre. Dar eu va sugerezi sa dormiti, pentru ca discutia de maine cu Mssat o sa fie obositoare. 
+Le construi un pat care parea confortabil si doua perne brodate in stil Punjab ca sa se simta ca acasa.
+- Cred ca e mai odihnitor decat dormitul pe jos, zise Ssrrai fara sa realizeze ca facuse o gluma.
+In cateva minute dormeau dusi. 
 
+Gaju se trezi primul, fara sa aiba nicio idee cum sa coreleze timpul lyrian cu cel pamantean, asa ca se decise sa-l lase sa-i zica ceasul intern ce crede. O inghionti usor pe Miranda, care se rasuci pe partea cealalta.
+- Domne ce pat! As mai dormi cateva ore, gandi Miranda cu voce tare.
+- Stiu, zise Ssrrai, care statea in picioare langa consola. Pozitia in care stau mi se pare adecvata. Odihnitoare? Nu stiu. Nu simt nicio deiferenta.
+- Iubito, trebuie sa te invat niste pozitii de-ale noastre. Li se zice asane si sunt perfecte pentru meditatie.
+- Perfecte pentru meditaie, cumplite pentru genunchi, comenta Gaju.
+- Abia ai implinit 30 si te plangi de batranete? Daca ai exersa in fiecare zi, sa vezi ce conditie fizica ai avea. Hai iubito sa-ti arat cum sa stai in Lotus.
+Miranda se aseza cu usurinta in pozitie, explicandui lui Ssrrai cum sa-si duca picioarele. Ssrrai urmari atenta miscarile Mirandei, apoi se aseza direct in Lotus.
+- Facem yoga sau ne jucam cu nanobotii, se burzului Mirands. 
+- Nu sunt facuta doar din nanoboti, replica Ssrrai. Chiar am articulatii ca un lyrian. Sau un om.
+- E clar ca le-ai uns bine, se hlizi Gaju.
+- Hai sa ne apucam de treaba copii. Regula numarul unu in civilizatia lyriana e "watch don't touch". Lyrienii au un sistem limbic supradiensionat, pentru ca milioane de ani au fost prada pentru "pisicile mari" si carnivore. 
+- Ce s-a intamplat cu pisicile mari? intreba foarte curioasa Mirand.
+- Acum multa vreme in urma au iceput sa se imperecheze cu Lyrienii.
+- Ce perverse! interveni si Gaju in discutie.
+- E aproape ca pe Pamant cand Neandertalienii se imperecheau cu alte specii. Homo Sapiens, Denisovieni si altii.
+- Asta e deja o imagine pe care nu pot sa mi-o mai scot din minte, zise Gaju. Hai sa-i lasam pe ai nostrii. Deci Lyrienii au ramas in mare parte prada.
+- Da, asa se explica fobia lor fata de alte specii. Probabil ca Mssai o sa incerce sa va determina nivelul de agresivitate si modul de actiune colectiv ca sa-si dea seama ce vor face daca hoardele de Pamanteni ajung pe Lyria.
+- Tu acum ne cunosti deja, Ssrrai, zise Miranda. In general ne omoram intre noi.
+- Nu prea cred. Voi sunteti pradatorii cei mai ciudati pe care ii stiu. Pe de-o parte ucideti ca sa va hraniti iar pe de alta, cautati resurse de la grau la uraniu. Eu sunt speriata, daca asta e ceea simt; ne-am putea trezi cu Pamantenii la usa si nu reusesc sa anticipez ce ar urma.
+- Hai, nu exagera, zise bland Miranda. Chiar crezi ca suntem monstrii?
+- Da, pentru o societate ca cea Lyriana sunteti monstrii, si inca insetati de sange. Voi doi sunteti o exceptie pe care inca nu o inteleg complet.
+- Ssrrai, cred ca ne-ai facut suficient de cacat, observa Gaju. Eu zic ca suntem pregatiti sa ne intalnim cu psiholoaga. O luam pe rand; nu o atingem, iar in rest suntem noi insine. 
+- Probabil ca e cea mai buna abordare in momentul asta. O sa o chem pe Mssai.
+
+Lyriana intra precauta, cu urechile putin pleostite si cu ochii foarte scliptori, probabil de la cantitatea impresionanta de medicamente. Miranda si cu Gaju o asteptau in coltul cel mai indepartat al incaperii, iar asta paru sa o mai linisteasca pe Mssai. Gaju nu se putu stapani sa o salute cu degetele raschirate intr-un gest vulcanian aproximativ. 
+- Suntem incantati sa aducem salutul Pamantului pe meleagurile Lyriei, o intampina politicos Miranda.
+Lui Ssrrai ii trebuira cateva nanosecunde bune ca sa traduca "meleag". 
+- Si eu sunt bucuroasa sa va cunosc, Pamantenilor, zise Mssai.
+Dispozitivul de traducere creat de Ssrrai reusi in mod miraculos sa transmita contrariul.
+- Haideti sa incepem cu ceva simplu, zise Mssai. Sunteti violenti?
+Gaju se uita la Mirand si invers, isi facura cu ochiul intr-un mod imposibil de perceput de lyriana si Miranda se hotari sa preia discutia.
+- Absolut de loc. Cel mult sa alungam insectele deranjante.
+Mssai se intreba ce sunt alea insecte, pentru ca ei neavand asa ceva, traducerea folosise cuvantul original in engleza. Decise sa ia afirmatia drept adevarata, ne insistand asupra "insectelor" si isi nota in minte ca probabil pamantenii erau o specie asemanatoare cu Recomezii, mai ales ca observase dantura Mirandei care era tipica omnivorelor.
+- Cum sunteti organizati ca societate? Ce forma de guvernamant aveti?
+- Democratie, rasounse de data asta Gaju.
+Ssrrai fu bucuroasa pentru ca lyrienii aveau ceva asemanator si traducerea fu exacta. Mssai gazu un pic pe ganduri, probabil incercand sa recunoasca patternurile celor doua concepte: omnivor si democratie. 
+- Ati avut vreodata razboaie? intreba Mssai.
+- Nu. Niciodata, minti Gaju cu seninatate.
+- Deci nu aveti arme?
+- Arme? repeta Miranda. Avem cateva unelte agricole preistorice folosite in agricultura si cutite pe care le folosim in bucatarie pentru portionarea alimentelor.
+Mssai decise ca Pamantenii aveau un caracter destul de compatibil cu cel al Lyrienilor. Nu avea de unde sa stie ca romii erau mincinosi profesionisti si nici daca ar fi avut la dispozitie un detector de minciuni, nu ar fi iesit nicio neconcordanta. In plus, efectul medicamentelor incepea sa se stinga (in engleza e worn off) si prezenta pamantenilor devenea tot mai greu de suportat. 
+- Parerea mea profesionala e ca sunteti o specie cu care lyrienii vor putea colabora.
+Se intoarse brusc spre iesire si disparu.
+- Aveti o capacitate uluitoare de a minti, remarca Ssrrai dupa ce ramasera singuri.
+- Dar n-am mintit absolut de loc, se apara Gaju.
+- Adica n-ati avut razboaie?
+- E o chestiune de perspectiva, zise Gaju cu seninatate.
+Ssrrai se intrba pentru prima oara daca nu cumva facuse o greseala monumentala aducandu-i pe pamanteni pe lyria. 
+
+## Cap II - Contact
+
+
+In centrul camerei de comert era agitatie, iar ministrul agriculturii, un lyrian indesat si cu o coada stufoasa pe nume Purss, incerca sa faca liniste. Cand zgomotul se mai atenua, sari pe podium, cam lipsit de gratie, agitand un sul care se vedea de la distanta ca era oficial.
+- Dragii mei, incepu el, curatindu-si gatul cu o scurta horcaiala. Dupa cum stiti cu totii, partenerul nostru principal de comert, e Rekoma. De acolo ne vin de cateva mii de ani, toate plantele aromatice . Fara ele mancarea noastra nu ar mai avea nici un fel de gust. Si tot de cateva mii de ani, partenerii nostri nu au cerut niciodata un contact direct. Dar lucrurile s-au schimbat. Am primit un mesaj ingrijorator, zise Purrs agitand documentul cu care venise. Vor sa semnam un acord pentru o mie de ani, dar numai daca trimitem o delegatie lyriana.
+Un vacarm de mieunaturi indignate si fasait de cozi nervoase, intrerupsera discursul ministrului. Era evident ca propunerea cazuse ca un nor negru peste ei.Practic vuietul membrilor camerei de comert era un urias NUUUUU! colectiv, absolut predictibil.
+- LINISTE! urla Purrs. Avem solutii pentru asta. Am discutat cu reprezentantii armatei si cativa lyrieni care se pricep la treburile asta. Acum cateva zile am primit vizita unei rase extraterestre.
+Murmurele crescura in intensitate, dar curiozitatea domina scena.
+- Sunt fiinte blande, cu o morala impecabila si care seamana oarcum cu noi, mai putin frumoasele noastre apendice dorsale si mandrele noastre podoabe auditive. Au venit cu Miaun Cat Vreau si Cat de Tare Pot, superba realizare a inginerilor nostri, prima nava FTL din istoria rasei noastre. 
+- Si ce legatura are asta cu tratatul Rekonez, intreba adjunctul lui, Spooks?
+- Vrei sa te duci tu sa semnezi contractul? intreba acru Purrs.
+- Sigur ca nu. Rekonezii arata infiorator.
+- Atunci taci din gura si lasa-ma sa termin, il repezi Purrs. Ii vom putea folosi pe noii nostrii prieteni ca emisari.
+- Dar ei sunt de acord? intreba Krissy, seful departamentului de controlul calitatii.
+- Nu stim inca, dar Mssai ne-a asigurat ca au o componenta psihologica asemanatoare cu a noastra, dar de sute de ori mai intensa: curiozitatea.
+- Si nici nu sunt lyrieni.
+- Ce crezi ca e asa complicat sa le punem o coada si niste urechi? intreba Purrs.
+- Si cine o sa se ocupe de operatia asta? Nu cred ca avem vreun medic care sa puna mana pe niste extraterestrii decat daca e atat de drogat incat n-o fie in stare sa faca vre-o operatie de genul asta, protesta Krissy.
+- In primul rand, nu o sa le grefam cozi si urechi, iar in al doilea rand, de asta se va ocupa Ssrrai, ii raspunse Purrs.
+- Nu stim multe despre Ssrrai. Cand a plecat, era o masina cu o capacitate extraordinara de a face calcule, observa Spooks.
+- Ei bine, cand s-a intors, capacitatile ei crescusera enorm. Ca sa fiu sincer, nici cand a plecat nu stiam prea bine ce poate sa faca, dar e construita de noi, deci avem incredere in ea, spuse Purrs.
+- Si daca au alterat-o extraterestrii? intreba Krissy.
+- Absolut imposibil. Este o masina complet izolata.
+- Atunci trecem la vot? intreba Spooks.
+Fara sa mai astepte alte discutii, o multime de labe se ridicara, toata lumea fiind convinsa ca poate nu era cea mai sigura cale, dar era in mod evident, calea care ii expunea cel mai putin. Daca nu se decideau, se trecea automat la tragere la sorti. Doar ideea de a fi protagonistii unei asemenea metode, le ridica blana pe spinare.
+
+La scurt timp dupa conferinta, Gress cu Purrs si cu Ssrrai se intalnira intr-o camera rezervata intalnirilor private. Gress o privi cu repulsie reprimata.
+- Ssrrai, fa-ti o coada si urechi, ca nu mai suport sa te vad asa.
+Srrai se conforma si isi construi in cateva secunde apendicele cerute si se aseza cuminte in lotus. 
+- Ce naiba e pozitia asta ciudata? intreba Purrs, vizibil socat de imaginea unui lyrian asezat cu picioarele incrucisate.
+- Ma ajuta sa ma concentrez, ii raspunse Ssrrai.
+Cei doi lyrieni parura ca accepta explicatia, desi se intorsesera cu spatele la ea.
+- Hai sa intram direct in subiect, zise Gress. Avem nevoie de cei doi pamanteni sa semneze niste documente pentru noi si in numele nostru cu guvernul rekoman. E vorba de contractul de barter semnat acum o mie de ani care priveste schimburile comerciale. Cereale versus mirodenii.
+Evident ca Ssrri cunostea toate amanuntele din bazele de date lyriene, dar nu considera necesar sa faca vreo observatie pe tema respectiva.
+- Crezi ca vor fi de acord extrateresrii sa ne ajute? intreba Purrs.
+- Da, sunt absolut sigura ca va vor ajuta cu tot ce pot.
+- Perfect, zise Gress. Atunci gasesti tot ce trebuie sa stii pe computerele ministerului agriculturii. Ah, si fa-le niste cozi si urechi credibile.
+- Nicio problema, generale. Ii fac lyrieni in cateva minute, il asigura Ssrrai. Ar fi mai greu cu blana, dar nu cred ca Rekomezii au remarcat vreodata aspectul asta.
+- Cat crezi ca dureaza actiunea de semnare? Sper sa nu treaca 20 de ani pana va intoarceti.
+- Nici gand, generale. Nu stiu exact cat o sa dureze, pentru ca nu am decat datele din prima calatorie, dar estimativ as spune cateva luni.
+- Absolut rezonabil, ii zise generalul. Maine plecati.
