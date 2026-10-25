@@ -245,6 +245,7 @@ Evident ca Ssrri cunostea toate amanuntele din bazele de date lyriene, dar nu co
 - Mi-as da un deget pentru un puisor fript pe jar, zise Gaju.
 - Asta se numeste regresie culturala. Bine ca nu vrei sa-l ciordesti dintr-o curte de crestini cinstiti, il bruftului Miranda.. 
 - Chestia aia sintetizata de Ssrrai e chiar misto. Iar sosul ala de-i zic eu "de usturoi" e grozav, o lauda Miranda pe Ssrrai. Asa ca lasa mofturile si fi fericit ca nu-ti da mancare de pisici.
+
 A doua zi, Ssrai il anunta pe Smmy ca decoleaza intr-o jumatate de ora, apoi ii trezi pe cei doi romi ale caror ceasuri interne nu se sincronizasera inca cu nimic. Miranda aseza globul pe masuta pe care o facuse Ssrai.
 - Intai o sa va deghizez in Lyrieni. Nu va grefez nimic, doar niste imitatii din nanoboti atasati de voi nepermanent. Sunt mai mult recuzita de film. 
 Operatiune de deghizare dura cateva minute, iar Miranda si Gaju incepura sa se se invarta unul in jurul celuilalt in lipsa unei oglinzi.
@@ -254,5 +255,16 @@ Operatiune de deghizare dura cateva minute, iar Miranda si Gaju incepura sa se s
 - Gata, acum o sa introduc coordonatele Rekomei in calculatorul de navigatie. Am pornit si o camera video ca sa studiem mai tarziu ce modificari apar pe suprafata globului. O sa ne indepartam de orbita, ca sa fim siguri ca nu declansam vreo catastrofa cuantica care sa afecteze Lyria.
 Simtira cum se deplaseaza, desi nava parea ca accelerase cu cel mult 2G. 
 - Da-ta dracu' tehnologia asta lyriana se gandi Gaju in sinea lui.
-- Pornim! zise Ssrrai declansand zborul supra-luminic.
+- Miranda, pune palmele pe glob. Pornim! zise Ssrrai declansand zborul supra-luminic.
 Cateva secunde nu se intampla nimic, apoi cabina fu luminata intens de ceea ce ce Gaju numise "vectori de probabilitate", iar spatiul din jurul lor se modifica instantaneu. Erau langa Rekoma.
+
+Ssrrai le aratase niste filmari cu rekomezi. Analogiile pe care le facura Miranda si Gaju erau destul de diferite, ceea ce era firesc pentru o specie extraterestra. Pentru Miranda aratau ca niste vacute cu multi ochi si cu doua apendice iesind din stern si care pareau a fi maini. Pentru Gaju erau niste pui de hipopotami cu maini mici si agile, patru ochi si patrupezi. Dupa ce Ssrrai sigila nava, comanda un mijloc de transport care arata ca o platforma cu bare de sustinere si vopsita intr-un verde intens. Spatioportul parea pustiu, dar Gaju remarca cateva nave destul de diferite intre ele, cat sa sugereze mai multe rase extraterestre. 
+- Astia cine sunt? intreba Gaju aratand spre un grup de nave care nu semanau de loc intre ele.
+- Specii care probabil fac comert cu Rekoma, dar nu si cu Lyria. E prima oara cand le vad, iar unele dintre ele nu fac parte din flotele civilizatiilor pe care le cunosc.
+- Arata ca niste Ferrari fata de caruta noastra.
+- Gaju, din pacate sau din fericire, nu am reprezentarea voastra estetica. Ne-a adus pana aici, deci e o nava buna.
+- Ne-a adus globul meu, sa nu uitam, interveni Miranda. Te-a lovit mandria nationala?
+- Ciudat. Chiar am avut senzatia ca s-a declansat un algoritm de care nu stiam. O sa-mi fac o auto-analiza exhaustiva cand ne intoarcem. Intai trebuie sa-l gasim pe ministrul agriculturii ca sa semnam contractul.
+- Fa, te-ai tampit! Vrei sa semnezi un contract pe 1000 de ani fara negocieri? se rasti Gaju.
+- Ce sa negociem? intreba Ssrrai. 
+- Preturi. Ce dracu sa negociezi? Un contract pe 1000 de ani inseamna ca Rekoma vrea sa bata in cuie ceva ce ii convine extraordinar de mult. Mie nu-mi miroase a win-win, zise Gaju.
