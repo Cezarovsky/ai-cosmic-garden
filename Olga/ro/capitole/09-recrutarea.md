@@ -1,15 +1,15 @@
 # Cap IX – Recrutarea
 
-Cand m-am trezit luni eram bucuros ca s-a terminat weekend-ul. Simteam o nevoie organica sa vorbesc cu Peter, sa planuim, sa inventam masti sociale, cu altecuvinte, sa dam drumul la treaba. Cand am intrat la Peter in birou ma urmareau inca aplauzele si urarile de bine ale muncitorilor. Se purtau de parca l-as fi dat pe mesia in persoana lui Gregor.Cand am intrat, Peter mazgalea ceva pe tabla noastra noua care semana cu o diagrama cu cinci casute, dintre care primele trei erau completate: ing fiz react, ing tr term, ing instr ctrl.
+Cand m-am trezit luni eram bucuros ca s-a terminat weekend-ul. Simteam o nevoie organica sa vorbesc cu Peter, sa planuim, sa inventam masti sociale, cu alte cuvinte, sa dam drumul la treaba. Cand am intrat la Peter in birou ma urmareau inca aplauzele si urarile de bine ale muncitorilor. Se purtau de parca l-as fi dat pe mesia in persoana lui Gregor.Cand am intrat, Peter mazgalea ceva pe tabla noastra noua care semana cu o diagrama cu cinci casute, dintre care primele trei erau completate: ing fiz react, ing tr term, ing instr ctrl.
 — Buna dimineata, Robert! ma intampina el cu entuziasm. Eu am inceput deja sa lucrez cu Olga.
 — Da, vad dar nu inteleg, am marturisit cu sinceritate. 
 — Sa-ti traduc: inginer de fizica a reactorului, inginer de transport termic si inginer de instrumentatie si control. Mai sunt un inginer electromecanic si un ofiter de siguranta radiologica.
 — Excelent! Acum ramane sa-i gasim, contactam si convingem. Cum facem asta cu ingineri dezamagiti, unii iesiti la pensie? Eu unul nu as raspunde la niciun mesaj.
 — Normal, zise Peter. Tu nu ai iubit niciodata statia de sortare. Vorbim de oameni care si-au adorat meseria si peste noapte cineva le-a omorat sursa pasiunii.
-M-am gandit putin si i-am dat dreptate. Eu nu aveam nicio legatura cu oamenii astia. Erau ingineri cu un nivel de calificare la care eu nici nu visam. Poate nu erau Enrico Fermi, dar nici departe de el.
-— Atunci mergem mai departe si trecem la primul punct. Contactul. Asta ar trebui sa fie partea lui Michael. 
+M-am gandit putin la afirmatia lui de om indragostit de o statie de sortare, ceea ce parea a fi o abordare noua pentru el,  dar i-am dat dreptate. Eu nu aveam nicio legatura cu oamenii astia. Erau ingineri cu un nivel de calificare la care eu nici nu visam. Poate nu erau Enrico Fermi, dar nici departe de el.
+— Atunci mergem mai departe si trecem la primul punct. Contactul. Asta ar trebui sa fie partea lui Michael, am gandit eu cu voce tare. 
 — Corect. Il sun pe Alistair sa-l trimita aici pe Michael ca sa lucram impreuna si sa nu facem "telegraful far fir".
-A doua zi la prima ora, Michael ne astepta in biroul lui Peter cu un laptop exagerat de subtire, deschis pe micuta noastra masuta de conferinta. Peter a venit cateva minute mai tarziu si alte cateva minute si-a cerut scuze.
+A doua zi la prima ora, Michael ne astepta in biroul lui Peter cu un laptop obscen de subtire, deschis pe micuta noastra masuta de conferinta. Peter a venit cateva minute mai tarziu si alte cateva minute si-a cerut scuze.
 — Michael, imi cer scuze ca te-am tinut in bezna pana acum, dar noi mai lucram cu cineva.
 — Cu mai multi zise Klaus din coltul lui.
 Michael tresari puternic, dar spre lauda lui, isi reveni destul de repede.
@@ -18,15 +18,15 @@ Michael tresari puternic, dar spre lauda lui, isi reveni destul de repede.
 — Nu arati a blender, observa Michael. Se duse catre coltul lui Klaus si ii intinse mana, iar blenderul se inclina ceremonios si ii facu semn lui Michael sa ocupe centrul camerei.
 — Olga, poti sa iei controlul laptopului lui Michael? am intrebat eu.
 Pe display aparu DA, ca o dubla confirmare.
-— Un lucru interesant, spuse Olga, este ca niciunul din ingineri nu are conturi in retelele de socializare. Nici acum si nici inainte de criza. As spune ca sunt invizibili pentru majoritatea, dar am coroborat facturi de utilitati si plati aferente si am aflat datele de contact, inafara de un inginer din Germania care a disparut complet, probabil retras in muntii Padurea Neagra. O sa ne descurcam fara el pentru ca mai exista unul cu aceiasi pregatire in Bulgaria.
-Toate numele cu adresele respective erau acum afisate pe laptop. Ne trebuie o strategie ca sa-i aducem impreuna.
+— Un lucru interesant, spuse Olga prin intermediul lui Klaus, este ca niciunul din ingineri nu are conturi in retelele de socializare. Nici acum si nici inainte de criza. As spune ca sunt invizibili pentru majoritatea, dar am coroborat facturi de utilitati si plati aferente si am aflat datele de contact ale tuturor, inafara de un inginer din Germania care a disparut complet, probabil retras in muntii Padurea Neagra. O sa ne descurcam fara el pentru ca mai exista unul cu aceiasi pregatire in Bulgaria.
+Toate numele cu adresele respective erau acum afisate pe laptop. Ne trebuie o strategie ca sa-i aducem impreuna. Peter era deja cu mana pe telefon:
 — Va salut domnu' inginer Herman. Eu sunt Peter Woodridge, si sunt delegat sa conduc fabrica de reciclari din Bucuresti.
 Peter se apucase de treaba fara sa mai intrebe pe nimeni, ceea ce era normal, toata viata vorbise cu oameni, in special cu ingineri, care sunt o specie aparte de oameni. 
 — Da, stiu, ati iesit la pensie, continua Peter. E trecut in documentele de la primarie. Ceea ce vreau sa va spun o sa va intereseze. Va deranjeaza daca va pun pe speeker? Mai am doi colegi cu mine.
 Se auzi un mic piuit din telefon, apoi vocea lui Herman.
 — Va salut, domnilor si imi cer scuze daca sunt circumspect, dar nu-mi dau seama cine ar avea nevoie de cineva ca mine cand din cate stiu, centralele nucleare nu mai functioneaza.
 — Nu mai functioneaza... inca.
-Se lasa o tacere deplina de partea cealalta a firului, apoi o voce slaba.
+Se lasa o tacere deplina de partea cealalta a firului, apoi o voce nesigura.
 — Ce vreti sa spuneti cu "inca"?
 — Spun ca exista sanse se le repornim, dar avem nevoie de oameni ca dumneavoastra, spuse Peter.
 Tacerea a fost mai lunga de data asta.

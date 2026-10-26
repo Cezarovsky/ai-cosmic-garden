@@ -1,22 +1,22 @@
 # Cap VI – Klaus
 
-In camera de hotel i-am dat Lui Peter casca, dupa ce am rugat-o pe Olga sa-i recapituleze discutiile din ultimele doua zile si sa-i puna si lui muzica de 432 Hz. La trei minute dupa ce s-a bagat in pat, Peter a inceput sa sforaie incetisor, asa ca am stiut ca frecventa-minune l-a lovit in plin. Eu am adormit mai greu, dar linistit stiind ca acum aveam cat de cat un plan. 
+In camera de hotel i-am dat lui Peter casca, dupa ce am rugat-o pe Olga sa-i recapituleze discutiile din ultimele doua zile si sa-i puna si lui muzica de 432 Hz. La trei minute dupa ce s-a bagat in pat, Peter a inceput sa sforaie incetisor, asa ca am stiut ca frecventa-minune l-a lovit in plin. Eu am adormit mai greu, dar linistit stiind ca acum aveam cat de cat un plan. 
 Peter m-a trezit aproape cu gingasie.
 — Hai Robert, desteptarea. Dumnezeule! N-am mai dormit atat de bine din copilarie! As omora pentru o casca din asta.
-— Nu e nevoie. Iti dau una can ne intoarcem. Pana atunci, pastreaz-o tu. O sa ai nevoie la conferinta.
+— Nu e nevoie. Iti dau una cand ne intoarcem. Pana atunci, pastreaz-o tu. O sa ai nevoie la conferinta.
 
 Conferinta a fost, asa cum banuiam, extraordinar de plictisitoare. Peter si-a tinut prezentarea perfect, cu scheme, diagrame si tabele, in timp ce audienta dormita cu experienta de ani de zile a birocratilor. La final ni s-au impartit medalii de onoare, s-au strans maini, s-a facut schimb de carti de vizita, iar unii s-au pupat protocolar pastrand distanta impamantenita de pe vreamea epidemiei.
 
 — Bun, zise Peter. Hai sa-l cautam pe Klaus. Olga zice ca ar trebui sa-l gasim in Facultatea de Inginerie Electrică a Universității din Belgrad, sau Elektrotehnički fakultet cum zic sarbii. Avem traseul, asa ca sa-i dam drumul.
 
-Peter parea cu 10 ani mai tanar si cu 20 mai entuziast. Am ajuns destul de repede la facultate. Era inca destul de devreme, iar cursurile se terminasera. Mai erau cateva colocvii, dar se tineau in alta parte a cladirii. La poarta nu ne-a intrebat nimeni nimic. Aratam exact ca niste profesori respectabili. 
+Am ajuns destul de repede la facultate. Era inca destul de devreme, iar cursurile se terminasera. Mai erau cateva colocvii, dar se tineau in alta parte a cladirii. La poarta nu ne-a intrebat nimeni nimic. Aratam exact ca niste profesori respectabili. 
 
-— Intreab-o pe Olga de unde incepem cautarile. Stii ce. Da-mi casca inapoi ca e mai rapid asa.
-Peter si-a scos casca din ureche si mi-a inmanat-o aproape plangand.
+— Intreab-o pe Olga de unde incepem cautarile. Stii ce? Da-mi casca inapoi ca e mai rapid asa.
+Peter si-a scos casca din ureche si mi-a inmanat-o aproape cu lacrimi in ochi.
 — Hai ca in doua zile o sa ai si tu una, l-am consolat eu.
 Olga mi-a trimis schita facultatii pe retina si in 20 minute am ajuns. Ca de obicei la subsol in fata unei usi metalice inchise. 
 — Nu te agita in halul asta, imi zise Olga in casca. Semnalul meu e foarte puternic si suntem la cativa metri de Klaus. Incerc sa amplific semnalul la maximum.
-Usa a scos un clinchet slab si s-a deschis. Im impins-o cat sa trec cu Peter si am intrat intr-un spatiu larg, plin pana la refuz cu hardware de toate felurile. Toate vechiturile pamantului se gaseau acolo incat puteai sa deschizi un muzeu al IT-ului. De undeva din gramada de fiare se auzi un scrisnet si aparu un cap umanoid desprins din filmele anilor 50, urmat de un corp pe care cu greu puteai sa-l numesti umanoid. 
+Usa a scos un clinchet slab si s-a deschis. Am impins-o cat sa trec cu Peter si am intrat intr-un spatiu larg, plin pana la refuz cu hardware de toate felurile. Toate vechiturile se gaseau acolo incat puteai sa deschizi un muzeu al IT-ului. De undeva din gramada de fiare se auzi un scrisnet si aparu un cap umanoid desprins din filmele anilor 50, urmat de un corp pe care cu greu puteai sa-l numesti umanoid. 
 — Olga, iubita mea! se auzi atat in casca cat si o voce robotica venita din maldarul de fiare. Ti-ai adus cu tine si acesti doi mandrii heralzi. Sunteti bine-veniti in castelul meu de la marginea lumii.
 Peter imi arunca o privire pe care daca o interpretam corect, spunea ceva despre psihiatria digitala. Am incercat o abordare de aceasi natura.
 — Bine te-am gasit, marite rege Klaus.

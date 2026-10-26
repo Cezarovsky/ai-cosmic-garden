@@ -24,7 +24,7 @@ Peter aproape se sufoca de indignare, dar dupa cateva clipe de gandire imi dadu 
 — Crezi ca nu e posibil? am intrebat eu. Nu ma pricep la programare, dar banuiesc ca ai putea scrie cod care sa se comporte ca un LSD pentru ele. Hai sa-l sunam pe Alistair.
 Peter lua telefonul de pe birou, tasta cateva cifre, apoi il puse jos. 
 — Daca suntem ascultati? Aha, ok. Olga spune ca nu suntem.
-Lua din telefonul si termina de tastat numarul. Dupa al doilea tarait se auzi o voce grava si atat de serioasa incat si eu la anii mei m-am simtit intimidat.
+Lua telefonul si termina de tastat numarul. Dupa al doilea tarait se auzi o voce grava si atat de serioasa incat si eu la anii mei m-am simtit intimidat.
 — Peter! Ce ma bucur ca m-ai sunat! Si eu voiam sa te sun ca sa te felicit pentru prestatia de la conferinta.
 — Multumesc pentru apreciere. Cum merg lucrurile la Uniune?
 — Bine, aproape bine ca sa fiu mai precis. Vad ca ai sarit direct la subiect si asta e bine, dar poate ar trebui sa vorbim intre patru ochi.
@@ -57,17 +57,17 @@ Am rasuflat usurat ca mersese atat de usor si am deschis discutia.
 — Alistair pare deschis la revolutii, am glumit eu.
 — Da, interveni Klaus, si eu.
 — E perfect, interveni si Sandra cu vocea ei de profesoara de matematica iesita la pensie. Doar dupa ce vorbim cu Alister o sa am datele pentru o analiza de risc. 
-— Si care ar trebui sa fie rolul lui Alister? intreba Peter. Ne-ar putea ajuta cu inginerii?
+— Si care ar trebui sa fie rolul lui Alistair? intreba Peter. Ne-ar putea ajuta cu inginerii?
 — Nu cred ca e nevoie, interveni Olga. Nu-i cunoaste si functia lui e prea inalta ca sa trezeasca increderea. Pentru ei este un imbuibat din Uniune. Cea mai buna persoana de contact ramane Robert. Din pozitia lui e cel mai relevant pentru planul nostru.
 — Ce plan? am intervenit eu.
 — De a dechide o centrala nucleara pentru echipa? intreba Peter.
 — Asa, pur si simplu o deschidem de parca ar fi "ziua portilor deschise"? am intrebat si eu.
-— Nu, baieti, intra si Sandra in discutie. O comisie poate decide ca e timpul sa terminam complet cu energia nucleara si atunci, conform regulamentelor de risc, trebuie decomisionata. Asta e o procedura extrem de lunga, dar noi nu avem nevoie decat de cateva zile.
+— Nu, baieti, intra si Sandra in discutie. O comisie poate decide ca e timpul sa terminam complet cu energia nucleara si atunci, conform regulamentelor de risc, trebuie decomisionata. Asta e o procedura extrem de lunga, dar noi nu avem nevoie decat de cateva saptamani.
 De cate ori spunea "risc" parca se auzea o nota eroica in vocea ei. Chhiar isi iubea meseria.
 — Aha! realiza Peter. Si unchiul aproba decomisionarea, iar la cat de varza e sistemul, poate sa desemneze o echipa pentru asta.
 — Da, completa Klaus fara niciun sens.
 — Atunci nu ne mai vedem pana la avion, hotari Peter.
-— Avion? Zburam la campionat?
+— Avion? Zburam la campionat, intreba Klaus?
 Probabil ca Olga sau Sandra intervenira tacut, pentru ca Klaus amuti instantaneu, iar eu si cu Peter iesiram din birou.
 
 A doua zi m-am trezit cu o surpriza. La intrarea in sectie ma asteptau toti muncitorii in frunte cu Gregor, care sari sa ma ia in brate. 
@@ -75,7 +75,7 @@ A doua zi m-am trezit cu o surpriza. La intrarea in sectie ma asteptau toti munc
 — Stai, l-am oprit eu. Stii ca e o lege care interzice munca dupa program. Vrei sa ma bagi in belele cu entuziasmul tau? 
 — Aveti dreptate, domnu inginer. 8 ore, atat. Multumesc din nou pentru avansare.
 — Avansarea e de la domnul Woodridge, eu doar te-am propus.
-— Sa-i dea sanatate si lui. Nu credeam ca mai ajung in viata asta mai mult de un maistru amarat.
+— Sa-i dea Dumnezeu  sanatate si lui. Nu credeam ca mai ajung in viata asta mai mult de un maistru amarat.
 — Nu esti un maistru amarat, Gregor. Esti un om inteligent si cred ca oamenii vor lucra cu tine mai bine decat au lucrat cu mine.
 — Nu spuneti asta, domnu inginer, ca nu e adevarat. Oamenii va adora.
 Am primit lauda exagerata fara sa-l mai contrazic si m-am dus in biroul lui Peter de parca ajunsesem sa-l impart cu el. Gina m-a intampinat cu noul ei zambet si m-a anuntat ca domnul inginer mai intarzie putin si ca imi aduce imediat cafeaua.

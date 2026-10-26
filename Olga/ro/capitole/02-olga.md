@@ -101,6 +101,5 @@ Biscuiții se făcuseră deja una cu zeama, așa că am luat câteva linguri din
 
 Pentru prima oară simțeam că sunt motivat. Nu aveam prea mare încredere în Olga, dar dacă reușeam să o țin sub control, exista o șansă de succes.
 
-— În primul rând ne trebuie o bază de operațiuni, zise Olga. La 2.4 km de tine e un mall dezafectat. Trebuie să verificăm ce echipamente mai sunt funcționale sau care pot fi puse în funcțiune în fosta centrală termoelectrică. In al doilea rand trebuie sa-mi gasesc colegii, Sandra si Klaus. SaMâine te ajut să-ți instalezi augmentatorul optic. Termină de mâncat și dormi. N-am cum să te alimentez de la sursa mea de energie.
-
-Recunosc că manifestarea de umor a Olgăi m-a lăsat cu gura căscată. Chiar avea niște algoritmi inteligenți. Înainte de a adormi, mi s-a părut că din cască se aud niște sunete pe o frecvență foarte plăcută.
+— În primul rând ne trebuie o bază de operațiuni, zise Olga. La 2.4 km de tine e un mall dezafectat. Trebuie să verificăm ce echipamente mai sunt funcționale sau care pot fi puse în funcțiune în fosta centrală termoelectrică. In al doilea rand trebuie sa-mi gasesc colegii, Sandra si Klaus. Mâine te ajut să-ți instalezi augmentatorul optic. Termină de mâncat și dormi. N-am cum să te alimentez de la sursa mea de energie.
+Haios, m-am gandit eu inainte sa adorm.

@@ -14,11 +14,11 @@ Aram ne-a umplut canile cu ceai si a aratat din priviri catre zahar.
 Si-a turnat din ceasca intr-o farfurioara, apoi si-a bagat un cub de zahar intre dinti si l-a topit cu ceaiul din farfurioara. Mi-am adus aminte ca in facultate ne povestise un coleg ca asa beau rusii ceai.
 — Sunteti din Serbia sau din Rusia, domnule Aram?
 — Aram e suficient si da, traiesc in Serbia, dar m-am nascut in Erevan, in Armenia. Aveti privire agera domnu' inginer. Da, asa bem si noi ceaiul, ca si rusii. Sau poate rusii beau ca noi? Cine mai stie?
+Deci observase si Aram. Fusese o scapare? Era pentru mine? Pentru Olga? Dar Peter nu stia teoretic de Olga. Am decis sa ma prefac ca nu am observat nimic. Mi-am mutat atentia la Aram.
 — Eu n-am fost niciodata mai departe de Soci, se confesa Peter. Ati plecat de mult din Armenia?
 Aproape ca am tresarit. Peter fusese in Rusia?
 — De mult, Peter Petrovici. Eram copil cand parintii mei au decis ca e mai bine aproape de Vest, iar pe vremea aia Serbia era vest curat. Stati asa domnu' inginer! Soci? Statiune de lux!
 — Da, Aram. Era pe vremea cand relatiile erau foarte stranse si delegatiile atat de lungi ca de multe ori se lasa cu casatorii, iar ai mei erau mai smecheri decat acum.
-Deci observase si Aram. Fusese o scapare? Era pentru mine? Pentru Olga? Dar Peter nu stia teoretic de Olga. Am decis sa ma prefac ca nu am observat nimic. Mi-am mutat atentia la Aram.
 M-am uitat la ridurile de expresie, la ochii obositi si la chelia destul de pronuntata. Parea putin mai in varsta decat mine, dar nu cu mult.
 — Ce facultate ati terminat domnule Aram?
 Armeanul izbucni intr-un ras gros, aratandu-si un sir de dinti foarte albi.

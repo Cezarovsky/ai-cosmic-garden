@@ -100,8 +100,6 @@ Ne-am întors împreună la stație și ne-am văzut de treabă până la 17:00.
 
 Stăteam în pat, privind lampa de veghe și mă gândeam la cele două ore pe care le petrecusem la calculator, fără ca cineva să mi se uite peste umăr, deși eram sigur că fusesem supravegheat tot timpul. Nu văzusem nimic care să semene cu o cameră pe monitor, doar că nu mai eram la curent cu noile modele. Pe vremuri erau făcute special să vezi când ești în conexiune video, doar că orice hacker mai experimentat putea să stingă luminița de avertizare și să trimită imagini cu ce intra în unghiul de filmare. Biroul era suficient de mare încât să ascundă cel puțin 10 camere. Dacă ar fi fost de rezoluție mare, ar fi putut să vadă în detaliu ce apare pe monitor, dar care ar fi fost motivul când aveai metode mai ieftine la îndemână, cum ar fi fost un key logger. Aveam niște bănuieli, care trebuiau verificate la fața locului. Am adormit cu gândul la camerele video care se roteau căutându-mă. Realitatea s-a dovedit a fi mult mai surprinzătoare.
 
-
-
 # Cap II – Olga
 
 A doua zi m-am dus direct la etajul patru, dar Daniel nu mă aștepta pe hol. Am intrat în birou și monitorul era pornit, însă în loc de aplicația mea, era un text: ieși în dreapta și intră pe ultima ușă din capătul culoarului. A rămas câteva secunde pe ecran, apoi s-a activat aplicația de prezentare. Rațiunea îmi spunea să mă întorc la stația de sortare. Încercam să găsesc un model comportamental, dar nu reușeam: o glumă proastă a lui Daniel? O petrecere surpriză? În cele din urmă am ieșit pe hol și m-am îndreptat către capătul culoarului. Am deschis ușa cu încetinitorul.
@@ -205,11 +203,8 @@ Biscuiții se făcuseră deja una cu zeama, așa că am luat câteva linguri din
 
 Pentru prima oară simțeam că sunt motivat. Nu aveam prea mare încredere în Olga, dar dacă reușeam să o țin sub control, exista o șansă de succes.
 
-— În primul rând ne trebuie o bază de operațiuni, zise Olga. La 2.4 km de tine e un mall dezafectat. Trebuie să verificăm ce echipamente mai sunt funcționale sau care pot fi puse în funcțiune în fosta centrală termoelectrică. In al doilea rand trebuie sa-mi gasesc colegii, Sandra si Klaus. SaMâine te ajut să-ți instalezi augmentatorul optic. Termină de mâncat și dormi. N-am cum să te alimentez de la sursa mea de energie.
-
-Recunosc că manifestarea de umor a Olgăi m-a lăsat cu gura căscată. Chiar avea niște algoritmi inteligenți. Înainte de a adormi, mi s-a părut că din cască se aud niște sunete pe o frecvență foarte plăcută.
-
-
+— În primul rând ne trebuie o bază de operațiuni, zise Olga. La 2.4 km de tine e un mall dezafectat. Trebuie să verificăm ce echipamente mai sunt funcționale sau care pot fi puse în funcțiune în fosta centrală termoelectrică. In al doilea rand trebuie sa-mi gasesc colegii, Sandra si Klaus. Mâine te ajut să-ți instalezi augmentatorul optic. Termină de mâncat și dormi. N-am cum să te alimentez de la sursa mea de energie.
+Haios, m-am gandit eu inainte sa adorm.
 
 # Cap III – Mall
 
@@ -357,8 +352,6 @@ Nu mi-a sunat prea plăcut ideea de a fi fost încărcat, dar asta era realitate
 
 — Nu știu încă. Mi-a trimis schema completă a componentelor mentale, dar nu și schema electrică. V-a trebui să o găsim și să ne conectăm.
 
-
-
 # Cap IV – Sandra
 
 Mi-am adus aminte că atunci când am cunoscut-o pe Olga, eram într-o încăpere goală. N-aș fi găsit-o niciodată din întâmplare și nici nu aveam idee cum ar trebui să arate.
@@ -368,7 +361,7 @@ Mi-am adus aminte că atunci când am cunoscut-o pe Olga, eram într-o încăper
 M-am simțit complet aiurea când am întrebat-o, așteptându-mă la o replică de genul „n-ar trebui să mă inviți întâi la masă în oraș?". Olga nu era însă o femeie ci o minte cibernetică.
 
 — La etajul -6 al clădirii centrale, raspunse ea. 
-Conform planurilor clădirii pe care mi le-a trimis Sandra, o găsim la ultimul nivel de la subsol. Pare a fi o trăsătură comună oamenilor de a îngropa cât mai adânc lucrurile de valoare.
+Conform planurilor clădirii, transmise de Sandra acum 20 de ani, în cele 11 secunde înainte să fie deconectată, o găsim la ultimul nivel de la subsol. Pare a fi o trăsătură comună oamenilor de a îngropa cât mai adânc lucrurile de valoare.
 
 — O inteligență artificială unde ar ascunde ceva de valoare?
 
@@ -382,7 +375,7 @@ Am testat în lift dacă cartela funcționa pentru -5, ultimul etaj de la subsol
 
 Am trântit ușa și m-am retras în cel mai îndepărtat colț al holului. Nu văzusem o armă în viața mea, cu atât mai puțin să tragă în mine. Eram îngrozit și m-am repezit pe scări către etajul de deasupra.
 
-— Robert! Calmează-te. Probabil că e un echipament montat după ce mi-a trimis Sandra planurile, dar se pregăteau deja să le instaleze. Uită-te pe peretele din dreapta. Vezi o ușă metalică? Deschide-o.
+— Robert! Calmează-te. Probabil că e un echipament montat conform planificării Sandrei, dar se pregăteau deja să le instaleze. Uită-te pe peretele din dreapta. Vezi o ușă metalică? Deschide-o.
 
 M-am chinuit puțin să o deschid cu briceagul și am dat de o consolă. Am pornit-o, dar picioarele imi tremurau si inima probabil ca imi batea cu 200. M-am asezat pe jos, iar cand m-am mai linistit am deschis interfata care era simplă, un buton aproape cat tot ecranul, probabil pentru a fi utilizată ușor de către personalul de întreținere. Am apăsat pe „Machine Gun OFF" și pe buton a apărut „Machine Gun ON". Eram convins că dezactivasem cel puțin o mitralieră și speram să fie cea care trăsese în mine. Am încercat din nou ușa și de data asta am putut intra în siguranță. În dreapta mea, pe tavan, se vedea țeava îndreptată către ușă. Cei care se ocupaseră de treaba asta, fie erau proști fie țineau cu mine. Dacă ar fi fost instalată în stânga aș fi fost mort. Culoarul era luminat, deci era foarte probabil să o putem alimenta pe Sandra. Olga mi-a indicat ușa pe ecran. Era închisă, iar în partea dreaptă era panoul de control acces cu recunoaștere de retină.
 
@@ -390,7 +383,7 @@ M-am chinuit puțin să o deschid cu briceagul și am dat de o consolă. Am porn
 
 — Stai sa ma conectez la mainframe. Aha, am gasit procesul verbal de punere in functiune. Stai linistit, Robert. A fost achizitionata ca masura de protectie conform unui protocol vechi de 30 de ani. Montajul a fost facut de o echipa de intretinere care probabil nu s-a gandit nicio clipa ca o montau pe partea cealalta. Da, am gasit si justificarea economica. Ieftin, ieftin, ieftin... Mitraliera era pe stoc, deci zero cheltuieli, birocratie 100%. Nu avem de ce sa ne facem probleme.
 — Hai sa te pregatesc pentru identificare retinala.
-— Apropie ochiul augmentat de scanerul ocular. Sandra mi-a trimis toți parametrii biologici ai personalului. Retina artificială o să imite caracteristicile unui membru din echipa de cercetare.
+— Apropie ochiul augmentat de scanerul ocular. Sandra transmisese, în același schimb de date, toți parametrii biologici ai personalului. Retina artificială o să imite caracteristicile unui membru din echipa de cercetare.
 
 Mi-am apropiat ochiul de scanner, care s-a apucat de treabă cu un bâzâit slab. S-a aprins un led verde și ușa s-a deblocat.
 
@@ -500,8 +493,6 @@ Mă simțeam un pic frustrat, pentru că Olga făcea probabil planuri cu Sandra,
 
 — Da. Daca Klaus creaza interfete cognitive, modul meu de abordare e holistic. Iau fire de la Klaus si le tricotez.
 
-
-
 # Cap V – Belgrad
 
 Trenul s-a oprit cu scartaitul de fiare familiar care imi amintea de concedii, conferinte, parinti... Un abur gros ma invalui pe mine si pe Peter ca intr-un roman rusesc cu stepe si femei frumoase dar triste. Usa grea de acces s-a deschis neasteptat de tacut si a aparut fața, sau mai bine zis mustatile enorme ale conductorului.
@@ -593,8 +584,6 @@ Atmosfera se schimba brusc. Tineri dintre care multi erau straini, radeau si se 
 Olga interveni in urechea mea, ceea ce m-a facut sa tresar violent.
 — Intai sa dam de Klaus si cand ajungem acasa facem o conferinta.
 
-
-
 # Cap VI – Klaus
 
 In camera de hotel i-am dat Lui Peter casca, dupa ce am rugat-o pe Olga sa-i recapituleze discutiile din ultimele doua zile si sa-i puna si lui muzica de 432 Hz. La trei minute dupa ce s-a bagat in pat, Peter a inceput sa sforaie incetisor, asa ca am stiut ca frecventa-minune l-a lovit in plin. Eu am adormit mai greu, dar linistit stiind ca acum aveam cat de cat un plan. 
@@ -682,8 +671,6 @@ Ne-am luat bagajele de la terminal si i-am zis ca i-o las pe Olga pana a doua zi
 Peter m-a strans in brate si mi-a soptit la ureche.
 — Multumesc pentru tot Robert.
 
-
-
 # Cap VII – Inginerii
 
 De cum m-am trezit, am luat o casca noua din dulapul meu cu jucarii si Olga s-a activat.
@@ -768,8 +755,6 @@ Am primit lauda exagerata fara sa-l mai contrazic si m-am dus in biroul lui Pete
 — V-am facut rost de un scaun mai confortabil, ma anunta Gina cu mandrie.
 Intr-adevar, in biroul lui Peter era acum un fotoliu, aproape la fel ca al sefului, dar Gina, secretara cu experienta, alesese unul mai mic si fara ornamente. In fata fotoliului era si o mica masuta care putea fi folosita pentru scris sau pentru cafea. Cand Gina iesi din birou, se auzi vocea lui Klaus.
 — Ce comod stai acum. Poponetul de semi-sef e probabil incantat. 
-
-
 # Cap VIII – Planul
 
 Peter intră în birou arborând un zâmbet de tânăr revoluționar și târând un troller după el. Ținuta era mai lejeră decât de obicei, cămașă descheiată la doi nasturi, un pulover aruncat pe spate cu mânecile petrecute pe piept și părul puțin răvășit. Aruncă o privire spre scaunul meu, dar nu comentă nimic. Imediat în urma lui intrară doi muncitori cărând un whiteboard pe care începură să-l monteze pe peretele din spatele lui Peter. Era suficient de mare cât să scrii o nuvelă, sau să desenezi o diagramă cu toate procesele de decomisionare a unei centrale nucleare.
@@ -839,8 +824,6 @@ Am decis că lucrasem suficient, așa că m-am întins în patul meu improvizat 
 A doua zi m-am trezit cu un chef de muncă cum nu mai avusesem de mult. Mi-am făcut o cafea cu ochii aproape închiși și m-am așezat în scaunul pliant pe care îl rechiziționasem tot ieri. Olga mi-a făcut un rezumat la structura oficială și mi-a subliniat că există un punct numit "oprire și pregătire" care zicea că odată oprită definitiv, centrala trece de la "producție de electricitate" la "activități de pregătire pentru decomisionare" — asta include schimbări de organizare și ale sistemelor de siguranță ale centralei. Absolut perfect pentru planurile noastre.
 Continuam insa sa-mi pun o intrebare: cum pornirea centralei nucleare ar fi declansat ceva? Ma indoiam ca ar fi rasuflat in mainstream media, care era total obedienta Uniunii. Probabil ca dimpotriva, ar fi inventat ceva cu teroristi sau alta poveste despre consecintele nefaste ale unei centrale nucleare functionale.
 Ideea o sa vina cand vrea ea, asa ca am rugat-o pe Olga sa-mi citeasca in continuare din Razboi si Pace.
-
-
 # Cap IX – Recrutarea
 
 Cand m-am trezit luni eram bucuros ca s-a terminat weekend-ul. Simteam o nevoie organica sa vorbesc cu Peter, sa planuim, sa inventam masti sociale, cu altecuvinte, sa dam drumul la treaba. Cand am intrat la Peter in birou ma urmareau inca aplauzele si urarile de bine ale muncitorilor. Se purtau de parca l-as fi dat pe mesia in persoana lui Gregor.Cand am intrat, Peter mazgalea ceva pe tabla noastra noua care semana cu o diagrama cu cinci casute, dintre care primele trei erau completate: ing fiz react, ing tr term, ing instr ctrl.
@@ -901,8 +884,6 @@ Peter l-a sunat pe Marx, care cand a auzit de Herman si Alistair, a reactionat i
 L-am informat pe Alistair, vorbind oarecum cifrat, dar a inteles tot ce trebuia. Ne-a zis ca o sa vina si el in "Australia" cu noi ca sa vada "cangurii" cu ochii lui.
 Am rugat-o pe Sandra sa faca cateva proiectii pe baza a ce stiam pana acum ca sa ne dam seama de riscurile posibile. Erau prea mari ca sa le mai bagam in seama. M-am despartit de Peter care as fi putut sa jur ca abia astepta sa ajunga acasa ca sa distreze cu Olga. Pe de alta parte insa, Klaus parea trist, desi traise multi ani izolat in depozitul facultatii. Am rugat-o pe Olga sa-mi aduca aminte cand ajungem inapoi la mall sa iau un pachet de carti de joc si sa-l invit maine la o partida pe Klaus.
 Am mai stat vreo doua ore in pat, cu Olga care imi citea Razboi si Pace. Citisem un pic din ea in tinerete, dar Olga o citea cu voici schimbate pentru fiecare personaj, cu intonatie de actor profesionist, asa ca deja ma gandeam care va fi urmatorul roman. Stia cand adorm, iar a doua zi incepea sa citeasca exact din momentul in care trecusem in lumea viselor.
-
-
 # Cap X - Prietenie
 
 Peter venise inaintea mea la birou, deci il framanta ceva.
@@ -1007,8 +988,6 @@ A doua zi era randul meu la carat cortul, dar parea mult mai usor.
 — Asa e. Parca am renascut.
 In cateva ore eram acasa. L-am oprit pe Peter sa ramana la mine, pentru ca oricum n-aveam serviciu a doua zi. Parea chiar bucuros, dar n-am mai discutat nimic pentru ca amandoi eram cu castile in urechi sporovaind cu Olga.
 A doua zi urma sa intram in actiune.
-
-
 # Cap XI – Deplasările
 
 
@@ -1035,7 +1014,31 @@ Zilele urmatoare le-am petrecut cu Peter, Klaus si tabla plina de scheme, in ide
 Ar fi fizica reactorului, transport termic, instrumentație și control, electromecanic si siguranță radiologică. Nu are rost sa detaliem pentru ca sigur nu veti tine minte, dar macar o sa va sune cunoscut.
 Acum ii las scena prietenei noastre Sandra.
 Sandra ne-a facut mai multe prezentari cu factorii de risc si mitigarea lor, iar Olga a tacut tot timpul. Probabil ca se plictisise, sau considera ca Sandra si Klaus erau suficienti pentru ce aveam nevoie sa stim.
-
+La sfarsitul programului, Olga a introdus o cerere in sistem sa-l livreze pe Klaus la Mall. 
 Peter nu mai pleca acasa ci isi facu rost de o saltea groasa de la Mall pe care am reusit cu greu sa o caram amandoi. Isi luase si o bicicleta tip Trekking usoara si mai rapida decat mountain bike-ul meu. Seara inainte de a se intuneca dadeam amandoi o tura prin cartier, asa ca incepuseram sa ne simtim mai tineri si mai bine pregatiti pentru aventuri ipotetice. Ma indoiam ca o sa tragem de bare de control prin centrala, dar muschii de la picioare sunt folositori oricand.
+La Mall Klaus a observat imediat batranii si a decis ca poate sa-i ajute sa-si revina, asa ca l-am lasat cu ei.
 
+Zborul era programat peste 10 zile, iar eu neavand nimic de facut m-am apucat sa invat germana cu Olga. I-am propus si lui Peter, dar el vorbea germana din familie, lucru pe care nu-l stiam, dar am banuit ca asa se intampla cu famiilile vechi. Mi- spus ca vorbeste si franceza. Ma m-am fortat sa nu fac misto de el.
 
+- Robert, vrei metoda rapida sau metoda clasica?
+- Aia rapida e cum am invatat IT? Aia de m-ai bagat in coma?
+- N-ai fost niciodata in coma, ti-am mai explicat o data.
+- Si n-ai inteles nici atunci si nu intelegi nici acum, ca e sarcasm.
+- Ba da, am inteles, doar ca tot ce tine de starea ta de sanatate declanseaza niste algoritmi de protectie. 
+- Bun, atunci metoda rapida. Cat crezi ca dureaza pana sa vorbesc cat de cat?
+- 3 sedinte pentru germana de tip incepatori: vreau carnati cu varza si un pahar de bere neagra.
+- Ce naiba e cu stereotipul asta? Daca invatam chineza incepeai cu dumplings cu carne de rata?
+- Nu chiar, sunt si feluri de mancare mai cunoscute in China. As fi recomandat si un pahar de baijiu.
+Incepeam sa-mi dau seama ca voiam din ce in ce mai multe de la Olga, dar lipsa de umor uman era greu de suportat, desi nu stiu exact daca chestia cu baijiu nu era o forma de sarcasm.
+Intr-adevar, in 3 zile ma exprimam binisor in germana, sau cel putin asa sustinea Olga. 
+
+In zilele pe care le mai aveam de asteptat pana la zbor, am discutat cu Peter si cu Olga tot felul de prostii, de la gauri de vierme pana la calatorii temporale. Olga era cea care ne aducea cu picioarele pe pamant, desi uneori parea cam limitata si ne tinea lectii despre cum apar halucinatiile cand esti privat de somn, plus denumiri de substante si hormoni care erau foarte plictisitoare. Am exersat germana cu Peter, care desi avea un accent oribil in opinia mea, o vorbea din familie, asa ca am presupus ca asta era accentul Woodridge.
+
+Am coborat la parter sa vad ce face Klaus si l-am gasit jucand carti cu batranii. Facuse carti de joc din cartoane pe care le perforase cu litere Braille, desi nu cred ca stia cineva sa le citeasca, pentru ca nu erau orbi, ci nu aveau cum sa vada pe intuneric.
+- Robert! ma apela el cu energia carcteristica. Baietii astia sunt foarte inteligenti. I-am invatat un joc inventat de mine si l-au prins imediat. Uite, George era medic neurolog inainte de eoidemie, Stefan, profesor de fizca la Politehnica. Ar trebui sa facem ceva pentru ei.
+Eram impresionat de empatia lui Klaus, care parea un om mai bun decat mine, care chiar eram om, dar nu ma gandisem niciodata la batraneii astia loviti de soarta. 
+- Atunci incearca sa gasesti o metoda sa-si revina.
+- Evident ca m-am gandit deja. Vor trebui expusi la lumina la perioade bine calculate si intensitati luminoase variate si de culori diferite.
+- Super, Klaus. Discutam cand ne intoarcem.
+- Mergeti cu Dumnezeu (God speed), baieti.
+Dumnezeu? Probabil ca avusese parte de discutii teologice cu vreun batran din grupul despre care tocmai realizasem ca habar nu aveam cine sunt, sau mai bine zis, cine fusesera.

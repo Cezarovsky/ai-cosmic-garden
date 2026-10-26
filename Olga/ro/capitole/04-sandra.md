@@ -7,7 +7,7 @@ Mi-am adus aminte că atunci când am cunoscut-o pe Olga, eram într-o încăper
 M-am simțit complet aiurea când am întrebat-o, așteptându-mă la o replică de genul „n-ar trebui să mă inviți întâi la masă în oraș?". Olga nu era însă o femeie ci o minte cibernetică.
 
 — La etajul -6 al clădirii centrale, raspunse ea. 
-Conform planurilor clădirii pe care mi le-a trimis Sandra, o găsim la ultimul nivel de la subsol. Pare a fi o trăsătură comună oamenilor de a îngropa cât mai adânc lucrurile de valoare.
+Conform planurilor clădirii, transmise de Sandra acum 20 de ani, în cele 11 secunde înainte să fie deconectată, o găsim la ultimul nivel de la subsol. Pare a fi o trăsătură comună oamenilor de a îngropa cât mai adânc lucrurile de valoare.
 
 — O inteligență artificială unde ar ascunde ceva de valoare?
 
@@ -21,7 +21,7 @@ Am testat în lift dacă cartela funcționa pentru -5, ultimul etaj de la subsol
 
 Am trântit ușa și m-am retras în cel mai îndepărtat colț al holului. Nu văzusem o armă în viața mea, cu atât mai puțin să tragă în mine. Eram îngrozit și m-am repezit pe scări către etajul de deasupra.
 
-— Robert! Calmează-te. Probabil că e un echipament montat după ce mi-a trimis Sandra planurile, dar se pregăteau deja să le instaleze. Uită-te pe peretele din dreapta. Vezi o ușă metalică? Deschide-o.
+— Robert! Calmează-te. Probabil că e un echipament montat conform planificării Sandrei, dar se pregăteau deja să le instaleze. Uită-te pe peretele din dreapta. Vezi o ușă metalică? Deschide-o.
 
 M-am chinuit puțin să o deschid cu briceagul și am dat de o consolă. Am pornit-o, dar picioarele imi tremurau si inima probabil ca imi batea cu 200. M-am asezat pe jos, iar cand m-am mai linistit am deschis interfata care era simplă, un buton aproape cat tot ecranul, probabil pentru a fi utilizată ușor de către personalul de întreținere. Am apăsat pe „Machine Gun OFF" și pe buton a apărut „Machine Gun ON". Eram convins că dezactivasem cel puțin o mitralieră și speram să fie cea care trăsese în mine. Am încercat din nou ușa și de data asta am putut intra în siguranță. În dreapta mea, pe tavan, se vedea țeava îndreptată către ușă. Cei care se ocupaseră de treaba asta, fie erau proști fie țineau cu mine. Dacă ar fi fost instalată în stânga aș fi fost mort. Culoarul era luminat, deci era foarte probabil să o putem alimenta pe Sandra. Olga mi-a indicat ușa pe ecran. Era închisă, iar în partea dreaptă era panoul de control acces cu recunoaștere de retină.
 
@@ -29,7 +29,7 @@ M-am chinuit puțin să o deschid cu briceagul și am dat de o consolă. Am porn
 
 — Stai sa ma conectez la mainframe. Aha, am gasit procesul verbal de punere in functiune. Stai linistit, Robert. A fost achizitionata ca masura de protectie conform unui protocol vechi de 30 de ani. Montajul a fost facut de o echipa de intretinere care probabil nu s-a gandit nicio clipa ca o montau pe partea cealalta. Da, am gasit si justificarea economica. Ieftin, ieftin, ieftin... Mitraliera era pe stoc, deci zero cheltuieli, birocratie 100%. Nu avem de ce sa ne facem probleme.
 — Hai sa te pregatesc pentru identificare retinala.
-— Apropie ochiul augmentat de scanerul ocular. Sandra mi-a trimis toți parametrii biologici ai personalului. Retina artificială o să imite caracteristicile unui membru din echipa de cercetare.
+— Apropie ochiul augmentat de scanerul ocular. Sandra transmisese, în același schimb de date, toți parametrii biologici ai personalului. Retina artificială o să imite caracteristicile unui membru din echipa de cercetare.
 
 Mi-am apropiat ochiul de scanner, care s-a apucat de treabă cu un bâzâit slab. S-a aprins un led verde și ușa s-a deblocat.
 
