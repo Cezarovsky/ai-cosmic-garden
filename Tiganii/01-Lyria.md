@@ -265,6 +265,59 @@ Ssrrai le aratase niste filmari cu rekomezi. Analogiile pe care le facura Mirand
 - Gaju, din pacate sau din fericire, nu am reprezentarea voastra estetica. Ne-a adus pana aici, deci e o nava buna.
 - Ne-a adus globul meu, sa nu uitam, interveni Miranda. Te-a lovit mandria nationala?
 - Ciudat. Chiar am avut senzatia ca s-a declansat un algoritm de care nu stiam. O sa-mi fac o auto-analiza exhaustiva cand ne intoarcem. Intai trebuie sa-l gasim pe ministrul agriculturii ca sa semnam contractul.
-- Fa, te-ai tampit! Vrei sa semnezi un contract pe 1000 de ani fara negocieri? se rasti Gaju.
+- Femeie, te-ai tampit? Vrei sa semnezi un contract pe 1000 de ani fara negocieri? se rasti Gaju la Ssrrai.
 - Ce sa negociem? intreba Ssrrai. 
-- Preturi. Ce dracu sa negociezi? Un contract pe 1000 de ani inseamna ca Rekoma vrea sa bata in cuie ceva ce ii convine extraordinar de mult. Mie nu-mi miroase a win-win, zise Gaju.
+- Preturi. Ce dracu altceva sa negociezi? Un contract pe 1000 de ani inseamna ca Rekoma vrea sa bata in cuie ceva ce ii convine extraordinar de mult. Mie nu-mi miroase a win-win, zise Gaju. Trebuie sa strangem date de pe piata inainte de a pune botu' la ce zic astia in minister.
+- Si de unde le strangem. Nu poti intra intr-un minister ca la tine acasa.
+- Dintr-o carciuma, evident. Voi banuiesc ca nu aveti carciumi, nu? Intreba Gaju.
+- Pe modelul vostru de socializare bazat pe alcool, nu. Sunt niste cluburi...
+- Scuze, dar e clar ca nu aveti pe Lyria ce caut eu. Fie ca au motoare FTL sau caruta cu magar, negustorii fac afaceri la carciuma. Nu ma refer la d-alea de tehnologie sau de aigurari, ci la astea cinstite, cu marfa schimbata dintr-o mana in alta, o lamuri Gaju.
+- Da, alea de unde va intoarceti dupa 2 zile ca s-a stricat masina, interveni si Miranda.
+- Aberezi, femeie! Sunt inginer, nu negustor!
+- Motivele difera, rezultatul e acelasi. Te intorci mort de beat si zaci o saptamana, tipa Miranda apucand tivul fustei si tragand de el de parca voia sa se dezbrace.
+- Gata, termina cu teatrul, se rasti Gaju, vizibil jenat.
+Miranda parca shimba un canal de stiri. 
+- Scuze, Ssrrai. Asa e nemul nostru, daca nu-si ridica femeia fustele in cap, nu se regleaza echilibrul familial, explica Miranda.
+- E un gest bizar, observa Ssrrai. I-am dat platformei coordonatele unei "carciumi" apropiate, care isi face reclama ca e cea mai cosmopolita de pe Rekoma. Acolo ar trebui sa gasim niste informatii.
+Carciuma era enorma, atat ca suprafata cat si ca inaltime, firesc de altfel, pentru ca unele rase aveau peste 5 m. Atmosfera era placuta, chiar prieteneasca, la mese fiind amestecati tot felul de extraterestrii. Observa cativa umanoizi la una din mese, iar Ssrrai ii spuse ca sunt de pe Gulan, si afacerea lor predominanta era mentenanta. 
+- Aha! Ingineri de-ai mei. Cred ca putem stabili un cap de pod cu ei, zise Gaju si se indrepta catre gulanezi cu pasul un pic leganat, ceea ce in mintea lui era etalarea smecheriei. Evident ca pe gulanezi nu-i impresiona absolut de loc, dar aparenta de Lyrieni ii facu sa-l priveasca cu atentie. De fapt toate rasele pe langa care treceau, intorceau capul dupa ei. 
+Ssrrai ii transmise cateva date despre ei, cum ar fi lipsa salutului prin strangerea mainii, ceea ce oricum ar fi parut straniu din partea unor lyrieni. 
+- Salut, frati cosmici, li se adresa Gaju cu o expresie sugerata de Ssrrai.
+Erau trei gulanezi, inalti de peste 2m si cu cate o pereche de coarne intoarse spe spate ceea ce le dadea o infatisare de capre de munte. Aveau ochii mari si blanzi, de un violet intens si o blana lucioasa de parca tocmai iesisera din apa. Mainile aveau 6 degete, ceea ce ii sugera lui Gaju o coordonare excelenta. 
+Toti trei se ridicara ceremonios de la masa iar unul dintre ei ii intansa mana lui Gaju, care se dadu instantaneu in spate cu o figura ingrozita.
+- Hahaha! Rase cu o voce de bas gulanezul. Iarta-ma prietene, dar pe voi va stie lumea doar din povesti si voiam sa verific daca intr-adevar aveti o problema cu contactul fizic.
+- Si nu puteai sa intrebi? se rasti Gaju. Puteam sa fac un infarct si sa crap dracului in carciuma asta imputita.
+- Hai, nu te enerva. Asa suntem noi mecanicii, mai tampiti social.
+- Mecanici? intreba Gaju in tonul caruia deja se simtea parsivenia. Si eu sunt tot mecanic. Gajjs ma cheama si se mai dadu un pas in spate cand gulanezul parea ca vrea sa reia contactul.
+- Surikanex, se prezenta acesta, iar acestia sunt colegii mei, Mifatox si Goronatox. Mecanici pe Butucul Zburator. Si pe doamnele astea incantatoare cum le cheama?
+- Mrrssana, se prezenta Miranda, facand la randul ei un pas in spate ca sa evite orice posibil contact, desi era evident ca nu mai avea nimeni de gand sa o atinga, iar ea e Ssrrai, secretara noastra.
+- Amandoi sunteti ingineri? intreba curios Mifatox, un gulanez cu o voce profunda si foarte placuta.
+- Nu, ii raspunse Miranda, doar sotul. Eu ma ocup de tranzactii.
+- Hm, facu Goronatox. Si cum bati palma, ca nu poti sa inchei un acord din cate stiu eu, fara sa bati palma.
+- Nu e nicio problema, o bate Ssrrai pentru noi. Ea nu are... problema noastra.
+- Acolo in spate e economista noastra. O chem acum si facem o masa mai mare. Voi mancati carne, intreba vizibil curios Goronatox.
+Lui Gaju ii ghiortaia stomacul de foame, dar trebui sa-si joace rolul.
+- Nu, suntem vegetarieni.
+- Asta e excelent, zise Surikanex. Pe planeta asta toti sunt vegetarieni, dar noi mai mancam si carne... cateodata. Dar sa stii ca rekomezii au niste mirodenii atat de bune ca nici nu stii ce mananci.
+Se apropie de masa si economista, care fie fusese informata cu privire la fobia lyrienilor, fie stia deja, pentru ca ii saluta scurt cu o aplecare a capului.
+- Spunatix, se prezenta ea, facand din nou o usoara plecaciune din cap. Ma bucur sa vad pentru prima data lyrieni in carne si oase. Va stiu doar din contracte.
+- Contractele sunt publice? se mimuna Gaju. Adica toata lumea cunoste preturile tuturor?
+- Nu e atat de simplu, ii raspunse Spunatix. Banuiesc ca "pret" e o figura de stil, pentru ca dupa cum sigura, stiti ca pe Rekoma se foloseste doar barterul. Dupa vorba lor, creditele nu umplu stomacul. Banuiesc ca voi sunteti cu cerealele, ca intotdeauna.
+- Da, ii zise Miranda, dam cereale si luam mirodenii.
+- Interesant. Stiati de ultima barfa locala cu mirodeniile?
+Atat Miranda cat si Gaju se straduira din rasputeri sa nu lase sa se observe interesul brusc pentru subiect. 
+- Stiri de genul asta nu prea ajung la noi. In plus, noi suntem la warp 2, asa ca dureaza, zise Miranda detasat.
+- Atunci va pun eu la curent. Rekomezii au facut niste modificari genetice si cantitatea de mirodenii recoltata a fost dubla fata de anul trecut. Probabil ca o sa le luati la un pret foarte bun.
+Gaju aproape ca incepu sa-si frece mainile de bucurie, dar se abtinu si in schimb ii intreba pe mecanici de motoarele warp.
+- Noi suntem la warp 5, dar tehnologia e periculoasa. Cea mai mica eroare in sintetizarea combustibilului si nu mai ajungi niciodata la destinatie, il lamuri Goronatox. In schimb avem avantajul ca stim jumatate de galaxie.
+Miranda il lovi usor peste picioare de frica ca nu cumva Gaju sa inceapa sa danseze o polka pe masa.
+- Voi sunteti cei mai rapizi din galaxie? tatona Gaju terenul.
+- Nu, nici gand. Cei mai tari sunt... nu stiu exact cum ii cheama, dar noi le spunem cristale-zburatoare. Au warp 7, dar nu fac comert. Doar aterizeaza prin muntii din Sud, de unde banuiesc ca se aprovizioneaza cu o forma de energie pe care nu o cunoastem. Am vazut o data o piatra din asta care levita pe langa ministrul economiei, il informa Spunatix.
+- Cine stie ce combustibili exotici folosesc, de mai mult consumi energie decat extragi. Deci daca vreti sa discutam de warp 5, suntem aici, complet deschisi la negocieri, ii lamuri Gaju.
+- Voi folositi credite? intreba economista si i se simtea pofta de bani in voce. Nu stiam ca lyrienii sa foloseasca altceva inafara de barter pentru schimburile economice. Va dati seama ca problema cu motoarele warp e la nivel national si nu v-ar da nimeni asa ceva nici pentru 1 trilion de tone de cereale.
+- Nu, evident, dar suntem pe cale sa introducem si noi mecanismul asta, zise Miranda.
+- Da, interveni si Gaju, vrem sa intram pe piata globala, dar nu stim inca ce acoperire aveti.
+- Metale rare in principal.
+Lui Gaju aproape ca-i sarisera ochii din orbite. Pamantul statea pe rezerve uriase de pamanturi rare. Oare Lyria avea si ea rezerve de Ceriu sau Lantan? Foarte probabil sa aiba, dar problema reala statea in extractie si separare, iar pamantenii se pricepeau bine la asta. Ssrrai facu la randul ei o serie de simulari, dar nu credea ca lyrienii s-ar fi apucat vreodata de asemenea gen de afaceri. 
+Gulanezii ii sfatuira ce sa comande, iar pranzul aproape ca se transforma in cina, cu glume si amintiri. Cand se innoptase deja, se despartira razand, Gaju stapanindu-se cu greu sa nu-i plesneasca prieteneste pe gulanezi pe spate. Acestia le explicara cum pot fi contactati prin reteaua globala de comunicatii pe care Ssrrai o cunostea bine, desi curierii ajungeau ma repede, si se despartira fericiti ca isi facusera prieteni in galaxie.
+Dimineata erau gata sa ia legatura cu ministrul agriculturii, iar Gaju isi facuse deja un plan de bataie de care era sigur ca nu va aduce zambetul pe buzele micilor hipopotami.
