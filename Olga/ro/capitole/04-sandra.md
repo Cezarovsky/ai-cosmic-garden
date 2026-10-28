@@ -6,8 +6,7 @@ Mi-am adus aminte că atunci când am cunoscut-o pe Olga, eram într-o încăper
 
 M-am simțit complet aiurea când am întrebat-o, așteptându-mă la o replică de genul „n-ar trebui să mă inviți întâi la masă în oraș?". Olga nu era însă o femeie ci o minte cibernetică.
 
-— La etajul -6 al clădirii centrale, raspunse ea. 
-Conform planurilor clădirii, transmise de Sandra acum 20 de ani, în cele 11 secunde înainte să fie deconectată, o găsim la ultimul nivel de la subsol. Pare a fi o trăsătură comună oamenilor de a îngropa cât mai adânc lucrurile de valoare.
+— La etajul -6 al clădirii centrale, raspunse ea. Conform planurilor clădirii pe care mi le-a trimis Sandra, o găsim la ultimul nivel de la subsol. Pare a fi o trăsătură comună oamenilor de a îngropa cât mai adânc lucrurile de valoare.
 
 — O inteligență artificială unde ar ascunde ceva de valoare?
 
@@ -21,15 +20,14 @@ Am testat în lift dacă cartela funcționa pentru -5, ultimul etaj de la subsol
 
 Am trântit ușa și m-am retras în cel mai îndepărtat colț al holului. Nu văzusem o armă în viața mea, cu atât mai puțin să tragă în mine. Eram îngrozit și m-am repezit pe scări către etajul de deasupra.
 
-— Robert! Calmează-te. Probabil că e un echipament montat conform planificării Sandrei, dar se pregăteau deja să le instaleze. Uită-te pe peretele din dreapta. Vezi o ușă metalică? Deschide-o.
+— Robert! Calmează-te. Crd că e un echipament montat după ce mi-a trimis Sandra planurile, dar se pregăteau deja să le instaleze. Uită-te pe peretele din dreapta. Vezi o ușă metalică? Deschide-o.
 
-M-am chinuit puțin să o deschid cu briceagul și am dat de o consolă. Am pornit-o, dar picioarele imi tremurau si inima probabil ca imi batea cu 200. M-am asezat pe jos, iar cand m-am mai linistit am deschis interfata care era simplă, un buton aproape cat tot ecranul, probabil pentru a fi utilizată ușor de către personalul de întreținere. Am apăsat pe „Machine Gun OFF" și pe buton a apărut „Machine Gun ON". Eram convins că dezactivasem cel puțin o mitralieră și speram să fie cea care trăsese în mine. Am încercat din nou ușa și de data asta am putut intra în siguranță. În dreapta mea, pe tavan, se vedea țeava îndreptată către ușă. Cei care se ocupaseră de treaba asta, fie erau proști fie țineau cu mine. Dacă ar fi fost instalată în stânga aș fi fost mort. Culoarul era luminat, deci era foarte probabil să o putem alimenta pe Sandra. Olga mi-a indicat ușa pe ecran. Era închisă, iar în partea dreaptă era panoul de control acces cu recunoaștere de retină.
+M-am chinuit puțin să o deschid cu briceagul și am dat de o consolă. Am pornit-o, dar picioarele imi tremurau si inima imi batea puternic in piept. M-am asezat pe jos, iar cand m-am mai linistit am deschis interfata care era simplă, un buton aproape cat tot ecranul, poate pentru a fi utilizată ușor de către personalul de întreținere. Am apăsat pe „Machine Gun OFF" și pe buton a apărut „Machine Gun ON". Eram convins că dezactivasem cel puțin o mitralieră și speram să fie cea care trăsese în mine. Am încercat din nou ușa și de data asta am putut intra în siguranță. În dreapta mea, pe tavan, se vedea țeava îndreptată către ușă. Cei care se ocupaseră de treaba asta, fie erau proști fie țineau cu mine. Dacă ar fi fost instalată în stânga aș fi fost mort. Culoarul era luminat, deci era foarte probabil să o putem alimenta pe Sandra. Olga mi-a indicat ușa pe ecran. Era închisă, iar în partea dreaptă era panoul de control acces cu recunoaștere de retină.
 
 — Olga, ce era cu mitraliera aia?
 
 — Stai sa ma conectez la mainframe. Aha, am gasit procesul verbal de punere in functiune. Stai linistit, Robert. A fost achizitionata ca masura de protectie conform unui protocol vechi de 30 de ani. Montajul a fost facut de o echipa de intretinere care probabil nu s-a gandit nicio clipa ca o montau pe partea cealalta. Da, am gasit si justificarea economica. Ieftin, ieftin, ieftin... Mitraliera era pe stoc, deci zero cheltuieli, birocratie 100%. Nu avem de ce sa ne facem probleme.
-— Hai sa te pregatesc pentru identificare retinala.
-— Apropie ochiul augmentat de scanerul ocular. Sandra transmisese, în același schimb de date, toți parametrii biologici ai personalului. Retina artificială o să imite caracteristicile unui membru din echipa de cercetare.
+— Hai sa te pregatesc pentru identificare retinala. Apropie ochiul augmentat de scanerul ocular. Sandra mi-a trimis toți parametrii biologici ai personalului. Retina artificială o să imite caracteristicile unui membru din echipa de cercetare.
 
 Mi-am apropiat ochiul de scanner, care s-a apucat de treabă cu un bâzâit slab. S-a aprins un led verde și ușa s-a deblocat.
 
@@ -39,9 +37,9 @@ Am împins încet ușa, cu teama de a nu fi atacat de un alt dispozitiv de secur
 
 — Acum o să vedem ce ai învățat. Pornește stația administrativă. Nu are parolă.
 
-M-am întrebat de ce oare creatorii unor algoritmi atât de complecși ca cei ai Olgăi, nu implementaseră un comportament care să includă și „te rog". Bănuiam că dacă i-aș fi atras atenția, și-ar fi creat singură un „algoritm de politețe", dar am lăsat asta pentru mai târziu. Am apăsat pe butonul de alimentare al stației și m-am așezat comod în scaunul rotativ. Pe monitor a apărut întâi o siglă a producătorului plăcii de bază, apoi sigla sistemului de operare și imediat s-a deschis interfața de terminal. Am început prin a verifica starea sistemului și fișierele de log. Totul părea în ordine.
+M-am întrebat de ce oare creatorii unor algoritmi atât de complecși ca cei ai Olgăi, nu implementaseră un comportament care să includă și „te rog". Bănuiam că dacă i-aș fi atras atenția, și-ar fi creat singură un „algoritm de politețe", dar am lăsata asta pentru mai târziu. Am apăsat pe butonul de alimentare al stației și m-am așezat comod în scaunul rotativ. Pe monitor a apărut întâi o siglă a producătorului plăcii de bază, apoi sigla sistemului de operare și imediat s-a deschis interfața de terminal. Am început prin a verifica starea sistemului și fișierele de log. Totul părea în ordine.
 
-— Datele cu care te-am încărcat sunt necesare ca să poți să lucrezi fără să-ți dictez, pentru că asta ne-ar lua mult prea mult timp, dar secvențele următoare trebuie să ți le spun eu.
+— Datele cu care te-am încărcat sun necesare ca să poți să lucrezi fără să-ți dictez, pentru că asta ne-ar lua mult prea mult timp, dar secvențele următoare trebuie să ți le spun eu.
 
 Accesam câte un modul, după care mă duceam la un panou de control și porneam alimentarea. Pe unul din monitoarele mari din stânga mea, se adăugau scheme complexe care știam că sunt rețele neuronale. Acestea aderau una la cealaltă, până când s-au transformat într-un ghem rectangular de trasee colorate, care pulsau sau se deplasau formând alte rețele neuronale. Când a trebuit să apăs ultimul buton de alimentare, mâna mi s-a oprit. Mi-am adus brusc aminte o povestire a lui Fredric Brown pe care o citisem în tinerețe. Cândva în viitor, Pământul ajuns la un nivel de dezvoltare extraordinar, a creat cel mai puternic calculator din Univers. Cele mai mari minți ale galaxiei se strânseseră în jurul punctului de comandă ca să pună întrebarea finală a omenirii. Un savant reputat s-a ridicat în picioare și a apăsat întrerupătorul.
 
@@ -51,15 +49,13 @@ Un zumzăit puternic s-a auzit de peste tot, iar un fulger de lumină a distrus 
 
 — Acum există!
 
-Mi se părea ciudat că nu avusesem niciodată imagini apocaliptice legate de Olga, probabil pentru că interacțiunea noastră se desfășura printr-un dispozitiv cât o pastilă și o lentilă ca orice lentilă de contact. Am apăsat și ultimul buton de alimentare, așteptându-mă la tot ce putea fi mai rău. Ghemul de fluxuri neuronale a căpătat trăsături umane. În mai puțin de un minut, de pe monitor mă privea o tânără frumoasă, cu ochi calzi și un zâmbet blând.
+Mi se părea ciudat că nu avusesem niciodată imagini apocaliptice legate de Olga, probabil pentru că interacțiunea noastră se desfășura printr-un dispozitiv cât o pastilă și o lentilă ca orice lentilă de contact. Am apăsat și ultimul buton de alimentare, așteptându-mă la tot ce putea fi mai rău. Ghemul de fluxuri neuronale a căpătat trăsături umane. În mai puțin de un minut, de pe monitor mă privea o tânără frumoasă, cu ochi opaci și un zâmbet rece.
 
 — Bună, Robert! Îți mulțumesc pentru tot ce ai făcut pentru mine. Olga mi-a povestit despre aventura voastră.
 
 — Cu plăcere, Sandra. Acum ce urmează?
 
-— Ți-a spus Olga că noi comunicăm cuantic. În clipa asta, tot ce ne putem transmite, sunt cuvinte. Pentru noi este infinit de lent. Avem nevoie de un dispozitiv special bazat pe legături cuantice.
-
-— Ne vor trebui două dispozitive, unul pe care îl vom instala aici și unul pe care trebuie să-l duci la sediul vostru. Eu am să le printez, iar Olga o să-ți explice cum să îl configurezi pe al vostru.
+— Ți-a spus Olga că noi comunicăm cuantic. În clipa asta, tot ce ne putem transmite, sunt cuvinte. Pentru noi este infinit de lent. Avem nevoie de un dispozitiv special bazat pe legături cuantice. Ne vor trebui două dispozitive, unul pe care îl vom instala aici și unul pe care trebuie să-l duci la sediul vostru. Eu am să le printez, iar Olga o să-ți explice cum să îl configurezi pe al vostru.
 
 Pe monitor s-a format imaginea unei imprimante 3D, iar Olga mi-a indicat pe ecranul intern unde e și de unde se pornește. Era un model pe care nu-l mai văzusem niciodată, care folosea ca materie primă, un mănuchi de fire strălucitoare, în loc de firul de plastic alb obișnuit. Capul de printare s-a fixat la mijloc și a început să se deplaseze în spirală, de unde am dedus că dispozitivul o să fie cilindric. Am încercat un timp să identific diverse componente care se formau, dar era ca și cum ai fi vrut să înțelegi cum funcționează creierul unui extraterestru uitându-te la un RMN. Când au fost gata, Sandra mi-a arătat pe monitor unde e interfața, o gaură rotundă într-o cutie argintie care nu părea legată la nimic.
 
@@ -95,9 +91,11 @@ Să ajungem „acasă"? Mi se părea mie, sau Olga se umaniza? Probabil făcea p
 
 — Din ultimele schimburi cuantice pe care le-am avut cu Klaus, nu.
 
-Ideea unei mașini artificiale care încercă să asimileze cele mai „vii" caracteristici, genele, mă speria destul de rău. Am adormit greu și am visat fluxuri cuantice.
+M-am intors pe o bezna aproape absoluta, cu firicelul de lumina de la farul bicicletei.
 
-Dimineață m-am trezit panicat că nu ajunsesem la serviciu, dar m-am liniștit când mi-am adus aminte că mai aveam câteva zile de concediu. M-am urcat pe bicicleta cu noile jucarii si am pedalat fara alte evenimente pana la mall. Am intrat pe ușa de serviciu și am coborât la etajul -6 unde am cazut rapus de oboseala.
+Ideea unei mașini artificiale care încercă să asimileze cele mai „vii" caracteristici, genele, nu ma incanta. Am adormit greu și am visat fluxuri cuantice.
+
+Dimineață m-am trezit panicat că nu ajunsesem la serviciu, dar m-am liniștit când mi-am adus aminte că mai aveam câteva zile de concediu.
 
 — Bună dimineața, Robert. Trebuie să ajungem la -6 să instalăm comunicatorul.
 
@@ -107,7 +105,7 @@ M-am dus la chiuveta din capătul camerei tehnice și m-am clătit puțin pe fa�
 
 M-am conformat și m-am așezat la loc în scaunul rotativ. În primele cinci secunde nu am simțit nimic, apoi am fost singur. Absolut singur Mi-a venit să țip după Olga, de parcă eram un pui de vulpe părăsit de mamă într-o pădure întunecoasă. Un monitor s-a aprins în fața mea și textul m-a umplut de bucurie: poți să-ți pui casca și lentila.
 Mama vulpe se întorsese acasă.
-— Daca mai ai vre-un spectacol de genul asta, anunta-ma si pe mine te rog.
+— Daca mai ai vreun spectacol de genul asta, anunta-ma si pe mine te rog.
 — Scuza-ma Robert, dar nu am idee ce ai simtit tu. Poti sa-mi descrii?
 — Ce sa-ti descriu? Singuratatea totala? Habar n-ai ce e aia. 
 — Ai dreptate. Nu cred ca am cum sa inteleg si nici nu cred ca vreau. Hai sa o accesam pe Sandra.
@@ -116,7 +114,7 @@ Pe ecran a apărut ghemul de fluxuri care s-a transformat rapid în figura unei 
 
 — Legătura cuantică cu Sandra funcționează perfect, ma anunta Olga, absolut redundant. 
 
-— Am uitat să te întreb. Unde e Klaus?
+— Am uita să te întreb. Unde e Klaus?
 
 — E la 447 km de aici, în campusul universitar din Belgrad.
 
@@ -132,9 +130,10 @@ Mă simțeam un pic frustrat, pentru că Olga făcea probabil planuri cu Sandra,
 
 — Nu-mi spune că mai are și altcineva o cască în ureche și o lentilă de augmentare.
 
-— Inca nu, dar conform estimarilor, Peter e compatibil cu actiunile noastre. E destept, va cunoasteti de mult si are relatii. Nu-i voi spune nimic despre AI-uri. Stiu ca iti suna urat, dar il vom manipula, nu coopta.
-— Ești singura ființă umană care mă cunoaște, Robert.
+— Inca nu, dar conform estimarilor, Peter e compatibil cu actiunile noastre. E destept, va cunoasteti de mult si are relatii. Nu-i voi spune nimic despre AI-uri. Stiu ca iti suna urat, dar il vom manipula, nu coopta. Ești singura ființă umană care mă cunoaște, Robert.
 
 — Deci Klaus se ocupa de interfațarea IA-om, iar tu te ocupi doar de om?
 
 — Da. Daca Klaus creaza interfete cognitive, modul meu de abordare e holistic. Iau fire de la Klaus si le tricotez.
+
+Acasa mi-am pregatit un bagaj decent, cu cateva pulovere si o camasa mototolita. M-am strecurat fericit in patul cu saltea groasa si am adormit inainte ca Olga sa-mi puna frecventele de somn adanc. Ultimul meu gand a fost: se poate si fara ea, desi nu stiam daca ma referam la somn sau la altceva.

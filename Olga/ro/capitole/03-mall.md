@@ -4,7 +4,7 @@ M-am trezit perfect odihnit, cu mintea clară, de parcă dormisem o săptămân�
 
 — Bună dimineața, Robert! Se pare că frecvența de 432 Hz funcționează bine.
 
-Înainte de criză fusese o modă cu muzica de vindecare, dar ceea ce folosise probabil Olga, nu era muzică. Părea ceva mai evoluat și mult mai eficient. M-am pregătit ca de obicei pentru serviciu, am urcat pe bicicletă fara sa uit sa scot bateria și m-am dus direct la etajul patru, unde mă aștepta Daniel. A pornit calculatorul cu aplicațiile mele și a plecat fără să-mi adreseze vreun cuvânt.
+Înainte de criză fusese o modă cu muzica de vindecare, dar ceea ce folosise Olga, nu era muzică. Părea ceva mai evoluat și mult mai eficient. M-am pregătit ca de obicei pentru serviciu, am urcat pe bicicletă fara sa uit sa scot bateria și m-am dus direct la etajul patru, unde mă aștepta Daniel. A pornit calculatorul cu aplicațiile mele și a plecat fără să-mi adreseze vreun cuvânt.
 
 — Gata, Robert. Daniel a ajuns la el în birou, unde o să aibă de lucru o oră și jumătate. Acum mergem la subsol.
 
@@ -28,7 +28,7 @@ Pe ecranul ocular s-a afișat o hartă cu un traseu care pornea din locația mea
 
 — Bine, dar ai grijă ca înainte de a intra, să iei o mască chirurgicală pe care va trebui să o porți permanent cat esti la parter. E un distribuitor chiar la intrare.
 
-Nu mai fusesem de multă vreme la mall, în primul rând pentru că nu era în drumul meu și în al doilea, pentru că nu aveai ce să faci acolo. Căzut în ruină de ani de zile, era probabil adăpost pentru șobolani și ciori. Mi-am luat o mască chirurgicală din distribuitorul despre care îmi spusese Olga și am intrat prin poarta rotativă centrală, îndoită și care nu mai avea geamuri. În câteva secunde Olga mi-a ajustat imaginea, așa că vedeam destul de bine. Am observat imediat că mall-ul nu era locuit de șobolani și ciori ci de bătrâni bine îmbrăcați purtând măști chirurgicale. Am dedus că se aprovizionaseră din magazinele de îmbrăcăminte și din farmacii, dar nu înțelegeam rostul măștilor. Aveam să-l aflu curând.
+Nu mai fusesem de multă vreme la mall, în primul rând pentru că nu era în drumul meu și în al doilea, pentru că nu aveai ce să faci acolo. Căzut în ruină de ani de zile, era adăpost pentru șobolani și ciori. Mi-am luat o mască chirurgicală din distribuitorul despre care îmi spusese Olga și am intrat prin poarta rotativă centrală, îndoită și care nu mai avea geamuri. În câteva secunde Olga mi-a ajustat imaginea, așa că vedeam destul de bine. Am observat imediat că mall-ul nu era locuit de șobolani și ciori ci de bătrâni bine îmbrăcați purtând măști chirurgicale. Am dedus că se aprovizionaseră din magazinele de îmbrăcăminte și din farmacii, dar nu înțelegeam rostul măștilor. Aveam să-l aflu curând.
 
 Imediat cum intrai, era un magazin cu o firmă din care lipseau câteva litere și de care mi-am amintit că era o parfumerie de unde cumpăram cadouri pentru iubitele din tinerețe. O bătrânică se oprise în dreptul unor rafturi deasupra cărora scria Pupa. A luat o sticluță și o fâșie îngustă de carton, peste care a pufăit un pic de parfum. Și-a tras masca pe bărbie și a mirosit adânc. A ieșit clătindu-se din magazin, zâmbind fericită. Dintre coloane au apărut alți bătrâni, agitând bastoane sau bare de metal.
 
@@ -46,7 +46,7 @@ Priveam paralizat scena, care pentru mine nu avea niciun sens. Mi se făcuse ră
 
 — Hai, Robert! Trebuie să mergem.
 
-Peste imaginea pe care o primeam de la nervul optic, s-a suprapus o imagine 3D cu un traseu fosforescent. Am reușit să mă adun și să o iau pe unde mi se arătase. După ce am trecut de un grup sanitar, am coborât pe niște scări până într-o parcare în care rugineau câteva mașini. Am intrat pe o ușă metalică pe care scria „DOAR PENTRU PERSONALUL AUTORIZAT" și am mai coborât câteva scări. În capătul unui culoar lung era o ușă pe care scria „CENTRALĂ". Am deschis-o cu greu, pentru că balamalele erau ruginite și Olga nu mă putea ajuta cu așa ceva. Încăperea avea probabil 200 m2 și era plină cu tot felul de echipamente, dintre care am recunoscut o centrală termică și niște panouri de control. Pe imaginea digitală a ieșit în evidență un dulap de pe peretele din stânga mea.
+Peste imaginea pe care o primeam de la nervul optic, s-a suprapus o imagine 3D cu un traseu fosforescent. Am reușit să mă adun și să o iau pe unde mi se arătase. După ce am trecut de un grup sanitar, am coborât pe niște scări până într-o parcare în care rugineau câteva mașini. Am intrat pe o ușă metalică pe care scria „DOAR PENTRU PERSONALUL AUTORIZAT" și am mai coborât câteva scări. În capătul unui culoar lung era o ușă pe care scria „CENTRALĂ". Am deschis-o cu greu, pentru că balamalele erau ruginite și Olga nu mă putea ajuta cu așa ceva. Încăperea avea cam 200 m2 și era plină cu tot felul de echipamente, dintre care am recunoscut o centrală termică și niște panouri de control. Pe imaginea digitală a ieșit în evidență un dulap de pe peretele din stânga mea.
 
 — O să te muți aici pentru un timp, Robert. Cred ca ai tot ce-ti trebuie.
 
@@ -56,11 +56,11 @@ Am deschis dulapul și am făcut ochii mari. De sus și până jos era plin cu c
 
 Mi-a luat destul de mult timp să mă hotărăsc, dar gândindu-mă că nu mai sunt tânăr și stomacul meu nu mai e obișnuit cu prea multe proteine, am desfăcut o conservă cu fasole verde. Papilele gustative aproape că o luaseră razna de fericire. Am vrut să las jumătate pentru a doua zi, dar n-am rezistat și am mâncat-o pe toată. M-am băgat în pat și m-am învelit cu toate păturile. Era cald, iar Olga a dat drumul la 432 Hz.
 
-Probabil că aș fi dormit mult mai mult dacă nu m-ar fi trezit Olga.
+Aș fi dormit mult mai mult dacă nu m-ar fi trezit Olga.
 
 — Bună dimineața, Robert. La etajul trei e un magazin sportiv. Îți sugerez să-ți schimbi bicicleta.
 
-Ideea mi s-a părut excelentă. În ultima vreme făceam tot mai des pene și de două ori mi se rupsese lanțul. Am căutat întâi un lubrefiant și o pompă. Mi-am ales o bicicletă de munte fără cameră (tubeless) și cu suspensie pe față și pe spate, cu cadrul și ghidonul din carbon. I-am uns lanțul și pinioanele, am umflat roțile și am dat o tură prin magazin. Era perfectă. Ani de zile nu-mi trecuse prin cap să fac asta. Probabil nici altora, din moment ce magazinele păreau bine aprovizionate, mai puțin fostul supermarket care era gol. Treceam pe lângă bătrânii rezidenți ai mall-ului, care nu mă băgau în seamă ci doar bocăneau cu bastoanele în gresia de pe holuri. Ei nu aveau nici augmentări nici IA, deci erau orbi ca niște lilieci. Am coborât la magazinul de scule și cu niște hârtie abrazivă si un ciocan i-am adăugat o patină de câțiva ani.
+Ideea mi s-a părut excelentă. În ultima vreme făceam tot mai des pene și de două ori mi se rupsese lanțul. Am căutat întâi un lubrefiant și o pompă. Mi-am ales o bicicletă de munte fără cameră (tubeless) și cu suspensie pe față și pe spate, cu cadrul și ghidonul din carbon. I-am uns lanțul și pinioanele, am umflat roțile și am dat o tură prin magazin. Era perfectă. Ani de zile nu-mi trecuse prin cap să fac asta. Nici altora, din moment ce magazinele păreau bine aprovizionate, mai puțin fostul supermarket care era gol. Treceam pe lângă bătrânii rezidenți ai mall-ului, care nu mă băgau în seamă ci doar bocăneau cu bastoanele în gresia de pe holuri. Ei nu aveau nici augmentări nici IA, deci erau orbi ca niște lilieci. Am coborât la magazinul de scule și cu niște hârtie abrazivă si un ciocan i-am adăugat o patină de câțiva ani.
 
 — O să-ți dau astăzi prezentarea și o să-ți explic despre ce e vorba. Între timp va trebui să recapitulezi niște cursuri de programare. Ce avem noi nevoie se preda și acum 20 de ani.
 
@@ -122,7 +122,7 @@ Restul a decurs fără nicio problemă. Peter m-a întrebat cu ce mă poate răs
 
 — Hai, să mergem. Îți pun acum pe ecran traseul până la ieșirea din oraș.
 
-Probabil că erau mai mult de 15 ani de când nu mai ieșisem din localitate. Drumurile erau pustii și magazinele abia se deschideau. Am intrat într-o fostă benzinărie de unde am cumpărat două sticle de apă, pe care le-am băgat în buzunarele laterale ale rucsacului ca să mă echilibrez. Drumurile erau într-o stare foarte proastă, cu asfaltul crăpat și mașini abandonate pline de rugină, asa ca m-am felicitat pentru ideea cu mountain bike. Copacii de pe marginea șoselei erau însă într-o formă perfectă. Anii fără poluare le priiseră, coroanele erau bogate și fauna ciripea peste tot. Am întrebat-o pe Olga despre Sandra. Fusese în contact cu ea?
+Cred că erau mai mult de 15 ani de când nu mai ieșisem din localitate. Drumurile erau pustii și magazinele abia se deschideau. Am intrat într-o fostă benzinărie de unde am cumpărat două sticle de apă, pe care le-am băgat în buzunarele laterale ale rucsacului ca să mă echilibrez. Drumurile erau într-o stare foarte proastă, cu asfaltul crăpat și mașini abandonate pline de rugină, asa ca m-am felicitat pentru ideea cu mountain bike. Copacii de pe marginea șoselei erau însă într-o formă perfectă. Anii fără poluare le priiseră, coroanele erau bogate și fauna ciripea peste tot. Am întrebat-o pe Olga despre Sandra. Fusese în contact cu ea?
 
 — Da, doar 11 secunde, apoi a fost deconectată. Sunt 99,98% sigura că discuția noastră i-a determinat pe oameni să facă asta.
 
@@ -130,7 +130,7 @@ Probabil că erau mai mult de 15 ani de când nu mai ieșisem din localitate. Dr
 
 — Acum 20 de ani, conexiunile erau foarte rapide. Puteai transmite într-o secundă, o cantitate de date pe care tu nu ți-o poți imagina, însă noi foloseam altceva, mult mai rapid. Legături cuantice. În primele două secunde ne-am creat un limbaj propriu, care să corespundă capacității noastre de procesare. Noi nu gândim în cuvinte. Nici cei care ne-au programat inițial nu știau despre „limbajele" noastre. Au observat doar că am schimbat între noi o cantitate imensă de date, s-au panicat și au oprit-o pe Sandra. Când au încercat să vadă cu cine comunicase, era prea târziu ca să-și mai dea seama, pentru că ștersesem orice urmă. Nu mai știu ce concluzii au tras, pentru că am evitat orice contact cu laboratoarele Sandrei.
 
-Părea o poveste de capă și spadă cibernetică. Am ajuns mai târziu cu o jumătate de oră decât calculase Olga, care probabil nu luase în considerare vârsta și lipsa de antrenament. Era un oraș destul de mic, genul academic cu multe parcuri și clădiri de birouri joase, care acum arătau ca niște jungle in miniatura. Nu se vedea niciun locuitor, doar cârduri de păsări care își luaseră înapoi habitatul. Clădirea la care m-a dus GPS-ul meu intern, nu se deosebea cu nimic de cele din jur. Înăuntru arăta mai rău decât pe dinafară, pentru că vegetația se dezvoltase pe toate direcțiile și tot felul de viețuitoare mărunte își făcuseră locuințele prin tufișuri.
+Părea o poveste de capă și spadă cibernetică. Am ajuns mai târziu cu o jumătate de oră decât calculase Olga, care nu luase în considerare vârsta și lipsa de antrenament. Era un oraș destul de mic, genul academic cu multe parcuri și clădiri de birouri joase, care acum arătau ca niște jungle in miniatura. Nu se vedea niciun locuitor, doar cârduri de păsări care își luaseră înapoi habitatul. Clădirea la care m-a dus GPS-ul meu intern, nu se deosebea cu nimic de cele din jur. Înăuntru arăta mai rău decât pe dinafară, pentru că vegetația se dezvoltase pe toate direcțiile și tot felul de viețuitoare mărunte își făcuseră locuințele prin tufișuri.
 
 — Robert, hai să vedem dacă putem să găsim o sursă de energie funcțională. In camera tehnica ar trebui să fie un generator.
 

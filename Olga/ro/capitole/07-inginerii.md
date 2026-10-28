@@ -14,7 +14,7 @@ Se invartea prin birou ca un dervis in transa, transpirat desi temperatura nu de
 Peter se opri din alergat si se aseza la biroul lui.
 — Stai sa discutam un pic. Sandra, esti cu noi? Este, dar cica nu se baga inca. Prea multi oameni. Fata asta sufera de agorafobie, rase Peter.
 "Fata"? Se adaptase la situatie mai usor decat crezusem, desi Sandra nu cred ca ar fi fost de acord cu apelativul. Poate "stimata doamna" ar fi fost mai potrivit.
-— Peter, eu nu stiu in ce relatii esti tu cu Alistair. Suna-l si noi intervenim daca ni se cere. Propun ca momentan sa ne tinem gura in legatura cu prietenii nostri non-umani. Probabil ca pozitia lui Alistair e destul de inalta incat sa fi avut acces la informatii legate de AI, dar lasam subiectul pentru cand va fi cazul.
+— Peter, eu nu stiu in ce relatii esti tu cu Alistair. Suna-l si noi intervenim daca ni se cere. Propun ca momentan sa ne tinem gura in legatura cu prietenii nostri non-umani. E posibil ca pozitia lui Alistair sa fie destul de inalta incat sa fi avut acces la informatii legate de AI, dar lasam subiectul pentru cand va fi cazul.
 — Si cand va fi cazul. Eu am incredere absoluta in Olga.
 — Tu poate ai, dar nu stim inca ce parere are Alistair. Olga, imi cer scuze, dar nici eu nu am incredere absoluta in tine. Poate si voi aveti planurile voastre.
 Peter aproape se sufoca de indignare, dar dupa cateva clipe de gandire imi dadu dreptate.
@@ -81,4 +81,4 @@ A doua zi m-am trezit cu o surpriza. La intrarea in sectie ma asteptau toti munc
 Am primit lauda exagerata fara sa-l mai contrazic si m-am dus in biroul lui Peter de parca ajunsesem sa-l impart cu el. Gina m-a intampinat cu noul ei zambet si m-a anuntat ca domnul inginer mai intarzie putin si ca imi aduce imediat cafeaua.
 — V-am facut rost de un scaun mai confortabil, ma anunta Gina cu mandrie.
 Intr-adevar, in biroul lui Peter era acum un fotoliu, aproape la fel ca al sefului, dar Gina, secretara cu experienta, alesese unul mai mic si fara ornamente. In fata fotoliului era si o mica masuta care putea fi folosita pentru scris sau pentru cafea. Cand Gina iesi din birou, se auzi vocea lui Klaus.
-— Ce comod stai acum. Poponetul de semi-sef e probabil incantat. 
+— Ce comod stai acum. Poponetul de semi-sef e in mod cert incantat. 

@@ -6,7 +6,7 @@ Mi-am luat săpunul și periuța de dinți din dulap și am ieșit pe hol. La ba
 
 — Bună dimineața, domnul inginer.
 
-Gregor părea mulțumit de viață ca întotdeauna. Născut în regiunea Donbass din Ucraina, părea că are o rezistență inumană la frig. Deși erau probabil cel mult 10 grade, Gregor avea pe el doar o cămașă.
+Gregor părea mulțumit de viață ca întotdeauna. Născut în regiunea Donbass din Ucraina, părea că are o rezistență inumană la frig. Deși erau cel mult 10 grade, Gregor avea pe el doar o cămașă.
 
 — Buna dimineața, Gregor. Cum a fost pe schimbul de noapte? Ne-am încadrat?
 
@@ -24,7 +24,7 @@ Mi-am zis că ideea era bună, așa că aveam să o prezint șefilor de la Norma
 
 — Gregor, cred că tocmai te-ai aranjat de o primă. Continuă tu te rog aici, iar eu mă duc să bat fierul cât e cald.
 
-Dacă aș fi avut un laptop ca în vremea tinereții mele, probabil aș fi făcut o prezentare drăguță, cu niște predicții bazate pe datele din ultimii 2 ani, dar cum criza determinase o scădere a consumului de energie cu aproape 80%, orice funcționa cu electricitate și nu era absolut necesar, fusese eliminat din viața de zi cu zi. Am luat un flipchart și un creion de pe masa lui Gregor și m-am apucat să desenez câteva grafice, folosindu-mă de intuiție și experiență. Am făcut și un tabel destul de primitiv cu clasificarea materialelor reciclabile și m-am dus să mă programez pentru o audiență.
+Dacă aș fi avut un laptop ca în vremea tinereții mele aș fi făcut o prezentare drăguță, cu niște predicții bazate pe datele din ultimii 2 ani, dar cum criza determinase o scădere a consumului de energie cu aproape 80%, orice funcționa cu electricitate și nu era absolut necesar, fusese eliminat din viața de zi cu zi. Am luat un flipchart și un creion de pe masa lui Gregor și m-am apucat să desenez câteva grafice, folosindu-mă de intuiție și experiență. Am făcut și un tabel destul de primitiv cu clasificarea materialelor reciclabile și m-am dus să mă programez pentru o audiență.
 
 Clădirea conducerii era destul de departe de centrul de colectare, așa că am mărit pasul. Soarele era destul de sus pe cer și se încălzise cât să-mi scot căciula și să o îndes ca de obicei în buzunarul pantalonilor. Copacii plantați în ultimii 10 ani arătau bine, frunzele erau verzi și sănătoase, iar unii aveau deja boboci. Iarba o ducea mai rău, pentru că nu era udată suficient și se cam ofilise. Flori nu se plantau pentru că nu prezentau cine știe ce avantaj climatic. Am deschis ușa grea de la intrarea în birourile conducerii și m-am oprit în fața secretariatului. Gina, o fată tânără și zâmbitoare, se uită atent la mine de parcă n-aș fi avut de ce să fiu acolo.
 
@@ -34,7 +34,7 @@ Clădirea conducerii era destul de departe de centrul de colectare, așa că am 
 
 — În legătură cu ce?
 
-Întrebarea mi se părea nefirească venind de la o secretară. Probabil că se introdusese un nou filtru de selecție al vizitatorilor, doar că eu nu vizitam. Munceam.
+Întrebarea mi se părea nefirească venind de la o secretară. Oare introdusese un nou filtru de selecție al vizitatorilor? Doar că eu nu vizitam. Munceam.
 
 — În legătură cu creșterea performanțelor.
 
@@ -48,7 +48,7 @@ Am luat liftul până la etajul 11. Grozavă invenție lifturile astea. Cu condi
 
 — Intră Robert. Vrei o cafea?
 
-Evident că voiam, așa că i-am făcut semn din cap că da. Mi-a pregătit o ceașcă la expresor și s-a întors către mine cu sprâncenele ridicate a întrebare. Ne cunoșteam de mulți ani, fuseserăm colegi de facultate, dar relațiile lui de rudenie cu persoane sus-puse din partidul aflat la putere, l-au îndreptat spre funcții de conducere. Nu îl invidiam, pentru că așa stăteau lucrurile în lumea în care trăiam și în plus, era un tip de treabă. Arăta mai tânăr cu câțiva ani decât mine, lucru firesc pentru cineva care nu medita dimineață la un soare tropical ca să nu moară de frig. În cameră erau probabil mai mult de 16 grade, iar soarele care strălucea dincolo de ferestrele generoase, făcea să pară și mai cald.
+Evident că voiam, așa că i-am făcut semn din cap că da. Mi-a pregătit o ceașcă la expresor și s-a întors către mine cu sprâncenele ridicate a întrebare. Ne cunoșteam de mulți ani, fuseserăm colegi de facultate, dar relațiile lui de rudenie cu persoane sus-puse din partidul aflat la putere, l-au îndreptat spre funcții de conducere. Nu îl invidiam, pentru că așa stăteau lucrurile în lumea în care trăiam și în plus, era un tip de treabă. Arăta mai tânăr cu câțiva ani decât mine, lucru firesc pentru cineva care nu medita dimineață la un soare tropical ca să nu moară de frig. În cameră erau mai mult de 16 grade, iar soarele care strălucea dincolo de ferestrele generoase, făcea să pară și mai cald.
 
 — Dă-i drumul, Robert. Cu ce te pot ajuta?
 
@@ -78,13 +78,13 @@ Deși mi-era foarte frig, m-am spălat până la brâu cu săpunul uscat pe care
 
 I-am mulțumit și am luat liftul până la etajul care presupuneam că era destinat departamentului IT. În fața liftului aștepta un tânăr simpatic, zâmbind aproape la fel de larg ca Gina. Îmi strânse mâna și îmi făcu semn pe unde să o iau.
 
-— Probabil n-ați mai lucrat de mult cu un PC, dar să știți că nu s-a schimbat mare lucru. Monitoarele sunt mai mari și aplicațiile mai intuitive.
+— Cred n-ați mai lucrat de mult cu un PC, dar să știți că nu s-a schimbat mare lucru. Monitoarele sunt mai mari și aplicațiile mai intuitive.
 
 De fapt aveam emoții legate de cum funcționau calculatoarele astăzi, după 15 ani de când nu mai pusesem mâna pe unul. Mi-a deschis ușa unui birou și m-a invitat înăuntru. Era o încăpere mare, cu vreo 20 de birouri goale, fiecare cu un monitor imens și cu un scaun rotativ. Daniel mi-a făcut semn să mă așez unde vreau și a pornit calculatorul de pe tableta lui. Pe ecran au apărut cele 39 de stele ale Uniunii care s-au rotit un pic și s-au așezat în formă de cerc.
 
 — Domnul Woodridge mi-a spus că aveți nevoie de o aplicație de prezentare și poate de ceva să calculați și să vizualizați date.
 
-Daniel deschise două aplicații care semănau cu ce foloseam eu pe vremuri, apoi m-a salutat și a ieșit. Am lucrat cele două ore permise în ritm alert, mai mult familiarizându-mă cu noutățile software. Când am terminat, am salvat și Daniel a intrat pe ușă. Presupun că avea o conexiune cu calculatorul pe tabletă care îl anunța când salvez, dar mi-am adus aminte că mai salvasem de două ori, deci probabil că monitorul avea o cameră video sau era una în birou. Aveam să verific asta a doua zi.
+Daniel deschise două aplicații care semănau cu ce foloseam eu pe vremuri, apoi m-a salutat și a ieșit. Am lucrat cele două ore permise în ritm alert, mai mult familiarizându-mă cu noutățile software. Când am terminat, am salvat și Daniel a intrat pe ușă. Presupun că avea o conexiune cu calculatorul pe tabletă care îl anunța când salvez, dar mi-am adus aminte că mai salvasem de două ori, deci eram aproape sigur că monitorul avea o cameră video sau era una în birou. Aveam să verific asta a doua zi.
 
 Cum am intrat în stația de sortare, mi-am scos ceasul din buzunar și l-am potrivit cu cel de pe perete. Se făcuse deja 10:30 așa că m-am dus la cantină pentru micul-dejun. Gregor îmi făcea semne exuberante de la una din mese. I-am făcut semn să aibă un pic de răbdare și după ce mi-am pus cele două senvișuri cu tofu și cana cu ceai pe tavă, m-am dus să mă așez lângă el.
 

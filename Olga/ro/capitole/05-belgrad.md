@@ -55,7 +55,7 @@ Am tacut amandoi cateva minute, apoi Peter prelua discutia.
 M-am stapanit sa nu-i raspund cu "sa moara ma-ta" si l-am lasat sa continue incurajandu-l din priviri.
 — Cred ca lumea nu mai suporta mult. Am trecut prin sectie acum trei zile si am inghetat de frig. Nu e greu de extrapolat mai departe: mancare, haine sau baterii de ceas. Pe scurt, viata pare de cacat.
 Cuvantul "cacat" pe care eu sau Gregor il foloseam de zeci de ori pe zi, in gura lui Peter suna ca un ultimatum. Apocalipsa.
-— Absolut corect, Peter. Inteleg ca Olga te-a pus la curent, desi nu stiu care e curentul asta. In clipa asta nu avem niciun plan concret. Trezim niste AI-uri, ne infiltram in comisiile de energie, probabil ca pe tine o sa te faca ministru in Comisie si pe mine secretarul tau, ca m-am obisnuit.
+— Absolut corect, Peter. Inteleg ca Olga te-a pus la curent, desi nu stiu care e curentul asta. In clipa asta nu avem niciun plan concret. Trezim niste AI-uri, ne infiltram in comisiile de energie, iar pe tine o sa te faca ministru in Comisie si pe mine secretarul tau, ca m-am obisnuit.
 — Eu zic sa continuam cu ce avem acum, adica Klaus, spuse Peter. Cand ne intoarcem ne apucam de planificare. Oricum depinde de ce se intampla la Belgrad.
 — Da, ai perfecta dreptate. Hai sa incercam sa dormim un pic, am sugerat eu.
 — Dormi tu, ca mie mi-a sarit somnul.
