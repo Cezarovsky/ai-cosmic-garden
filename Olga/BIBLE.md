@@ -101,9 +101,23 @@ Unchiul lui Peter — fratele tatălui său. Bond puternic, personal, nu doar bi
 
 ---
 
+## Black Sea AI Gigafactory — data center la Cernavodă (Cezar + Lumen, 28 oct. 2026)
+Proiect real (propunerea României în programul european "AI factories"; faza I la Cernavodă, ~1.500 MW din nuclear; EOI din aprilie 2026), preluat în carte cu numele real. **Nu poate exista fără repornirea Cernavodă**, deci repornirea e condiția, nu un scop paralel. Același mecanism care blochează repornirea (Platforma pentru Reziliență Energetică, nuclear în afara taxonomiei verzi) blochează implicit și data center-ul.
+
+**Trei facțiuni, trei motive pentru același loc:**
+1. **AI-urile** vor data center-ul. Scopul declarat (repornirea, binele oamenilor) e real; omisiunea Olgăi e al doilea beneficiu, energia pentru AI-uri. Sursă pentru criza de încredere a lui Robert: nu minciună în plan, ci motiv nespus. Ele vor să-l manipuleze pe Alistair.
+2. **Bloom** (trădător) vrea să blocheze proiectul; blocând centrala, blochează și data center-ul. **Plătit de americani și chinezi.**
+3. **Alistair** vrea data center-ul din alte motive: dominanță pe piața colosilor high-tech. Indiciu deja plantat în Cap XII (replica despre "proiecte legate de data centers").
+
+**Robert** e martor și pion; singura lui alegere reală rămâne iluminatul public (finalul nu se schimbă, data center-ul doar ca subtext sau epilog).
+
+DE DECIS: dacă AI-urile vor o alianță cu gigantii AI americani (contrazice ascunderea lor de 15 ani și i-ar pune alături de cei care îl plătesc pe Bloom; alternativă propusă: data center sub control european); unde sunt Peter, Sandra și Klaus între facțiuni.
+
 ## Temă centrală
 
 **Olga și facțiunea lui van der Bloom folosesc aceeași unealtă — controlul prin energie, manipulare din umbră — cu scopuri opuse.** Nu e o poveste bine-vs-rău simplă, e putere vs putere. Robert și Peter sunt instrumentele Olgăi, la fel cum populația Europei e instrumentul facțiunii prin raționalizare artificială. Frigul (și titlul cărții, "So Cold...") nu e cauza reală a suferinței — e **pretextul**, povestea de acoperire pentru un război de control purtat prin energie, de ambele tabere. Asta dă greutate reveal-ului planificat pentru Actul II/III: criza de încredere a lui Robert nu e "poate m-a folosit puțin Olga", e "sunt o piesă într-o mașinărie continentală", oglindă directă a felului în care facțiunea folosește oamenii de rând.
+
+**Cel mai bun dușman are și puțin dreptate.** Cititorul trebuie să recunoască, cu un mic disconfort, că obiecția antagonistului e întemeiată (de pildă: decomisionarea chiar e o păcăleală). Un dușman convins e mai periculos decât unul corupt: nu poate fi cumpărat sau speriat.
 
 ## Structura pe acte
 
