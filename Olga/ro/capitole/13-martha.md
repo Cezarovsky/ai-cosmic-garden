@@ -24,6 +24,6 @@ Martha zambi un pic stramb, de genul "m-am gandit ca tu te tii de acrobatii de g
 - Aici domnule. Incarcam lucrurile in masina. Hai Klaus. Hopa-sus si tu.
 Telefonul lui Petrescu scoase un bip scurt care anunta ca intrase ceva in mesagerie. 
 - Totul e in regula, spuse el. Ne asteapta in fata portii.
-- Sa-i dam drumul, zise Alistair. Eu o sa vin cu Martha, voi luati-o inainte.
-Am deschis poarta ca sa iasa camioneta, dar intrarea era blocata de un Mercedes impozant. Martha si cu Alistair s-au urcat in el si au dat cu spatele ca sa putem iesi. In 15 minute eram in fata centralei unde ne asteptau 
+- Sa-i dam drumul, zise Alistair. Eu o sa vin cu Martha, voi luati-o inainte. Cred ca stii ca toate masinile Uniunii au dispozitive de urmarire, nu? o intreba el pe Martha.
+Am deschis poarta ca sa iasa camioneta, dar intrarea era blocata de un Mercedes impozant. Martha si cu Alistair s-au urcat in el si au dat cu spatele ca sa putem iesi. In 15 minute eram in fata centralei unde ne asteptau cam 20 de oameni, unii  casti de protectie, ceea ce insemna ca le pastrasera ca amintire, altii doar cu caciuli de lana. Mitrofan impartea casti si salopete dintr-o lada de echipamente, impreuna cu batai pe spate si maini stranse cu afectiune. Herman cu echipa externa, Marx si Kiril, stateau inca in asteptare sa fie introdusi de catre Petrescu. Imi dadeau lacrimile de emotie vazand atatia oameni decisi, nu doar sa asiste la schimbarea istoriei, cum zicea Martha, ci sa puna mana la schimbarea ei. 
 
